@@ -1,0 +1,9 @@
+// Card Mixins for elements to be used with each card created
+
+@mixin cardShadow {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+@mixin cardSpacing {
+    padding: 2px 16px;
+}

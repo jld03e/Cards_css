@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAIA,KAAM;ECDF,UAAU,EAAE,8BAA2B;;ADK3C,UAAW;ECDP,OAAO,EAAE,QAAQ",
+"sources": ["../sass/home.scss","../sass/_mixins.scss"],
 "names": [],
 "file": "home.css"
 }
