@@ -1,5 +1,9 @@
 .cardBucket {
-  display: flex; }
+  display: flex;
+  border: 2px black solid; }
+  .cardBucket .card img {
+    height: 30%;
+    width: 30%; }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -10,7 +14,6 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
 
 .container {
-  padding: 2px 25px;
-  flex: 2; }
+  padding: 2px 25px; }
 
 /*# sourceMappingURL=home.css.map */

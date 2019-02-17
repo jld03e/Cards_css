@@ -4,6 +4,12 @@
 
 .cardBucket {
     @include cardBuckets;
+    .card {
+        img {
+            height: 30%;
+            width: 30%;
+        }
+    }
 }
 
 .card {
@@ -16,5 +22,4 @@
 
 .container {
     @include cardSpacing;
-    flex: 2;
 }
