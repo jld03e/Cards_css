@@ -1,3 +1,11 @@
+//Mixin created for the containers of the cards, to place them in
+//a flexbox container.
+
+@mixin cardBuckets {
+    display: flex;
+}
+
+
 // Card Mixins for elements to be used with each card created
 
 @mixin cardShadow {
@@ -7,5 +15,5 @@
 }
 
 @mixin cardSpacing {
-    padding: 2px 16px;
+    padding: 2px 25px;
 }

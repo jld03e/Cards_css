@@ -2,6 +2,10 @@
 @import 'fonts';
 @import 'mixins';
 
+.cardBucket {
+    @include cardBuckets;
+}
+
 .card {
     @include cardShadow;
 }
@@ -12,4 +16,5 @@
 
 .container {
     @include cardSpacing;
+    flex: 2;
 }
