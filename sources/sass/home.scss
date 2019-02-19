@@ -3,17 +3,18 @@
 @import 'mixins';
 
 .cardBucket {
+    align-content: center;
     @include cardBuckets;
     .card {
         img {
-            height: 50%;
-            width: 50%;
-        }
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;        }
     }
 }
 
 .card {
-    align-content: flex-end;
     margin: auto;
     width: 50%;
     padding: 10px;
