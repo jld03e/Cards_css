@@ -4,6 +4,7 @@
 @mixin cardBuckets {
     display: flex;
     border: 2px black solid;
+    justify-content: center;
 }
 
 

@@ -6,14 +6,15 @@
     @include cardBuckets;
     .card {
         img {
-            height: 30%;
-            width: 30%;
+            height: 50%;
+            width: 50%;
         }
     }
 }
 
 .card {
     @include cardShadow;
+    align-items: center;
 }
 
 .card:hover {
@@ -22,4 +23,5 @@
 
 .container {
     @include cardSpacing;
+    justify-content: center;
 }
