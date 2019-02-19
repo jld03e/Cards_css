@@ -1,17 +1,17 @@
 .cardBucket {
-  display: flex;
-  border: 2px black solid;
-  justify-content: center;
-  align-items: flex-end; }
+  display: flex; }
   .cardBucket .card img {
     height: 50%;
     width: 50%; }
 
 .card {
+  align-content: flex-end;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 40%;
-  padding: 20px; }
+  width: 40%; }
 
 .container {
   padding: 2px 25px;
