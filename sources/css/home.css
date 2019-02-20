@@ -1,3 +1,7 @@
+header {
+  text-align: center;
+  padding: 30px; }
+
 .cardBucket {
   align-content: center;
   display: flex; }
@@ -17,6 +21,6 @@
 
 .container {
   padding: 2px 25px;
-  justify-content: center; }
+  text-align: center; }
 
 /*# sourceMappingURL=home.css.map */

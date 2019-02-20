@@ -2,6 +2,18 @@
 @import 'fonts';
 @import 'mixins';
 
+//header styling for the website
+
+header {
+    text-align: center;
+    padding: 30px;
+    
+}
+
+
+// Card Row code, for adding styling any row of cards, initially,
+// and displaying them appropriately.
+
 .cardBucket {
     align-content: center;
     @include cardBuckets;
@@ -24,5 +36,5 @@
 
 .container {
     @include cardSpacing;
-    justify-content: center;
+    text-align: center;
 }
