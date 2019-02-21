@@ -35,13 +35,16 @@ header {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 50%;
-            .container {
-                @include cardSpacing;
-                text-align: center;
-            }        
+            width: 50%;      
         }
     }
+}
+
+.card1 {
+    .container {
+        @include cardSpacing;
+        text-align: center;
+    }  
 }
 
 .card1:hover {
@@ -53,12 +56,15 @@ header {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-        .container {
-            @include cardSpacing;
-            text-align: center;
-        }        
+        width: 50%;      
     }
+}
+
+.card2 {
+    .container {
+        @include cardSpacing;
+        text-align: center;
+    }  
 }
 
 .card3 {
@@ -66,12 +72,15 @@ header {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-        .container {
-            @include cardSpacing;
-            text-align: center;
-        }        
+        width: 50%;       
     }
+}
+
+.card3 {
+    .container {
+        @include cardSpacing;
+        text-align: center;
+    } 
 }
 
 // .card1 {

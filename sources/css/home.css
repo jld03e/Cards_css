@@ -22,9 +22,10 @@ header h2 {
       margin-left: auto;
       margin-right: auto;
       width: 50%; }
-      .cardBucket .card1 img .container {
-        padding: 2px 25px;
-        text-align: center; }
+
+.card1 .container {
+  padding: 2px 25px;
+  text-align: center; }
 
 .card1:hover {
   outline-width: 10px; }
@@ -34,17 +35,19 @@ header h2 {
   margin-left: auto;
   margin-right: auto;
   width: 50%; }
-  .card2 img .container {
-    padding: 2px 25px;
-    text-align: center; }
+
+.card2 .container {
+  padding: 2px 25px;
+  text-align: center; }
 
 .card3 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%; }
-  .card3 img .container {
-    padding: 2px 25px;
-    text-align: center; }
+
+.card3 .container {
+  padding: 2px 25px;
+  text-align: center; }
 
 /*# sourceMappingURL=home.css.map */
