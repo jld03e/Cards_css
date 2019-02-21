@@ -26,6 +26,10 @@ header {
 .cardBucket {
     align-content: center;
     @include cardBuckets;
+}
+
+//**START OF CARD1 STYLING
+
     .card1 {
         margin: 0.5em;
         /* Increased margin since the outline expands outside the element */
@@ -38,7 +42,6 @@ header {
             width: 50%;      
         }
     }
-}
 
 .card1 {
     .container {
@@ -50,6 +53,11 @@ header {
 .card1:hover {
     outline-width: 10px;
 }
+
+//**END OF CARD1 STYLING
+
+
+//**START OF CARD2 STYLING
 
 .card2 {
     img {
@@ -67,6 +75,11 @@ header {
     }  
 }
 
+//**END OF CARD2 STYLING
+
+
+//**START OF CARD3 STYLING
+
 .card3 {
     img {
         display: block;
@@ -82,6 +95,8 @@ header {
         text-align: center;
     } 
 }
+
+//**END OF CARD3 STYLING
 
 // .card1 {
 //     margin: 0.5em;

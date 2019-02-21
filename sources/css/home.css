@@ -12,16 +12,17 @@ header h2 {
 .cardBucket {
   align-content: center;
   display: flex; }
-  .cardBucket .card1 {
-    margin: 0.5em;
-    /* Increased margin since the outline expands outside the element */
-    outline: solid 5px green;
-    transition: outline 0.6s linear; }
-    .cardBucket .card1 img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%; }
+
+.card1 {
+  margin: 0.5em;
+  /* Increased margin since the outline expands outside the element */
+  outline: solid 5px green;
+  transition: outline 0.6s linear; }
+  .card1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; }
 
 .card1 .container {
   padding: 2px 25px;
