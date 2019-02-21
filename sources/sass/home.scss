@@ -36,12 +36,15 @@ header {
 }
 
 .card {
-    @include cardShadow;
+    margin: 0.5em;
+    /* Increased margin since the outline expands outside the element */
+    outline: solid 5px green;
+    transition: outline 0.6s linear;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }  
+    outline-width: 10px;
+}
 
 .container {
     @include cardSpacing;
