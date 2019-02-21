@@ -22,10 +22,11 @@ header h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%; }
+    height: 30%;
+    width: 30%; }
 
 .card1 .container {
-  padding: 2px 25px;
+  padding: 2px 16px;
   text-align: center; }
 
 .card1:hover {
@@ -35,20 +36,22 @@ header h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; }
+  height: 30%;
+  width: 30%; }
 
 .card2 .container {
-  padding: 2px 25px;
+  padding: 2px 16px;
   text-align: center; }
 
 .card3 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; }
+  height: 30%;
+  width: 30%; }
 
 .card3 .container {
-  padding: 2px 25px;
+  padding: 2px 16px;
   text-align: center; }
 
 /*# sourceMappingURL=home.css.map */
