@@ -12,23 +12,39 @@ header h2 {
 .cardBucket {
   align-content: center;
   display: flex; }
-  .cardBucket .card img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%; }
+  .cardBucket .card1 {
+    margin: 0.5em;
+    /* Increased margin since the outline expands outside the element */
+    outline: solid 5px green;
+    transition: outline 0.6s linear; }
+    .cardBucket .card1 img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%; }
+      .cardBucket .card1 img .container {
+        padding: 2px 25px;
+        text-align: center; }
 
-.card {
-  margin: 0.5em;
-  /* Increased margin since the outline expands outside the element */
-  outline: solid 5px green;
-  transition: outline 0.6s linear; }
-
-.card:hover {
+.card1:hover {
   outline-width: 10px; }
 
-.container {
-  padding: 2px 25px;
-  text-align: center; }
+.card2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
+  .card2 img .container {
+    padding: 2px 25px;
+    text-align: center; }
+
+.card3 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
+  .card3 img .container {
+    padding: 2px 25px;
+    text-align: center; }
 
 /*# sourceMappingURL=home.css.map */

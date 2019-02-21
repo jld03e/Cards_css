@@ -26,27 +26,66 @@ header {
 .cardBucket {
     align-content: center;
     @include cardBuckets;
-    .card {
+    .card1 {
+        margin: 0.5em;
+        /* Increased margin since the outline expands outside the element */
+        outline: solid 5px green;
+        transition: outline 0.6s linear;
         img {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 40%;        }
+            width: 50%;
+            .container {
+                @include cardSpacing;
+                text-align: center;
+            }        
+        }
     }
 }
 
-.card {
-    margin: 0.5em;
-    /* Increased margin since the outline expands outside the element */
-    outline: solid 5px green;
-    transition: outline 0.6s linear;
-}
-
-.card:hover {
+.card1:hover {
     outline-width: 10px;
 }
 
-.container {
-    @include cardSpacing;
-    text-align: center;
+.card2 {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        .container {
+            @include cardSpacing;
+            text-align: center;
+        }        
+    }
 }
+
+.card3 {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        .container {
+            @include cardSpacing;
+            text-align: center;
+        }        
+    }
+}
+
+// .card1 {
+//     margin: 0.5em;
+//     /* Increased margin since the outline expands outside the element */
+//     outline: solid 5px green;
+//     transition: outline 0.6s linear;
+//     .container {
+//         @include cardSpacing;
+//         text-align: center;
+//     }
+// }
+
+// .container {
+//     @include cardSpacing;
+//     text-align: center;
+// }
