@@ -8,9 +8,17 @@ header {
     text-align: center;
     padding: 30px;
     font-family: $headerFam;
-    font-weight: 90px;
+    h1 {
+        font-size: 100px;
+        font-weight: 900px;
+    }
 }
 
+header {
+    h2 {
+        font-size: 60px;
+    }
+}
 
 // Card Row code, for adding styling any row of cards, initially,
 // and displaying them appropriately.
