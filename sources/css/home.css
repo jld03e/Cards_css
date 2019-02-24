@@ -10,7 +10,8 @@ header h2 {
   font-size: 60px; }
 
 .cardBucket {
-  display: flex; }
+  display: flex;
+  align-items: flex-end; }
 
 .card1 {
   margin: 0.5em;
@@ -29,10 +30,18 @@ header h2 {
   outline-width: 10px; }
 
 .card2 {
+  background-image: url("../images/aWestLogo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 10px;
-  width: 20%; }
+  width: 35%; }
   .card2 img {
-    width: 100%; }
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35%;
+    width: 35%; }
 
 .card2 .container {
   padding: 2px 16px;
