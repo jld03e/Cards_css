@@ -9,15 +9,12 @@ header {
 header h2 {
   font-size: 60px; }
 
-.cardBucket {
-  align-content: center;
-  display: flex; }
-
 .card1 {
   margin: 0.5em;
   /* Increased margin since the outline expands outside the element */
-  outline: solid 5px green;
-  transition: outline 0.6s linear; }
+  outline: solid 5px #8e44ad;
+  transition: outline 0.6s linear;
+  width: 40%; }
   .card1 img {
     display: block;
     margin-left: auto;
@@ -26,7 +23,6 @@ header h2 {
     width: 30%; }
 
 .card1 .container {
-  padding: 2px 16px;
   text-align: center; }
 
 .card1:hover {
