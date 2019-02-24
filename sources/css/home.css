@@ -9,45 +9,47 @@ header {
 header h2 {
   font-size: 60px; }
 
+.cardBucket {
+  display: flex; }
+
 .card1 {
   margin: 0.5em;
   /* Increased margin since the outline expands outside the element */
   outline: solid 5px #8e44ad;
   transition: outline 0.6s linear;
-  width: 40%; }
+  width: 20%; }
   .card1 img {
+    width: 100%; }
+
+.card1 .container {
+  padding: 2px 16px;
+  text-align: center; }
+
+.card1:hover {
+  outline-width: 10px; }
+
+.card2 {
+  width: 40%; }
+  .card2 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 30%;
     width: 30%; }
 
-.card1 .container {
-  text-align: center; }
-
-.card1:hover {
-  outline-width: 10px; }
-
-.card2 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 30%;
-  width: 30%; }
-
 .card2 .container {
-  padding: 2px 16px;
   text-align: center; }
 
-.card3 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 30%;
-  width: 30%; }
+.card3 {
+  width: 40%; }
+  .card3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    width: 30%; }
 
 .card3 .container {
-  padding: 2px 16px;
   text-align: center; }
 
 /*# sourceMappingURL=home.css.map */

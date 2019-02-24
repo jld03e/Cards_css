@@ -20,6 +20,10 @@ header {
     }
 }
 
+.cardBucket {
+    @include cardBuckets;
+}
+
 //**START OF CARD1 STYLING
 
     .card1 {
@@ -27,19 +31,19 @@ header {
         /* Increased margin since the outline expands outside the element */
         outline: solid 5px $purpleBorder;
         transition: outline 0.6s linear;
-        width: 40%;
+        width: 20%;
         img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: 30%;
-            width: 30%;      
+            // display: block;
+            // margin-left: auto;
+            // margin-right: auto;
+            // height: 40%;
+            width: 100%;      
         }
     }
 
 .card1 {
     .container {
-        // @include cardSpacing;
+        @include cardSpacing;
         text-align: center;
     }  
 }
@@ -54,6 +58,7 @@ header {
 //**START OF CARD2 STYLING
 
 .card2 {
+    width: 40%;
     img {
         display: block;
         margin-left: auto;
@@ -65,7 +70,7 @@ header {
 
 .card2 {
     .container {
-        @include cardSpacing;
+        // @include cardSpacing;
         text-align: center;
     }  
 }
@@ -76,6 +81,7 @@ header {
 //**START OF CARD3 STYLING
 
 .card3 {
+    width: 40%;
     img {
         display: block;
         margin-left: auto;
@@ -87,7 +93,7 @@ header {
 
 .card3 {
     .container {
-        @include cardSpacing;
+        // @include cardSpacing;
         text-align: center;
     } 
 }
