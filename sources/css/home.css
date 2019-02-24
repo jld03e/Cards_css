@@ -29,27 +29,23 @@ header h2 {
   outline-width: 10px; }
 
 .card2 {
-  width: 40%; }
+  padding: 10px;
+  width: 20%; }
   .card2 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30%;
-    width: 30%; }
+    width: 100%; }
 
 .card2 .container {
+  padding: 2px 16px;
   text-align: center; }
 
 .card3 {
-  width: 40%; }
+  padding: 10px;
+  width: 20%; }
   .card3 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30%;
-    width: 30%; }
+    width: 100%; }
 
 .card3 .container {
+  padding: 2px 16px;
   text-align: center; }
 
 /*# sourceMappingURL=home.css.map */

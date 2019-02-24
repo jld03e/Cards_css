@@ -20,6 +20,8 @@ header {
     }
 }
 
+//Flex-box display property implementation
+
 .cardBucket {
     @include cardBuckets;
 }
@@ -58,19 +60,20 @@ header {
 //**START OF CARD2 STYLING
 
 .card2 {
-    width: 40%;
+    padding: 10px;
+    width: 20%;
     img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 30%;
-        width: 30%;      
+        // display: block;
+        // margin-left: auto;
+        // margin-right: auto;
+        // height: 30%;
+        width: 100%;      
     }
 }
 
 .card2 {
     .container {
-        // @include cardSpacing;
+        @include cardSpacing;
         text-align: center;
     }  
 }
@@ -81,19 +84,20 @@ header {
 //**START OF CARD3 STYLING
 
 .card3 {
-    width: 40%;
+    padding: 10px;
+    width: 20%;
     img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 30%;
-        width: 30%;       
+        // display: block;
+        // margin-left: auto;
+        // margin-right: auto;
+        // height: 30%;
+        width: 100%;       
     }
 }
 
 .card3 {
     .container {
-        // @include cardSpacing;
+        @include cardSpacing;
         text-align: center;
     } 
 }
