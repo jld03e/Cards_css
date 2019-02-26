@@ -31,17 +31,17 @@ header h2 {
 
 .card2 {
   background-image: url("../images/aWestLogo.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: 110px 110px;
   padding: 10px;
-  width: 35%; }
+  width: 35%;
+  color: red;
+  border: 2px solid black; }
   .card2 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 35%;
-    width: 35%; }
+    width: 55%; }
 
 .card2 .container {
   padding: 2px 16px;
