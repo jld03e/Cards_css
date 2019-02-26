@@ -24,6 +24,7 @@ header {
 
 .cardBucket {
     @include cardBuckets;
+    justify-content: space-around;
 }
 
 //**START OF CARD1 STYLING
@@ -87,24 +88,24 @@ header {
 
 //**START OF CARD3 STYLING
 
-.card3 {
-    padding: 10px;
-    width: 20%;
-    img {
-        // display: block;
-        // margin-left: auto;
-        // margin-right: auto;
-        // height: 30%;
-        width: 100%;       
-    }
-}
+// .card3 {
+//     padding: 10px;
+//     width: 20%;
+//     img {
+//         // display: block;
+//         // margin-left: auto;
+//         // margin-right: auto;
+//         // height: 30%;
+//         width: 100%;       
+//     }
+// }
 
-.card3 {
-    .container {
-        @include cardSpacing;
-        text-align: center;
-    } 
-}
+// .card3 {
+//     .container {
+//         @include cardSpacing;
+//         text-align: center;
+//     } 
+// }
 
 //**END OF CARD3 STYLING
 

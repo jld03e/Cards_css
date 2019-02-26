@@ -11,7 +11,8 @@ header h2 {
 
 .cardBucket {
   display: flex;
-  align-items: flex-end; }
+  align-items: flex-end;
+  justify-content: space-around; }
 
 .card1 {
   margin: 0.5em;
@@ -44,16 +45,6 @@ header h2 {
     width: 55%; }
 
 .card2 .container {
-  padding: 2px 16px;
-  text-align: center; }
-
-.card3 {
-  padding: 10px;
-  width: 20%; }
-  .card3 img {
-    width: 100%; }
-
-.card3 .container {
   padding: 2px 16px;
   text-align: center; }
 
