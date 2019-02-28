@@ -30,12 +30,9 @@ header {
 //**START OF CARD1 STYLING
 
     .card1 {
-        margin: 0.5em;
-        /* Increased margin since the outline expands outside the element */
-        outline: solid 5px $purpleBorder;
-        transition: outline 0.6s linear;
         width: 20%;
         border-radius: 5px;
+        box-shadow: 5px 10px 10px lightgray;
         img {
             // display: block;
             // margin-left: auto;
@@ -52,9 +49,18 @@ header {
     }  
 }
 
-.card1:hover {
-    outline-width: 10px;
-}
+.button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 //**END OF CARD1 STYLING
 
