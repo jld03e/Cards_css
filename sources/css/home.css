@@ -49,23 +49,29 @@ header h2 {
   margin: 4px 2px;
   cursor: pointer; }
 
+.card2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 .card2 {
   background-image: url("../images/aWestLogo.jpg");
   background-repeat: repeat;
   background-size: 110px 110px;
   padding: 10px;
   width: 30%;
-  color: red;
+  color: green;
   border: 2px solid black;
   border-radius: 5px; }
-  .card2 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 45%; }
+  .card2 .container {
+    padding: 2px 16px; }
 
 .card2 .container {
-  padding: 2px 16px;
+  text-align: center; }
+  .card2 .container h4 {
+    text-align: center; }
+
+.card2 h4 {
   text-align: center; }
 
 /*# sourceMappingURL=home.css.map */
