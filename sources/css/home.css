@@ -29,16 +29,23 @@ header h2 {
     font-weight: 900;
     font-size: 20px; }
 
+.card1 .container {
+  padding: 2px 16px;
+  text-align: center; }
+  .card1 .container p {
+    font-family: "Lato", sans-serif; }
+
 .button {
   background-color: black;
   /* Green */
+  font-family: "Roboto", sans-serif;
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
   margin: 4px 2px;
   cursor: pointer; }
 
@@ -47,7 +54,7 @@ header h2 {
   background-repeat: repeat;
   background-size: 110px 110px;
   padding: 10px;
-  width: 35%;
+  width: 30%;
   color: red;
   border: 2px solid black;
   border-radius: 5px; }
@@ -55,7 +62,7 @@ header h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 55%; }
+    width: 45%; }
 
 .card2 .container {
   padding: 2px 16px;
