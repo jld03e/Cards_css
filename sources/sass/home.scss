@@ -38,7 +38,7 @@ header {
             // margin-left: auto;
             // margin-right: auto;
             // height: 40%;
-            width: 100%;      
+            width: 100%;
         }
     }
 
@@ -46,6 +46,11 @@ header {
     .container {
         @include cardSpacing;
         text-align: center;
+        h4 {
+            font-family: $bodyFam;
+            font-weight: 900;
+            font-size: 20px;
+        }
     }  
 }
 

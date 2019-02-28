@@ -24,6 +24,10 @@ header h2 {
 .card1 .container {
   padding: 2px 16px;
   text-align: center; }
+  .card1 .container h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 20px; }
 
 .button {
   background-color: black;
