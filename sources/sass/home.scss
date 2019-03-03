@@ -95,17 +95,28 @@ header {
 .card2 {
     .cardHeader {
             h1 {
-                float: right;
-                h3 {
-                    float: right;
-                    .logo {
-                        border-radius: 200%;
-                        margin-left: auto;
-                        margin-right: auto;
-                        width: 20%;
-                }
-            }
+                text-align: right;
         }      
+    }
+}
+
+.card2 {
+    .cardHeader {
+        h3 {
+            text-align: right;
+        }
+    }
+}
+
+.card2 {
+    .cardHeader {
+        .logo {
+            display: inline-block;
+            border-radius: 200%;
+            // margin-left: auto;
+            // margin-right: auto;
+            width: 20%;
+        }
     }
 }
 
