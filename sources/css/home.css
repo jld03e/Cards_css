@@ -15,11 +15,12 @@ header h2 {
   justify-content: space-around; }
 
 .card1 {
-  width: 20%;
-  border-radius: 5px;
-  box-shadow: 5px 10px 10px lightgray; }
-  .card1 img {
-    width: 100%; }
+  width: 20%; }
+  .card1 .content {
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px lightgray; }
+    .card1 .content img {
+      width: 100%; }
 
 .card1 .container {
   padding: 2px 16px;

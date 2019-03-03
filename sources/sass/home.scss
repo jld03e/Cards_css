@@ -31,14 +31,16 @@ header {
 
     .card1 {
         width: 20%;
-        border-radius: 5px;
-        box-shadow: 5px 10px 10px lightgray;
-        img {
+        .content {
+            border-radius: 5px;
+            box-shadow: 5px 10px 10px lightgray;
+            img {
             // display: block;
             // margin-left: auto;
             // margin-right: auto;
             // height: 40%;
             width: 100%;
+            }
         }
     }
 
