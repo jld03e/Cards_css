@@ -55,13 +55,16 @@ header h2 {
   cursor: pointer; }
 
 .card2 .cardHeader h1 {
-  text-align: right; }
+  display: flex;
+  align-content: right; }
 
 .card2 .cardHeader h3 {
-  text-align: right; }
+  display: flex;
+  align-content: right; }
 
 .card2 .cardHeader .logo {
-  display: inline-block;
+  justify-content: left;
+  display: flex;
   border-radius: 200%;
   width: 20%; }
 
