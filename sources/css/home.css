@@ -54,10 +54,15 @@ header h2 {
   margin: 4px 2px;
   cursor: pointer; }
 
-.card2 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+.card2 .cardHeader h1 {
+  float: right; }
+  .card2 .cardHeader h1 h3 {
+    float: right; }
+    .card2 .cardHeader h1 h3 .logo {
+      border-radius: 200%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20%; }
 
 .card2 {
   padding: 10px;

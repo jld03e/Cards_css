@@ -93,10 +93,19 @@ header {
 //**START OF CARD2 STYLING
 
 .card2 {
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;       
+    .cardHeader {
+            h1 {
+                float: right;
+                h3 {
+                    float: right;
+                    .logo {
+                        border-radius: 200%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 20%;
+                }
+            }
+        }      
     }
 }
 
