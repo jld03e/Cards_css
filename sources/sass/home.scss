@@ -44,6 +44,13 @@ header {
         }
     }
 
+    .card1 {
+        h1 {
+            text-align: center;
+            font-family: $headerFam;
+        }
+    }
+
 .card1 {
     .container {
         @include cardSpacing;

@@ -22,6 +22,10 @@ header h2 {
     .card1 .content img {
       width: 100%; }
 
+.card1 h1 {
+  text-align: center;
+  font-family: "Pridi", serif; }
+
 .card1 .container {
   padding: 2px 16px;
   text-align: center; }
