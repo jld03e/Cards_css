@@ -60,12 +60,8 @@ header h2 {
   margin-right: auto; }
 
 .card2 {
-  background-image: url("../images/aWestLogo.jpg");
-  background-repeat: repeat;
-  background-size: 110px 110px;
   padding: 10px;
   width: 30%;
-  color: green;
   border: 2px solid black;
   border-radius: 5px; }
   .card2 .container {
