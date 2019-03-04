@@ -42,7 +42,6 @@ header h2 {
 
 .button {
   background-color: black;
-  /* Green */
   font-family: "Roboto", sans-serif;
   border: none;
   color: white;
@@ -55,16 +54,16 @@ header h2 {
   cursor: pointer; }
 
 .card2 .cardHeader h1 {
-  display: flex;
-  align-content: right; }
+  font-family: "Pridi", serif;
+  font-size: 30px; }
 
 .card2 .cardHeader h3 {
-  display: flex;
-  align-content: right; }
+  font-family: "Pridi", serif;
+  font-size: 20px; }
 
 .card2 .cardHeader .logo {
-  justify-content: left;
-  display: flex;
+  float: left;
+  margin: 4px;
   border-radius: 200%;
   width: 20%; }
 

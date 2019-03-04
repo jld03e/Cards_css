@@ -74,7 +74,7 @@ header {
 }
 
 .button {
-    background-color: black; /* Green */
+    background-color: black;
     font-family: $bodyFam;
     border: none;
     color: white;
@@ -95,17 +95,17 @@ header {
 .card2 {
     .cardHeader {
             h1 {
-                display: flex;
-                align-content: right;
-        }      
+                font-family: $headerFam;
+                font-size: 30px;
+            }      
     }
 }
 
 .card2 {
     .cardHeader {
         h3 {
-            display: flex;
-            align-content: right;
+            font-family: $headerFam;
+            font-size: 20px;
         }
     }
 }
@@ -113,8 +113,9 @@ header {
 .card2 {
     .cardHeader {
         .logo {
-            justify-content: left;
-            display: flex;
+            float: left;
+            margin: 4px;
+            // display: inline-flex;
             border-radius: 200%;
             width: 20%;
         }
