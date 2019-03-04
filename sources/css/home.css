@@ -55,12 +55,12 @@ header h2 {
 
 .card2 .cardHeader h1 {
   font-family: "Pridi", serif;
-  font-size: 30px;
-  line-height: 0px; }
+  font-size: 25px;
+  line-height: 8px; }
 
 .card2 .cardHeader h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 20px; }
+  font-size: 15px; }
 
 .card2 .cardHeader .logo {
   float: left;
@@ -71,9 +71,13 @@ header h2 {
 
 .card2 {
   padding: 10px;
-  width: 30%; }
+  width: 30%;
+  border: 2px solid black; }
   .card2 .container {
     padding: 2px 16px; }
+
+.card2 img {
+  width: 80%; }
 
 .card2 .container {
   text-align: center; }

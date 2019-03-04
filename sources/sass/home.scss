@@ -96,8 +96,8 @@ header {
     .cardHeader {
             h1 {
                 font-family: $headerFam;
-                font-size: 30px;
-                line-height: 0px;
+                font-size: 25px;
+                line-height: 8px;
             }      
     }
 }
@@ -106,7 +106,7 @@ header {
     .cardHeader {
         h3 {
             font-family: $bodyFam;
-            font-size: 20px;
+            font-size: 15px;
         }
     }
 }
@@ -126,9 +126,16 @@ header {
 .card2 {
     padding: 10px;
     width: 30%;
+    border: 2px solid black;
     .container {
         @include cardSpacing;
     }  
+}
+
+.card2 {
+    img {
+        width: 80%;
+    }
 }
 
 .card2 {
