@@ -71,20 +71,25 @@ header h2 {
 
 .card2 {
   padding: 10px;
-  width: 30%;
-  border: 2px solid black; }
+  width: 20%; }
   .card2 .container {
     padding: 2px 16px; }
 
 .card2 img {
-  width: 80%; }
+  width: 100%; }
 
 .card2 .container {
   text-align: center; }
   .card2 .container h4 {
     text-align: center; }
 
-.card2 h4 {
-  text-align: center; }
+.card2 p {
+  text-align: left;
+  font-family: "Lato", sans-serif; }
+
+.card2 p:nth-child(2) {
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline blue;
+  cursor: pointer; }
 
 /*# sourceMappingURL=home.css.map */

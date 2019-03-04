@@ -125,8 +125,7 @@ header {
 
 .card2 {
     padding: 10px;
-    width: 30%;
-    border: 2px solid black;
+    width: 20%;
     .container {
         @include cardSpacing;
     }  
@@ -134,7 +133,7 @@ header {
 
 .card2 {
     img {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -148,9 +147,15 @@ header {
 }
 
 .card2 {
-        h4 {
-            text-align: center;
+        p {
+            text-align: left;
+            font-family: $bodyFam2;
         }
 }
 
+.card2 p:nth-child(2) {
+    font-family: $bodyFam;
+    text-decoration: underline blue;
+    cursor: pointer;
+}
 //**END OF CARD2 STYLING
