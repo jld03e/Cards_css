@@ -89,10 +89,10 @@ header h2 {
 
 .card2 p:nth-child(2) {
   font-family: "Roboto", sans-serif;
-  text-decoration: underline blue;
+  color: blue;
   cursor: pointer; }
 
-.card2 .container img:nth-child(2) {
-  width: 10px; }
+.card2 .container .heartLogo {
+  width: 24px; }
 
 /*# sourceMappingURL=home.css.map */
