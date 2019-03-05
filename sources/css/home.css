@@ -87,12 +87,13 @@ header h2 {
   text-align: left;
   font-family: "Lato", sans-serif; }
 
-.card2 p:nth-child(2) {
+.card2 .actionItem {
   font-family: "Roboto", sans-serif;
   color: blue;
   cursor: pointer; }
 
 .card2 .container .heartLogo {
-  width: 24px; }
+  width: 24px;
+  float: right; }
 
 /*# sourceMappingURL=home.css.map */

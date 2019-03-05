@@ -153,16 +153,19 @@ header {
         }
 }
 
-.card2 p:nth-child(2) {
-    font-family: $bodyFam;
-    color: blue;
-    cursor: pointer;
+.card2 {
+    .actionItem {
+        font-family: $bodyFam;
+        color: blue;
+        cursor: pointer;
+    }
 }
 
 .card2 {
     .container {
         .heartLogo {
             width: 24px;
+            float: right;
         }
     }
 }
