@@ -92,4 +92,7 @@ header h2 {
   text-decoration: underline blue;
   cursor: pointer; }
 
+.card2 .container img:nth-child(2) {
+  width: 10px; }
+
 /*# sourceMappingURL=home.css.map */
