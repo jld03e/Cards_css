@@ -70,7 +70,7 @@ header h2 {
   width: 20%; }
 
 .card2 {
-  padding: 10px;
+  padding: 15px;
   width: 20%; }
   .card2 .container {
     padding: 2px 16px; }
@@ -83,14 +83,18 @@ header h2 {
   font-family: "Lato", sans-serif; }
 
 .card2 .actionItem {
+  display: block;
+  line-height: -5px;
+  position: absolute;
+  float: left;
   font-family: "Roboto", sans-serif;
   color: blue;
   cursor: pointer; }
 
-.card2 .container {
-  overflow: auto; }
-  .card2 .container .heartLogo {
-    width: 24px;
-    float: right; }
+.card2 .container .heartLogo {
+  display: block;
+  width: 8%;
+  line-height: 0px;
+  float: right; }
 
 /*# sourceMappingURL=home.css.map */

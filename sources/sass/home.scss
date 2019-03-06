@@ -124,7 +124,7 @@ header {
 }
 
 .card2 {
-    padding: 10px;
+    padding: 15px;
     width: 20%;
     .container {
         @include cardSpacing;
@@ -146,6 +146,10 @@ header {
 
 .card2 {
     .actionItem {
+        display: block;
+        line-height: -5px;
+        position: absolute;
+        float: left;
         font-family: $bodyFam;
         color: blue;
         cursor: pointer;
@@ -154,9 +158,10 @@ header {
 
 .card2 {
     .container {
-        overflow: auto;
         .heartLogo {
-            width: 24px;
+            display: block;
+            width: 8%;
+            line-height: 0px;
             float: right;
         }
     }
