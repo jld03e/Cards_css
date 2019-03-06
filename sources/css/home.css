@@ -87,8 +87,10 @@ header h2 {
   color: blue;
   cursor: pointer; }
 
-.card2 .container .heartLogo {
-  width: 24px;
-  float: right; }
+.card2 .container {
+  overflow: auto; }
+  .card2 .container .heartLogo {
+    width: 24px;
+    float: right; }
 
 /*# sourceMappingURL=home.css.map */

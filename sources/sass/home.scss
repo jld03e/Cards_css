@@ -154,10 +154,12 @@ header {
 
 .card2 {
     .container {
+        overflow: auto;
         .heartLogo {
             width: 24px;
             float: right;
         }
     }
 }
+
 //**END OF CARD2 STYLING
