@@ -12,13 +12,12 @@ header {
   justify-content: space-around; }
 
 .card1 {
-  width: 20%;
-  padding-bottom: 10px; }
-  .card1 .content {
-    border-radius: 4px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
-    .card1 .content img {
-      width: 100%; }
+  width: 100%;
+  padding-bottom: 10px;
+  background-image: url("../images/batSSkyline.jpg");
+  background-repeat: no-repeat; }
+  .card1 img {
+    width: 100%; }
 
 .card1 .container {
   padding: 2px 16px;
@@ -33,18 +32,5 @@ header {
   text-align: center; }
   .card1 .container p {
     font-family: "Lato", sans-serif; }
-
-.button {
-  background-color: black;
-  font-family: "Roboto", sans-serif;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-  cursor: pointer; }
 
 /*# sourceMappingURL=image.css.map */
