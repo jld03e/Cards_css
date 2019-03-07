@@ -39,7 +39,7 @@ header {
         width: 250px;
         position: absolute;
         left: 40%;
-        bottom: -30%;
+        bottom: -32.5%;
         transform: translate(-50%, -50%);
         background-color: #ffffff;
         opacity: 0.9;
@@ -100,7 +100,7 @@ header {
         width: 250px;
         position: absolute;
         right: 22.5%;
-        bottom: -30%;
+        bottom: -35%;
         transform: translate(-50%, -50%);
         background-color: #ffffff;
         opacity: 0.9;
@@ -114,14 +114,12 @@ header {
     .text-insert {
         .insertHeader {
             display: flex;
-            border-bottom: solid, black;
             .logo {
-                height: 45px;
+                height: 40px;
                 margin-right: 5px;
-                width: 45px;
+                width: 75px;
                 padding: 5px;
                 padding-left: 50px;
-                // flex: 25%;
             }            
         }
     }
@@ -138,8 +136,10 @@ header {
 
 .imageCard2 {
     .text-insert {
-        p {
-            font-family: $bodyFam;   
+        .text {
+            font-family: $bodyFam;
+            padding-bottom: 35px;
+            border-bottom: 2px solid darkgrey;   
         }
     }
 }
@@ -149,6 +149,7 @@ header {
         .actionItems {
             display: flex;
             p {
+                font-family: $bodyFam;
                 font-weight: 700;
                 padding: 10px;
                 }

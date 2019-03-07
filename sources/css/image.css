@@ -23,7 +23,7 @@ header {
   width: 250px;
   position: absolute;
   left: 40%;
-  bottom: -30%;
+  bottom: -32.5%;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
   opacity: 0.9;
@@ -58,7 +58,7 @@ header {
   width: 250px;
   position: absolute;
   right: 22.5%;
-  bottom: -30%;
+  bottom: -35%;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
   opacity: 0.9;
@@ -67,12 +67,11 @@ header {
   padding-right: 20px; }
 
 .imageCard2 .text-insert .insertHeader {
-  display: flex;
-  border-bottom: solid, black; }
+  display: flex; }
   .imageCard2 .text-insert .insertHeader .logo {
-    height: 45px;
+    height: 40px;
     margin-right: 5px;
-    width: 45px;
+    width: 75px;
     padding: 5px;
     padding-left: 50px; }
 
@@ -80,12 +79,15 @@ header {
   font-weight: 900;
   font-family: "Roboto", sans-serif; }
 
-.imageCard2 .text-insert p {
-  font-family: "Roboto", sans-serif; }
+.imageCard2 .text-insert .text {
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 35px;
+  border-bottom: 2px solid darkgrey; }
 
 .imageCard2 .text-insert .actionItems {
   display: flex; }
   .imageCard2 .text-insert .actionItems p {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     padding: 10px; }
 
