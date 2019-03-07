@@ -11,6 +11,12 @@ header {
   align-items: flex-end;
   justify-content: space-around; }
 
+.imageCard1 h1 {
+  font-family: "Pridi", serif; }
+
+.imageCard1 h4 {
+  font-family: "Pridi", serif; }
+
 .imageCard1 {
   padding: 10px;
   flex: 50%; }
@@ -32,6 +38,7 @@ header {
   padding-right: 20px; }
 
 .imageCard1 .text-insert h4 {
+  font-size: 20px;
   font-weight: 900;
   font-family: "Roboto", sans-serif; }
 
@@ -43,6 +50,12 @@ header {
   .imageCard1 .text-insert .actionItems p {
     font-weight: 700;
     padding: 10px; }
+
+.imageCard2 h1 {
+  font-family: "Pridi", serif; }
+
+.imageCard2 h4 {
+  font-family: "Pridi", serif; }
 
 .imageCard2 {
   padding: 10px;
@@ -76,13 +89,15 @@ header {
     padding-left: 50px; }
 
 .imageCard2 .text-insert h4 {
+  font-size: 20px;
   font-weight: 900;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  line-height: 1px; }
 
 .imageCard2 .text-insert .text {
   font-family: "Roboto", sans-serif;
-  padding-bottom: 35px;
-  border-bottom: 2px solid darkgrey; }
+  padding-bottom: 15px;
+  border-bottom: 1px solid darkgrey; }
 
 .imageCard2 .text-insert .actionItems {
   display: flex; }
@@ -90,5 +105,93 @@ header {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     padding: 10px; }
+
+.imageCard3 {
+  width: 20%;
+  padding-bottom: 10px; }
+  .imageCard3 .content {
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
+    .imageCard3 .content img {
+      width: 100%; }
+
+.imageCard3 h1 {
+  text-align: center;
+  font-family: "Pridi", serif; }
+
+.imageCard3 h4 {
+  text-align: center;
+  font-family: "Pridi", serif; }
+
+.imageCard3 .container {
+  padding: 2px 16px;
+  text-align: center; }
+  .imageCard3 .container h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 20px; }
+
+.imageCard3 .container {
+  padding: 2px 16px;
+  text-align: center; }
+  .imageCard3 .container p {
+    font-family: "Roboto", sans-serif; }
+
+.button {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+.imageCard4 {
+  width: 20%;
+  padding-bottom: 10px; }
+  .imageCard4 .content {
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
+    .imageCard4 .content img {
+      width: 100%; }
+
+.imageCard4 h1 {
+  text-align: center;
+  font-family: "Pridi", serif; }
+
+.imageCard4 h4 {
+  text-align: center;
+  font-family: "Pridi", serif; }
+
+.imageCard4 .container {
+  padding: 2px 16px;
+  text-align: center; }
+  .imageCard4 .container h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 20px; }
+
+.imageCard4 .container {
+  padding: 2px 16px;
+  text-align: center; }
+  .imageCard4 .container p {
+    font-family: "Roboto", sans-serif; }
+
+.button {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
 
 /*# sourceMappingURL=image.css.map */

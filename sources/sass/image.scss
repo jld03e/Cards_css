@@ -25,6 +25,18 @@ header {
 //**START OF IMAGECARD1 STYLING
 
 .imageCard1 {
+    h1 {
+        font-family: $headerFam;
+    }
+}
+
+.imageCard1 {
+    h4 {
+        font-family: $headerFam;
+    }
+}
+
+.imageCard1 {
     padding: 10px;
     flex: 50%;
     img {
@@ -52,6 +64,7 @@ header {
 .imageCard1 {
     .text-insert {
         h4 {
+            font-size: 20px;
             font-weight: 900;
             font-family: $bodyFam;
         }
@@ -82,6 +95,18 @@ header {
 //**END OF IMAGECARD1 STYLING
 
 //**START OF IMAGECARD2 STYLING
+
+.imageCard2 {
+    h1 {
+        font-family: $headerFam;
+    }
+}
+
+.imageCard2 {
+    h4 {
+        font-family: $headerFam;
+    }
+}
 
 .imageCard2 {
     padding: 10px;
@@ -128,8 +153,10 @@ header {
 .imageCard2 {
     .text-insert {
         h4 {
+            font-size: 20px;
             font-weight: 900;
             font-family: $bodyFam;
+            line-height: 1px;
         }
     }
 }
@@ -138,8 +165,8 @@ header {
     .text-insert {
         .text {
             font-family: $bodyFam;
-            padding-bottom: 35px;
-            border-bottom: 2px solid darkgrey;   
+            padding-bottom: 15px;
+            border-bottom: 1px solid darkgrey;   
         }
     }
 }
@@ -160,3 +187,144 @@ header {
 
 
 //**END OF IMAGECARD2 STYLING
+
+//**START OF IMAGECARD3 STYLING
+
+.imageCard3 {
+    width: 20%;
+    padding-bottom: 10px;
+    .content {
+        border-radius: 4px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);            
+        img {
+            // display: block;
+            // margin-left: auto;
+            // margin-right: auto;
+            // height: 40%;
+            width: 100%;
+        }
+    }
+}
+
+.imageCard3 {
+    h1 {
+        text-align: center;
+        font-family: $headerFam;
+    }
+}
+
+.imageCard3 {
+    h4 {
+        text-align: center;
+        font-family: $headerFam;
+    }
+}
+
+.imageCard3  {
+.container {
+    @include cardSpacing;
+    text-align: center;
+    h4 {
+        font-family: $bodyFam;
+        font-weight: 900;
+        font-size: 20px;
+    }
+}  
+}
+
+.imageCard3  {
+.container {
+    @include cardSpacing;
+    text-align: center;
+    p {
+        font-family: $bodyFam;
+    }
+}  
+}
+
+.button {
+background-color: black;
+font-family: $bodyFam;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+//**END OF IMAGECARD3 STYLING
+
+
+//**START OF IMAGECARD4 STYLING
+
+.imageCard4 {
+    width: 20%;
+    padding-bottom: 10px;
+    .content {
+        border-radius: 4px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);            
+        img {
+            // display: block;
+            // margin-left: auto;
+            // margin-right: auto;
+            // height: 40%;
+            width: 100%;
+        }
+    }
+}
+
+.imageCard4 {
+    h1 {
+        text-align: center;
+        font-family: $headerFam;
+    }
+}
+
+.imageCard4 {
+    h4 {
+        text-align: center;
+        font-family: $headerFam;
+    }
+}
+
+.imageCard4  {
+.container {
+    @include cardSpacing;
+    text-align: center;
+    h4 {
+        font-family: $bodyFam;
+        font-weight: 900;
+        font-size: 20px;
+    }
+}  
+}
+
+.imageCard4  {
+.container {
+    @include cardSpacing;
+    text-align: center;
+    p {
+        font-family: $bodyFam;
+    }
+}  
+}
+
+.button {
+background-color: black;
+font-family: $bodyFam;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+//**END OF IMAGECARD4 STYLING
