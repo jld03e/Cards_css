@@ -194,4 +194,48 @@ header {
   margin: 4px 2px;
   cursor: pointer; }
 
+.imageCard5 {
+  width: 20%;
+  padding-bottom: 10px; }
+  .imageCard5 .content {
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
+    .imageCard5 .content img {
+      width: 100%; }
+
+.imageCard5 h1 {
+  text-align: center;
+  font-family: "Pridi", serif; }
+
+.imageCard5 h4 {
+  text-align: center;
+  font-family: "Pridi", serif; }
+
+.imageCard5 .container {
+  padding: 2px 16px;
+  text-align: center; }
+  .imageCard5 .container h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 20px; }
+
+.imageCard5 .container {
+  padding: 2px 16px;
+  text-align: center; }
+  .imageCard5 .container p {
+    font-family: "Roboto", sans-serif; }
+
+.button {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
 /*# sourceMappingURL=image.css.map */
