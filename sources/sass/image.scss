@@ -206,6 +206,7 @@ header {
     h1 {
         text-align: left;
         font-family: $headerFam;
+        line-height: 2px;
     }
 }
 
@@ -275,15 +276,10 @@ header {
 
 .imageCard4 {
     width: 20%;
-    padding-bottom: 10px;
     .content {
         border-radius: 4px;
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);            
         img {
-            // display: block;
-            // margin-left: auto;
-            // margin-right: auto;
-            // height: 40%;
             width: 100%;
         }
     }
@@ -293,6 +289,7 @@ header {
     h1 {
         text-align: center;
         font-family: $headerFam;
+        line-height: 2px;
     }
 }
 
@@ -304,39 +301,43 @@ header {
 }
 
 .imageCard4  {
-.container {
+    .container {
     @include cardSpacing;
     text-align: center;
-    h4 {
+        h4 {
+        line-height: 1px;
         font-family: $bodyFam;
         font-weight: 900;
-        font-size: 20px;
-    }
-}  
+        font-size: 18px;
+        }
+    }  
 }
 
 .imageCard4  {
-.container {
-    @include cardSpacing;
-    text-align: center;
-    p {
-        font-family: $bodyFam;
-    }
-}  
+    .container {
+        @include cardSpacing;
+        text-align: center;
+        p {
+            font-size: 15px;
+            font-family: $bodyFam;
+            border-bottom: 1px solid darkgrey;
+            padding-bottom: 20px; 
+          }
+    }  
 }
 
 .button {
-background-color: black;
-font-family: $bodyFam;
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 12px;
-margin: 4px 2px;
-cursor: pointer;
+    background-color: black;
+    font-family: $bodyFam;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 //**END OF IMAGECARD4 STYLING
@@ -345,68 +346,69 @@ cursor: pointer;
 
 .imageCard5 {
     width: 20%;
-    padding-bottom: 10px;
     .content {
         border-radius: 4px;
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);            
         img {
-            // display: block;
-            // margin-left: auto;
-            // margin-right: auto;
-            // height: 40%;
             width: 100%;
+            height: 415px;
         }
     }
 }
 
 .imageCard5 {
     h1 {
-        text-align: center;
+        text-align: right;
         font-family: $headerFam;
+        line-height: 2px;
     }
 }
 
 .imageCard5 {
     h4 {
-        text-align: center;
+        text-align: right;
         font-family: $headerFam;
     }
 }
 
 .imageCard5  {
-.container {
+    .container {
     @include cardSpacing;
-    text-align: center;
-    h4 {
+    text-align: right;
+        h4 {
+        line-height: 1px;
         font-family: $bodyFam;
         font-weight: 900;
-        font-size: 20px;
-    }
-}  
+        font-size: 18px;
+        }
+    }  
 }
 
 .imageCard5  {
-.container {
-    @include cardSpacing;
-    text-align: center;
-    p {
-        font-family: $bodyFam;
-    }
-}  
+    .container {
+        @include cardSpacing;
+        text-align: right;
+        p {
+            font-size: 15px;
+            font-family: $bodyFam;
+            border-bottom: 1px solid darkgrey;
+            padding-bottom: 20px; 
+          }
+    }  
 }
 
 .button {
-background-color: black;
-font-family: $bodyFam;
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 12px;
-margin: 4px 2px;
-cursor: pointer;
+    background-color: black;
+    font-family: $bodyFam;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 //**END OF IMAGECARD5 STYLING
