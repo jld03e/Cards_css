@@ -26,7 +26,7 @@ header {
   bottom: -38%;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
-  opacity: 0.6;
+  opacity: 0.9;
   color: black;
   padding-left: 20px;
   padding-right: 20px; }
@@ -40,10 +40,8 @@ header {
 
 .imageCard1 .text-insert .actionItems {
   display: flex; }
-  .imageCard1 .text-insert .actionItems p:nth-child(1) {
-    flex: 33.3%; }
-    .imageCard1 .text-insert .actionItems p:nth-child(1) p:nth-child(2) {
-      flex: 5.3%; }
+  .imageCard1 .text-insert .actionItems p {
+    padding: 10px; }
 
 .imageCard2 {
   padding: 10px;

@@ -42,7 +42,7 @@ header {
         bottom: -38%;
         transform: translate(-50%, -50%);
         background-color: #ffffff;
-        opacity: 0.6;
+        opacity: 0.9;
         color: black;
         padding-left: 20px;
         padding-right: 20px;
@@ -70,15 +70,12 @@ header {
     .text-insert {
         .actionItems {
             display: flex;
-            p:nth-child(1) {
-                flex: 33.3%;
-                p:nth-child(2) {
-                    flex: 5.3%;
+            p {
+                padding: 10px;
                 }
             }
         }
     }
-}
 
 
 //**END OF IMAGECARD1 STYLING
