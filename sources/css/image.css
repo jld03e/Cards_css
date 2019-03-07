@@ -17,6 +17,17 @@ header {
   .imageCard1 img {
     width: 100%; }
 
+.imageCard1 .text-insert {
+  width: 150px;
+  position: absolute;
+  left: 40%;
+  bottom: -60%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px; }
+
 .imageCard2 {
   padding: 10px;
   flex: 50%; }

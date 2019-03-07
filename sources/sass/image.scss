@@ -32,6 +32,20 @@ header {
     }
 }
 
+.imageCard1 {
+    .text-insert {
+        width: 150px;
+        position: absolute;
+        left: 40%;
+        bottom: -60%;
+        transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 
 //**END OF CARD1 STYLING
 
