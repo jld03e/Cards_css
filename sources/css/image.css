@@ -116,33 +116,42 @@ header {
       width: 100%; }
 
 .imageCard3 h1 {
-  text-align: center;
+  text-align: left;
   font-family: "Pridi", serif; }
 
 .imageCard3 h4 {
-  text-align: center;
+  text-align: left;
   font-family: "Pridi", serif; }
 
 .imageCard3 .container {
   padding: 2px 16px;
-  text-align: center; }
+  text-align: left; }
   .imageCard3 .container h4 {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
-    font-size: 20px; }
+    font-size: 19px;
+    line-height: 1px; }
+
+.imageCard3 .container h6 {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 1px; }
 
 .imageCard3 .container {
   padding: 2px 16px;
-  text-align: center; }
+  text-align: left; }
   .imageCard3 .container p {
-    font-family: "Roboto", sans-serif; }
+    padding-top: -10px;
+    font-family: "Roboto", sans-serif;
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 20px; }
 
-.button {
+.actionItems .button {
   background-color: black;
   font-family: "Roboto", sans-serif;
-  border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

@@ -197,10 +197,6 @@ header {
         border-radius: 4px;
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);            
         img {
-            // display: block;
-            // margin-left: auto;
-            // margin-right: auto;
-            // height: 40%;
             width: 100%;
         }
     }
@@ -208,52 +204,68 @@ header {
 
 .imageCard3 {
     h1 {
-        text-align: center;
+        text-align: left;
         font-family: $headerFam;
     }
 }
 
 .imageCard3 {
     h4 {
-        text-align: center;
+        text-align: left;
         font-family: $headerFam;
     }
 }
 
 .imageCard3  {
-.container {
-    @include cardSpacing;
-    text-align: center;
-    h4 {
-        font-family: $bodyFam;
-        font-weight: 900;
-        font-size: 20px;
+    .container {
+        @include cardSpacing;
+        text-align: left;
+        h4 {
+            font-family: $bodyFam;
+            font-weight: 900;
+            font-size: 19px;
+            line-height: 1px;
+        }
+    }  
+}
+
+.imageCard3 {
+    .container {
+        h6 {
+            font-size: 14px;
+            font-weight: 400;
+            font-family: $bodyFam;
+            line-height: 1px;
+        }
     }
-}  
 }
 
 .imageCard3  {
-.container {
-    @include cardSpacing;
-    text-align: center;
-    p {
-        font-family: $bodyFam;
-    }
-}  
+    .container {
+        @include cardSpacing;
+        text-align: left;
+        p {
+            padding-top: -10px;
+            font-family: $bodyFam;
+            border-bottom: 1px solid darkgrey;
+            padding-bottom: 20px; 
+          }
+    }  
 }
 
-.button {
-background-color: black;
-font-family: $bodyFam;
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 12px;
-margin: 4px 2px;
-cursor: pointer;
+.actionItems {
+    .button {
+        background-color: black;
+        font-family: $bodyFam;
+        color: white;
+        padding: 10px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
 }
 
 //**END OF IMAGECARD3 STYLING
