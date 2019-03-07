@@ -28,26 +28,46 @@ header {
     padding: 10px;
     flex: 50%;
     img {
+        border-radius: 4px;
         width: 100%;
     }
 }
 
 .imageCard1 {
     .text-insert {
-        width: 150px;
+        border-radius: 4px;
+        width: 250px;
         position: absolute;
         left: 40%;
-        bottom: -60%;
+        bottom: -38%;
         transform: translate(-50%, -50%);
         background-color: #ffffff;
+        opacity: 0.6;
         color: black;
         padding-left: 20px;
         padding-right: 20px;
     }
 }
 
+.imageCard1 {
+    .text-insert {
+        h4 {
+            font-weight: bolder;
+            font-family: $bodyFam;
+        }
+    }
+}
 
-//**END OF CARD1 STYLING
+.imageCard1 {
+    .text-insert {
+        p {
+            font-family: $bodyFam;   
+        }
+    }
+}
+
+
+//**END OF IMAGECARD1 STYLING
 
 //**START OF IMAGECARD2 STYLING
 
@@ -55,6 +75,7 @@ header {
     padding: 10px;
     flex: 50%;
     img {
+        border-radius: 4px;
         width: 100%;
     }
 }
