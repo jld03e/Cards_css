@@ -48,7 +48,7 @@ header {
   padding: 10px;
   flex: 50%; }
   .imageCard2 .skyline {
-    border-radius: 4px;
+    border-radius: 10px;
     width: 100%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1); }
@@ -67,7 +67,8 @@ header {
   padding-right: 20px; }
 
 .imageCard2 .text-insert .insertHeader {
-  display: flex; }
+  display: flex;
+  border-bottom: solid, black; }
   .imageCard2 .text-insert .insertHeader .logo {
     height: 45px;
     margin-right: 5px;
