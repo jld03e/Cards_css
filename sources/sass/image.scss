@@ -52,7 +52,7 @@ header {
 .imageCard1 {
     .text-insert {
         h4 {
-            font-weight: bolder;
+            font-weight: 900;
             font-family: $bodyFam;
         }
     }
@@ -71,6 +71,7 @@ header {
         .actionItems {
             display: flex;
             p {
+                font-weight: 700;
                 padding: 10px;
                 }
             }
@@ -88,5 +89,7 @@ header {
     img {
         border-radius: 4px;
         width: 100%;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
     }
 }

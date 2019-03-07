@@ -32,7 +32,7 @@ header {
   padding-right: 20px; }
 
 .imageCard1 .text-insert h4 {
-  font-weight: bolder;
+  font-weight: 900;
   font-family: "Roboto", sans-serif; }
 
 .imageCard1 .text-insert p {
@@ -41,6 +41,7 @@ header {
 .imageCard1 .text-insert .actionItems {
   display: flex; }
   .imageCard1 .text-insert .actionItems p {
+    font-weight: 700;
     padding: 10px; }
 
 .imageCard2 {
@@ -48,6 +49,8 @@ header {
   flex: 50%; }
   .imageCard2 img {
     border-radius: 4px;
-    width: 100%; }
+    width: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); }
 
 /*# sourceMappingURL=image.css.map */
