@@ -145,24 +145,39 @@ header {
 }
 
 .card2 {
+    .cardFooter {
+        display: flex;
+    }
+}
+
+.card2 {
     .actionItem {
-        display: block;
-        line-height: -5px;
-        position: absolute;
-        float: left;
         font-family: $bodyFam;
         color: blue;
         cursor: pointer;
+        flex: 33.3%;
+        padding: 5px;
     }
 }
 
 .card2 {
     .container {
         .heartLogo {
-            display: block;
-            width: 8%;
+            // width: 8%;
             line-height: 0px;
-            float: right;
+            flex: 5%;
+            padding: 5px;
+        }
+    }
+}
+
+.card2 {
+    .container {
+        .shareLogo {
+            // width: 8%;
+            line-height: 0px;
+            flex: 5%;
+            padding: 5px;
         }
     }
 }
