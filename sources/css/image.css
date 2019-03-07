@@ -11,26 +11,16 @@ header {
   align-items: flex-end;
   justify-content: space-around; }
 
-.card1 {
-  width: 100%;
-  padding-bottom: 10px;
-  background-image: url("../images/batSSkyline.jpg");
-  background-repeat: no-repeat; }
-  .card1 img {
+.imageCard1 {
+  padding: 10px;
+  flex: 50%; }
+  .imageCard1 img {
     width: 100%; }
 
-.card1 .container {
-  padding: 2px 16px;
-  text-align: center; }
-  .card1 .container h4 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-size: 20px; }
-
-.card1 .container {
-  padding: 2px 16px;
-  text-align: center; }
-  .card1 .container p {
-    font-family: "Lato", sans-serif; }
+.imageCard2 {
+  padding: 10px;
+  flex: 50%; }
+  .imageCard2 img {
+    width: 100%; }
 
 /*# sourceMappingURL=image.css.map */

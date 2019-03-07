@@ -22,38 +22,25 @@ header {
 }
 
 
-//**START OF CARD1 STYLING
+//**START OF IMAGECARD1 STYLING
 
-.card1 {
-    width: 100%;
-    padding-bottom: 10px;
-    background-image: url("../images/batSSkyline.jpg");
-    background-repeat: no-repeat;
-        img {
-            width: 100%;
-        }
+.imageCard1 {
+    padding: 10px;
+    flex: 50%;
+    img {
+        width: 100%;
     }
-
-.card1 {
-.container {
-    @include cardSpacing;
-    text-align: center;
-    h4 {
-        font-family: $bodyFam;
-        font-weight: 900;
-        font-size: 20px;
-    }
-}  
 }
 
-.card1 {
-    .container {
-        @include cardSpacing;
-        text-align: center;
-        p {
-            font-family: $bodyFam2;
-        }
-    }  
-}
 
 //**END OF CARD1 STYLING
+
+//**START OF IMAGECARD2 STYLING
+
+.imageCard2 {
+    padding: 10px;
+    flex: 50%;
+    img {
+        width: 100%;
+    }
+}
