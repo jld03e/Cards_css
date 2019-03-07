@@ -15,7 +15,7 @@ header {
   padding: 10px;
   flex: 50%; }
   .imageCard1 img {
-    border-radius: 4px;
+    border-radius: 10px;
     width: 100%; }
 
 .imageCard1 .text-insert {
@@ -37,6 +37,13 @@ header {
 
 .imageCard1 .text-insert p {
   font-family: "Roboto", sans-serif; }
+
+.imageCard1 .text-insert .actionItems {
+  display: flex; }
+  .imageCard1 .text-insert .actionItems p:nth-child(1) {
+    flex: 33.3%; }
+    .imageCard1 .text-insert .actionItems p:nth-child(1) p:nth-child(2) {
+      flex: 5.3%; }
 
 .imageCard2 {
   padding: 10px;

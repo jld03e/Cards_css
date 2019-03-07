@@ -28,7 +28,7 @@ header {
     padding: 10px;
     flex: 50%;
     img {
-        border-radius: 4px;
+        border-radius: 10px;
         width: 100%;
     }
 }
@@ -62,6 +62,20 @@ header {
     .text-insert {
         p {
             font-family: $bodyFam;   
+        }
+    }
+}
+
+.imageCard1 {
+    .text-insert {
+        .actionItems {
+            display: flex;
+            p:nth-child(1) {
+                flex: 33.3%;
+                p:nth-child(2) {
+                    flex: 5.3%;
+                }
+            }
         }
     }
 }
