@@ -1,0 +1,79 @@
+@import 'colors';
+@import 'fonts';
+@import 'mixins';
+
+//header styling for the website
+
+header {
+    text-align: center;
+    padding: 30px;
+    font-family: $headerFam;
+    h1 {
+        font-size: 100px;
+        font-weight: 900px;
+    }
+}
+
+//Flex-box display property implementation
+
+.cardBucket {
+    @include cardBuckets;
+    justify-content: space-around;
+}
+
+
+//**START OF CARD1 STYLING
+
+.card1 {
+    width: 20%;
+    padding-bottom: 10px;
+    .content {
+        border-radius: 4px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);            
+        img {
+            // display: block;
+            // margin-left: auto;
+            // margin-right: auto;
+            // height: 40%;
+            width: 100%;
+        }
+    }
+}
+
+.card1 {
+.container {
+    @include cardSpacing;
+    text-align: center;
+    h4 {
+        font-family: $bodyFam;
+        font-weight: 900;
+        font-size: 20px;
+    }
+}  
+}
+
+.card1 {
+.container {
+    @include cardSpacing;
+    text-align: center;
+    p {
+        font-family: $bodyFam2;
+    }
+}  
+}
+
+.button {
+background-color: black;
+font-family: $bodyFam;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+//**END OF CARD1 STYLING
