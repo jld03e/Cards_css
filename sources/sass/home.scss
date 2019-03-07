@@ -32,14 +32,14 @@ header {
     .card1 {
         width: 20%;
         .content {
-            border-radius: 5px;
-            box-shadow: 5px 10px 10px lightgray;
+            border-radius: 4px;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);            
             img {
-            // display: block;
-            // margin-left: auto;
-            // margin-right: auto;
-            // height: 40%;
-            width: 100%;
+                // display: block;
+                // margin-left: auto;
+                // margin-right: auto;
+                // height: 40%;
+                width: 100%;
             }
         }
     }
@@ -94,10 +94,16 @@ header {
 
 .card2 {
     .cardHeader {
+        padding: 2px;
+    }
+}
+
+.card2 {
+    .cardHeader {
             h1 {
                 font-family: $headerFam;
                 font-size: 25px;
-                line-height: 8px;
+                line-height: 4px;
             }      
     }
 }
@@ -106,7 +112,7 @@ header {
     .cardHeader {
         h3 {
             font-family: $bodyFam;
-            font-size: 15px;
+            font-size: 14px;
         }
     }
 }
@@ -116,7 +122,7 @@ header {
         .logo {
             float: left;
             margin-right: 25px;
-            padding-bottom: 10px;
+            padding-top: 8px;
             border-radius: 200%;
             width: 20%;
         }
@@ -124,8 +130,10 @@ header {
 }
 
 .card2 {
-    padding: 15px;
     width: 20%;
+    border: solid grey 1px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     .container {
         @include cardSpacing;
     }  
@@ -140,7 +148,7 @@ header {
 .card2 {
         p {
             text-align: left;
-            font-family: $bodyFam2;
+            font-family: $bodyFam;
         }
 }
 
@@ -155,7 +163,7 @@ header {
         font-family: $bodyFam;
         color: blue;
         cursor: pointer;
-        flex: 33.3%;
+        flex: 70%;
         padding: 5px;
     }
 }
@@ -164,9 +172,10 @@ header {
     .container {
         .heartLogo {
             // width: 8%;
-            line-height: 0px;
-            flex: 5%;
-            padding: 5px;
+            flex: 18%;
+            padding-top: 20px;
+            padding: 8px;
+            height: 20px;
         }
     }
 }
@@ -175,9 +184,11 @@ header {
     .container {
         .shareLogo {
             // width: 8%;
-            line-height: 0px;
-            flex: 5%;
-            padding: 5px;
+            // line-height: 0px;
+            flex: 18%;
+            padding-top: 20px;
+            padding: 8px;
+            height: 20px;
         }
     }
 }
