@@ -39,7 +39,7 @@ header {
         width: 250px;
         position: absolute;
         left: 40%;
-        bottom: -38%;
+        bottom: -30%;
         transform: translate(-50%, -50%);
         background-color: #ffffff;
         opacity: 0.9;
@@ -86,10 +86,75 @@ header {
 .imageCard2 {
     padding: 10px;
     flex: 50%;
-    img {
+    .skyline {
         border-radius: 4px;
         width: 100%;
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
     }
 }
+
+.imageCard2 {
+    .text-insert {
+        border-radius: 4px;
+        width: 250px;
+        position: absolute;
+        right: 22.5%;
+        bottom: -30%;
+        transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        opacity: 0.9;
+        color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.imageCard2 {
+    .text-insert {
+        .insertHeader {
+            display: flex;
+            .logo {
+                height: 45px;
+                margin-right: 5px;
+                width: 45px;
+                padding: 5px;
+                padding-left: 50px;
+                // flex: 25%;
+            }            
+        }
+    }
+}
+
+.imageCard2 {
+    .text-insert {
+        h4 {
+            font-weight: 900;
+            font-family: $bodyFam;
+        }
+    }
+}
+
+.imageCard2 {
+    .text-insert {
+        p {
+            font-family: $bodyFam;   
+        }
+    }
+}
+
+.imageCard2 {
+    .text-insert {
+        .actionItems {
+            display: flex;
+            p {
+                font-weight: 700;
+                padding: 10px;
+                }
+            }
+        }
+    }
+
+
+
+//**END OF IMAGECARD2 STYLING
