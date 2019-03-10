@@ -257,4 +257,10 @@ header {
   margin: 4px 2px;
   cursor: pointer; }
 
+.imageCard6 .container .subContainer {
+  display: none; }
+
+.imageCard6 .container .nav-toggle:checked ~ .subContainer {
+  display: block; }
+
 /*# sourceMappingURL=image.css.map */

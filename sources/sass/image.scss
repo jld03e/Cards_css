@@ -415,6 +415,20 @@ header {
 
 //**START OF IMAGECARD5 STYLING
 
+.imageCard6 {
+    .container {
+        .subContainer {
+            display: none;
+        }
+    }
+}
 
+.imageCard6 {
+    .container {
+        .nav-toggle:checked ~ .subContainer{
+            display: block;
+        }
+    }
+}
 
 //**END OF IMAGECARD5 STYLING
