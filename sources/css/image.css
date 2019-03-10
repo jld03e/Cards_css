@@ -263,4 +263,11 @@ header {
 .imageCard6 .container .nav-toggle:checked ~ .subContainer {
   display: block; }
 
+.nav-toggle {
+  display: none; }
+
+.nav-toggle-label {
+  position: absolute;
+  left: 35.5%; }
+
 /*# sourceMappingURL=image.css.map */
