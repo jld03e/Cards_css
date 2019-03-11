@@ -257,7 +257,7 @@ header {
   margin: 4px 2px;
   cursor: pointer; }
 
-.imageCard6 .container .subContainer {
+.imageCard6 .container .collapsible-content {
   display: none; }
 
 .imageCard6 .container .nav-toggle:checked ~ .subContainer {
@@ -270,7 +270,7 @@ header {
   position: absolute;
   left: 35.5%; }
 
-.nav-toggle-label span::before {
+.nav-toggle:checked .nav-toggle-label:before {
   content: ' ';
   display: inline-block;
   border-top: 5px solid transparent;
@@ -281,10 +281,8 @@ header {
   transform: translateY(-2px);
   transition: transform .2s ease-out; }
 
-.nav-toggle span::before {
-  transform: rotate(90deg) translateX(-3px); }
-
-.nav-toggle span::before {
+.nav-toggle:checked .nav-toggle-label {
+  transform: rotate(90deg) translateX(-3px);
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
