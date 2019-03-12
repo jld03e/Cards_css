@@ -257,6 +257,46 @@ header {
   margin: 4px 2px;
   cursor: pointer; }
 
+.imageCard6 h1 {
+  font-family: "Pridi", serif; }
+
+.imageCard6 h4 {
+  font-family: "Pridi", serif; }
+
+.imageCard6 {
+  padding: 10px;
+  flex: 50%; }
+  .imageCard6 img {
+    border-radius: 10px;
+    width: 100%; }
+
+.imageCard6 .text-insert {
+  border-radius: 4px;
+  width: 250px;
+  position: absolute;
+  left: 40%;
+  bottom: -32.5%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  opacity: 0.9;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.imageCard6 .text-insert h4 {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif; }
+
+.imageCard6 .text-insert p {
+  font-family: "Roboto", sans-serif; }
+
+.imageCard6 .text-insert .actionItems {
+  display: flex; }
+  .imageCard6 .text-insert .actionItems p {
+    font-weight: 700;
+    padding: 10px; }
+
 input[type='checkbox'] {
   display: none; }
 
