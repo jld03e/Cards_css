@@ -257,20 +257,19 @@ header {
   margin: 4px 2px;
   cursor: pointer; }
 
-.imageCard6 .container .collapsible-content {
+input[type='checkbox'] {
   display: none; }
 
-.imageCard6 .container .nav-toggle:checked ~ .subContainer {
+.collapsible-content {
+  display: none; }
+
+.toggle:checked ~ .collapsible-content {
   display: block; }
 
-.nav-toggle {
-  display: none; }
-
-.nav-toggle-label {
-  position: absolute;
+.lbl-toggle {
   left: 35.5%; }
 
-.nav-toggle:checked .nav-toggle-label:before {
+.lbl-toggle::before {
   content: ' ';
   display: inline-block;
   border-top: 5px solid transparent;
@@ -281,8 +280,10 @@ header {
   transform: translateY(-2px);
   transition: transform .2s ease-out; }
 
-.nav-toggle:checked .nav-toggle-label {
-  transform: rotate(90deg) translateX(-3px);
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px); }
+
+.toggle:checked + .lbl-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 

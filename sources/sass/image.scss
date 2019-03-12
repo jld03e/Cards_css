@@ -415,33 +415,25 @@ header {
 
 //**START OF IMAGECARD5 STYLING
 
-.imageCard6 {
-    .container {
-        .collapsible-content {
+
+input[type='checkbox'] {
             display: none;
         }
-    }
-}
 
-.imageCard6 {
-    .container {
-        .nav-toggle:checked ~ .subContainer{
-            display: block;
-        }
-    }
-}
-
-.nav-toggle {
+.collapsible-content {
     display: none;
 }
 
-.nav-toggle-label {
-    position: absolute;
+.toggle:checked ~ .collapsible-content{
+            display: block;
+        }
+
+.lbl-toggle {
+    // position: absolute;
     left: 35.5%;
 }
 
-
-.nav-toggle:checked .nav-toggle-label:before {
+  .lbl-toggle::before {
     content: ' ';
     display: inline-block;
   
@@ -456,16 +448,17 @@ header {
     transition: transform .2s ease-out;
   }
 
-  .nav-toggle:checked .nav-toggle-label {
-     transform: rotate(90deg) translateX(-3px);
-     border-bottom-right-radius: 0;
-     border-bottom-left-radius: 0; 
+  .toggle:checked + .lbl-toggle::before {
+    transform: rotate(90deg) translateX(-3px);
+  }
+  
+  .toggle:checked + .lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
   }
   
   //demo dropdown.
   
-  //ask if they have classes for 2.5 years old, times and cost.
-
   //First we set the checkbox element to display: none. The checkbox will 
   //be invisible and its label will be used instead to check or uncheck it. 
   //Later, you’ll see that we’ll use the CSS :checked pseudo-selector to 
