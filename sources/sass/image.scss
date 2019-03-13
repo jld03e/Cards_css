@@ -342,6 +342,16 @@ header {
 
 //**END OF IMAGECARD4 STYLING
 
+//Card Bucket styling
+
+.cardBucketF {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+//End Card Bucket styling
+
 //**START OF IMAGECARD5 STYLING
 
 .imageCard5 {
@@ -413,7 +423,7 @@ header {
 
 //**END OF IMAGECARD5 STYLING
 
-//**START OF IMAGECARD5 STYLING
+//**START OF IMAGECARD6 STYLING
 
 .imageCard6 {
     h1 {
@@ -428,33 +438,24 @@ header {
 }
 
 .imageCard6 {
-    padding: 10px;
-    flex: 50%;
-    img {
-        border-radius: 10px;
-        width: 100%;
+    .content {
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);            
+    flex: 15%;
+    .content {
+        img {
+            border-radius: 10px;
+            height: 415px;
+            width: 100%;
+            }
+        }
     }
 }
 
 .imageCard6 {
-    .text-insert {
-        border-radius: 4px;
-        width: 250px;
-        position: absolute;
-        left: 40%;
-        bottom: -32.5%;
-        transform: translate(-50%, -50%);
-        background-color: #ffffff;
-        opacity: 0.9;
-        color: black;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-.imageCard6 {
-    .text-insert {
+    .container {
         h4 {
+            padding: 10px;
             font-size: 20px;
             font-weight: 900;
             font-family: $bodyFam;
@@ -463,24 +464,25 @@ header {
 }
 
 .imageCard6 {
-    .text-insert {
+    .collapsible-content {
+        padding: 10px;
         p {
-            font-family: $bodyFam;   
+            font-family: $bodyFam;
+            .button {
+                font-family: $bodyFam;
+            }  
         }
     }
 }
 
 .imageCard6 {
-    .text-insert {
-        .actionItems {
-            display: flex;
-            p {
-                font-weight: 700;
-                padding: 10px;
-                }
+        .lbl-toggle {
+            padding: 10px;
+            // padding-top: 15px;
+            font-family: $bodyFam;
+            font-weight: 900;
             }
         }
-    }
 
 input[type='checkbox'] {
             display: none;
@@ -521,6 +523,8 @@ input[type='checkbox'] {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
+
+  //**END OF IMAGECARD6 STYLING
   
   //demo dropdown.
   
@@ -592,5 +596,3 @@ input[type='checkbox'] {
 //     border-bottom-right-radius: 0;
 //     border-bottom-left-radius: 0;
 //   }
-
-//**END OF IMAGECARD5 STYLING
