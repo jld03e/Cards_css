@@ -263,19 +263,22 @@ header {
   margin: 4px 2px;
   cursor: pointer; }
 
-.imageCard6 h1 {
-  font-family: "Pridi", serif; }
+.imageCard6 {
+  padding: 10px; }
+  .imageCard6 h1 {
+    font-family: "Pridi", serif; }
 
 .imageCard6 h4 {
   font-family: "Pridi", serif; }
 
 .imageCard6 .content {
   border-radius: 4px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-  flex: 15%; }
-  .imageCard6 .content .content img {
-    border-radius: 10px;
-    width: 100%; }
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
+
+.imageCard6 .content img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%; }
 
 .imageCard6 .container h4 {
   padding: 10px;
@@ -293,7 +296,8 @@ header {
 .imageCard6 .lbl-toggle {
   padding: 10px;
   font-family: "Roboto", sans-serif;
-  font-weight: 900; }
+  font-weight: 900;
+  line-height: 40px; }
 
 input[type='checkbox'] {
   display: none; }
@@ -303,9 +307,6 @@ input[type='checkbox'] {
 
 .toggle:checked ~ .collapsible-content {
   display: block; }
-
-.lbl-toggle {
-  left: 35.5%; }
 
 .lbl-toggle::before {
   content: ' ';
