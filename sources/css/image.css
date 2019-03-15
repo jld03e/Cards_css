@@ -332,16 +332,18 @@ input[type='checkbox'] {
 .imageCard7 h4 {
   font-family: "Pridi", serif; }
 
-.imageCard7 img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px; }
+.imageCard7 .content {
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
 
 .imageCard7 {
-  padding: 10px;
-  flex: 40%; }
-  .imageCard7 .skyline {
-    border-radius: 10px;
-    width: 100%; }
+  padding: 10px; }
+  .imageCard7 img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); }
 
 .imageCard7 .container {
   padding: 2px 16px;

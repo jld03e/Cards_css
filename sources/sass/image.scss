@@ -546,22 +546,33 @@ input[type='checkbox'] {
 }
 
 .imageCard7 {
-    img {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+    .content {
+        border-radius: 4px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);            
     }
 }
 
 .imageCard7 {
     padding: 10px;
-    flex: 40%;
-    .skyline {
-        border-radius: 10px;
+    img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
         width: 100%;
-        // -webkit-transform: scaleX(-1);
-        // transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
     }
 }
+
+// .imageCard7 {
+//     padding: 10px;
+//     flex: 40%;
+//     // .skyline {
+//     //     border-radius: 10px;
+//     //     width: 100%;
+//     //     -webkit-transform: scaleX(-1);
+//     //     transform: scaleX(-1);
+//     // }
+// }
 
 .imageCard7  {
     .container {
