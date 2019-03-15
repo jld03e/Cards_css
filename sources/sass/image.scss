@@ -546,24 +546,31 @@ input[type='checkbox'] {
 }
 
 .imageCard7 {
+    img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
+
+.imageCard7 {
     padding: 10px;
     flex: 40%;
     .skyline {
         border-radius: 10px;
         width: 100%;
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
+        // -webkit-transform: scaleX(-1);
+        // transform: scaleX(-1);
     }
 }
 
 .imageCard7  {
     .container {
         @include cardSpacing;
-        text-align: center;
+        text-align: left;
         h1 {
-            font-family: $headerFam;
-            font-weight: 900;
-            font-size: 19px;
+            font-family: $bodyFam;
+            font-weight: 700;
+            font-size: 45px;
             line-height: 1px;
         }
     }  
@@ -572,9 +579,9 @@ input[type='checkbox'] {
 .imageCard7 {
     .container {
         h3 {
-            font-size: 14px;
+            font-size: 25px;
             font-weight: 400;
-            font-family: $headerFam;
+            font-family: $bodyFam;
         }
     }
 }

@@ -332,27 +332,29 @@ input[type='checkbox'] {
 .imageCard7 h4 {
   font-family: "Pridi", serif; }
 
+.imageCard7 img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
+
 .imageCard7 {
   padding: 10px;
   flex: 40%; }
   .imageCard7 .skyline {
     border-radius: 10px;
-    width: 100%;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1); }
+    width: 100%; }
 
 .imageCard7 .container {
   padding: 2px 16px;
-  text-align: center; }
+  text-align: left; }
   .imageCard7 .container h1 {
-    font-family: "Pridi", serif;
-    font-weight: 900;
-    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
     line-height: 1px; }
 
 .imageCard7 .container h3 {
-  font-size: 14px;
+  font-size: 25px;
   font-weight: 400;
-  font-family: "Pridi", serif; }
+  font-family: "Roboto", sans-serif; }
 
 /*# sourceMappingURL=image.css.map */
