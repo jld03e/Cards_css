@@ -559,9 +559,9 @@ input[type='checkbox'] {
 .imageCard7  {
     .container {
         @include cardSpacing;
-        text-align: left;
-        h4 {
-            font-family: $bodyFam;
+        text-align: center;
+        h1 {
+            font-family: $headerFam;
             font-weight: 900;
             font-size: 19px;
             line-height: 1px;
@@ -571,40 +571,11 @@ input[type='checkbox'] {
 
 .imageCard7 {
     .container {
-        h6 {
+        h3 {
             font-size: 14px;
             font-weight: 400;
-            font-family: $bodyFam;
-            line-height: 1px;
+            font-family: $headerFam;
         }
-    }
-}
-
-.imageCard7  {
-    .container {
-        @include cardSpacing;
-        text-align: left;
-        p {
-            padding-top: -10px;
-            font-family: $bodyFam;
-            border-bottom: 1px solid darkgrey;
-            padding-bottom: 20px; 
-          }
-    }  
-}
-
-.actionItems {
-    .button {
-        background-color: black;
-        font-family: $bodyFam;
-        color: white;
-        padding: 10px 12px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 12px;
-        margin: 4px 2px;
-        cursor: pointer;
     }
 }
 
