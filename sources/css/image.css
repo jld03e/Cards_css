@@ -29,7 +29,7 @@ header {
   width: 250px;
   position: absolute;
   left: 40%;
-  bottom: -32.5%;
+  bottom: -27.5%;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
   opacity: 0.9;
@@ -71,7 +71,7 @@ header {
   width: 250px;
   position: absolute;
   right: 22.5%;
-  bottom: -35%;
+  bottom: -29%;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
   opacity: 0.9;
@@ -325,5 +325,56 @@ input[type='checkbox'] {
 .toggle:checked + .lbl-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
+
+.imageCard7 h1 {
+  font-family: "Pridi", serif; }
+
+.imageCard7 h4 {
+  font-family: "Pridi", serif; }
+
+.imageCard7 {
+  padding: 10px;
+  flex: 40%; }
+  .imageCard7 .skyline {
+    border-radius: 10px;
+    width: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); }
+
+.imageCard7 .container {
+  padding: 2px 16px;
+  text-align: left; }
+  .imageCard7 .container h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 1px; }
+
+.imageCard7 .container h6 {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 1px; }
+
+.imageCard7 .container {
+  padding: 2px 16px;
+  text-align: left; }
+  .imageCard7 .container p {
+    padding-top: -10px;
+    font-family: "Roboto", sans-serif;
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 20px; }
+
+.actionItems .button {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
 
 /*# sourceMappingURL=image.css.map */

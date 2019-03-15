@@ -51,7 +51,7 @@ header {
         width: 250px;
         position: absolute;
         left: 40%;
-        bottom: -32.5%;
+        bottom: -27.5%;
         transform: translate(-50%, -50%);
         background-color: #ffffff;
         opacity: 0.9;
@@ -125,7 +125,7 @@ header {
         width: 250px;
         position: absolute;
         right: 22.5%;
-        bottom: -35%;
+        bottom: -29%;
         transform: translate(-50%, -50%);
         background-color: #ffffff;
         opacity: 0.9;
@@ -530,6 +530,85 @@ input[type='checkbox'] {
   }
 
   //**END OF IMAGECARD6 STYLING
+
+  //**START OF IMAGECARD7 STYLING
+
+  .imageCard7 {
+    h1 {
+        font-family: $headerFam;
+    }
+}
+
+.imageCard7 {
+    h4 {
+        font-family: $headerFam;
+    }
+}
+
+.imageCard7 {
+    padding: 10px;
+    flex: 40%;
+    .skyline {
+        border-radius: 10px;
+        width: 100%;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+}
+
+.imageCard7  {
+    .container {
+        @include cardSpacing;
+        text-align: left;
+        h4 {
+            font-family: $bodyFam;
+            font-weight: 900;
+            font-size: 19px;
+            line-height: 1px;
+        }
+    }  
+}
+
+.imageCard7 {
+    .container {
+        h6 {
+            font-size: 14px;
+            font-weight: 400;
+            font-family: $bodyFam;
+            line-height: 1px;
+        }
+    }
+}
+
+.imageCard7  {
+    .container {
+        @include cardSpacing;
+        text-align: left;
+        p {
+            padding-top: -10px;
+            font-family: $bodyFam;
+            border-bottom: 1px solid darkgrey;
+            padding-bottom: 20px; 
+          }
+    }  
+}
+
+.actionItems {
+    .button {
+        background-color: black;
+        font-family: $bodyFam;
+        color: white;
+        padding: 10px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+}
+
+//**END OF IMAGECARD7 STYLING
   
   //demo dropdown.
   
