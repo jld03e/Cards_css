@@ -3,8 +3,13 @@ header {
   padding: 30px;
   font-family: "Pridi", serif; }
   header h1 {
+    line-height: 1px;
     font-size: 100px;
     font-weight: 900px; }
+
+header h3 {
+  font-size: 50px;
+  font-weight: 900px; }
 
 .cardBucket {
   display: flex;
