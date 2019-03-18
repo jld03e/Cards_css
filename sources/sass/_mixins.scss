@@ -1,6 +1,23 @@
 //Mixin created for the containers of the cards, to place them in
 //a flexbox container.
 
+@mixin headerPreset {
+    text-align: center;
+    padding: 30px;
+    font-family: $headerFam;
+}
+
+@mixin headerJumFont {
+    line-height: 1px;
+    font-size: 100px;
+    font-weight: 900px;
+}
+
+@mixin headerJumSubFont {
+    font-size: 50px;
+    font-weight: 900px;
+}
+
 @mixin cardBuckets {
     display: flex;
     align-items: flex-end;

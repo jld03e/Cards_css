@@ -5,20 +5,15 @@
 //header styling for the website
 
 header {
-    text-align: center;
-    padding: 30px;
-    font-family: $headerFam;
+    @include headerPreset;
     h1 {
-        line-height: 1px;
-        font-size: 100px;
-        font-weight: 900px;
+        @include headerJumFont;
     }
 }
 
 header {
     h3 {
-        font-size: 50px;
-        font-weight: 900px;
+        @include headerJumSubFont;
     }
 }
 
