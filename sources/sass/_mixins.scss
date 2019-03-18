@@ -1,6 +1,7 @@
-//Mixin created for the containers of the cards, to place them in
-//a flexbox container.
+//mixins for use throughout the sites.
 
+
+//header mixins for spacing, font style and font sizes etc.
 @mixin headerPreset {
     text-align: center;
     padding: 30px;
@@ -18,6 +19,9 @@
     font-weight: 900px;
 }
 
+//Mixin created for the containers of the cards, to place them in
+//a flexbox container.
+
 @mixin cardBuckets {
     display: flex;
     align-items: flex-end;
@@ -31,4 +35,17 @@
 
 @mixin cardSpacing {
     padding: 2px 16px;
+}
+
+//mixins specific to cards styled like card1 & card2
+
+@mixin textInsert {
+    border-radius: 4px;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    opacity: 0.9;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
 }

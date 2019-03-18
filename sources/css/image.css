@@ -32,15 +32,15 @@ header h3 {
 .imageCard1 .text-insert {
   border-radius: 4px;
   width: 250px;
-  position: absolute;
-  left: 40%;
-  bottom: -27.5%;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
   opacity: 0.9;
   color: black;
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  position: absolute;
+  left: 40%;
+  bottom: -27.5%; }
 
 .imageCard1 .text-insert h4 {
   font-size: 20px;
