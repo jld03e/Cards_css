@@ -61,7 +61,6 @@
 //mixins specific to cards styled like card3, card4, & card5
 
 //styling for header fonts inside each card:
-
 @mixin cardHeader {
     font-family: $bodyFam;
     font-weight: 900;
@@ -70,8 +69,7 @@
 
 //using this mixin ensures there is a bottom border
 //beneath the text, cleanly dividing paragraph from
-//buttons
-
+//buttons:
 @mixin cardText {
     padding-top: -10px;
     font-family: $bodyFam;

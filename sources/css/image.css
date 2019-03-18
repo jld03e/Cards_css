@@ -212,11 +212,6 @@ header h3 {
   margin: 4px 2px;
   cursor: pointer; }
 
-.cardBucketF {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around; }
-
 .imageCard5 {
   width: 20%; }
   .imageCard5 .content {
@@ -266,6 +261,11 @@ header h3 {
   font-size: 12px;
   margin: 4px 2px;
   cursor: pointer; }
+
+.cardBucketF {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around; }
 
 .imageCard6 {
   padding: 10px; }
