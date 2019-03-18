@@ -209,9 +209,7 @@ header {
         @include cardSpacing;
         text-align: left;
         h4 {
-            font-family: $bodyFam;
-            font-weight: 900;
-            font-size: 19px;
+            @include cardHeader;
             line-height: 1px;
         }
     }  
@@ -233,10 +231,7 @@ header {
         @include cardSpacing;
         text-align: left;
         p {
-            padding-top: -10px;
-            font-family: $bodyFam;
-            border-bottom: 1px solid darkgrey;
-            padding-bottom: 20px; 
+            @include cardText; 
           }
     }  
 }
@@ -291,10 +286,7 @@ header {
     @include cardSpacing;
     text-align: center;
         h4 {
-        line-height: 1px;
-        font-family: $bodyFam;
-        font-weight: 900;
-        font-size: 18px;
+        @include cardHeader;
         }
     }  
 }
@@ -304,10 +296,7 @@ header {
         @include cardSpacing;
         text-align: center;
         p {
-            font-size: 15px;
-            font-family: $bodyFam;
-            border-bottom: 1px solid darkgrey;
-            padding-bottom: 20px; 
+            @include cardText; 
           }
     }  
 }

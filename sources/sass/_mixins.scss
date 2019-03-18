@@ -39,6 +39,7 @@
 
 //mixins specific to cards styled like card1 & card2
 
+//styling for text box insert inside image
 @mixin textInsert {
     border-radius: 4px;
     width: 250px;
@@ -50,7 +51,30 @@
     padding-right: 20px;
 }
 
+//styling for inverting image
+
 @mixin imageFlip {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+
+//mixins specific to cards styled like card3, card4, & card5
+
+//styling for header fonts inside each card:
+
+@mixin cardHeader {
+    font-family: $bodyFam;
+    font-weight: 900;
+    font-size: 19px;
+}
+
+//using this mixin ensures there is a bottom border
+//beneath the text, cleanly dividing paragraph from
+//buttons
+
+@mixin cardText {
+    padding-top: -10px;
+    font-family: $bodyFam;
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 20px; 
 }
