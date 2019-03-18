@@ -74,15 +74,15 @@ header h3 {
 .imageCard2 .text-insert {
   border-radius: 4px;
   width: 250px;
-  position: absolute;
-  right: 22.5%;
-  bottom: -29%;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
   opacity: 0.9;
   color: black;
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  position: absolute;
+  right: 22.5%;
+  bottom: -29%; }
 
 .imageCard2 .text-insert .insertHeader {
   display: flex; }

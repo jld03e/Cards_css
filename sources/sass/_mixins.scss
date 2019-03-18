@@ -49,3 +49,8 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
+@mixin imageFlip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

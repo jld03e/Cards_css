@@ -110,24 +110,16 @@ header {
     .skyline {
         border-radius: 10px;
         width: 100%;
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
+        @include imageFlip;
     }
 }
 
 .imageCard2 {
     .text-insert {
-        border-radius: 4px;
-        width: 250px;
+        @include textInsert;
         position: absolute;
         right: 22.5%;
         bottom: -29%;
-        transform: translate(-50%, -50%);
-        background-color: #ffffff;
-        opacity: 0.9;
-        color: black;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 }
 
