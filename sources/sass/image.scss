@@ -351,10 +351,7 @@ header {
     @include cardSpacing;
     text-align: right;
         h4 {
-        line-height: 1px;
-        font-family: $bodyFam;
-        font-weight: 900;
-        font-size: 18px;
+        @include cardHeader;
         }
     }  
 }
@@ -364,10 +361,7 @@ header {
         @include cardSpacing;
         text-align: right;
         p {
-            font-size: 15px;
-            font-family: $bodyFam;
-            border-bottom: 1px solid darkgrey;
-            padding-bottom: 20px; 
+            @include cardText; 
           }
     }  
 }

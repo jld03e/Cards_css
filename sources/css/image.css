@@ -235,16 +235,15 @@ header h3 {
   padding: 2px 16px;
   text-align: right; }
   .imageCard5 .container h4 {
-    line-height: 1px;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
-    font-size: 18px; }
+    font-size: 19px; }
 
 .imageCard5 .container {
   padding: 2px 16px;
   text-align: right; }
   .imageCard5 .container p {
-    font-size: 15px;
+    padding-top: -10px;
     font-family: "Roboto", sans-serif;
     border-bottom: 1px solid darkgrey;
     padding-bottom: 20px; }
