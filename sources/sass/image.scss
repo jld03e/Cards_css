@@ -63,6 +63,10 @@ header {
         position: absolute;
         left: 40%;
         bottom: -27.5%;
+        @include tablet {
+            left: 33.5%;
+            bottom: 10.5%;
+        }
     }
 }
 
