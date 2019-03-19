@@ -91,3 +91,11 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+
+//view port mixins for responsiveness:
+
+@mixin tablet {
+    @media (min-width: #{$tablet}) and (max-width: 900px) {
+        @content;
+    }
+}

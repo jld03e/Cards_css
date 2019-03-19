@@ -1,112 +1,52 @@
-header {
-  text-align: center;
-  padding: 30px;
-  font-family: "Pridi", serif; }
-  header h1 {
-    font-size: 100px;
-    font-weight: 900px; }
+/*
+Error: File to import not found or unreadable: colors.
+       Load path: /Users/SueBuSo/Desktop/code/codehidStuff/Cards_css/sources/sass
+        on line 1 of /Users/SueBuSo/Desktop/code/codehidStuff/Cards_css/sources/sass/home.scss
 
-header h2 {
-  font-size: 60px; }
+1: @import 'colors';
+2: @import 'fonts';
+3: @import 'mixins';
+4: 
+5: //header styling for the website
+6: 
 
-.cardBucket {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around; }
-
-.card1 {
-  width: 20%;
-  padding-bottom: 10px; }
-  .card1 .content {
-    border-radius: 4px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
-    .card1 .content img {
-      width: 100%; }
-
-.card1 h1 {
-  text-align: center;
-  font-family: "Pridi", serif; }
-
-.card1 .container {
-  padding: 2px 16px;
-  text-align: center; }
-  .card1 .container h4 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-size: 20px; }
-
-.card1 .container {
-  padding: 2px 16px;
-  text-align: center; }
-  .card1 .container p {
-    font-family: "Roboto", sans-serif; }
-
-.button {
-  background-color: black;
-  font-family: "Roboto", sans-serif;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-  cursor: pointer; }
-
-.card2 .cardHeader {
-  padding: 2px; }
-
-.card2 .cardHeader h1 {
-  font-family: "Pridi", serif;
-  font-size: 25px;
-  line-height: 4px; }
-
-.card2 .cardHeader h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px; }
-
-.card2 .cardHeader .logo {
-  float: left;
-  margin-right: 25px;
-  padding-top: 8px;
-  border-radius: 200%;
-  width: 20%; }
-
-.card2 {
-  width: 20%;
-  border-radius: 4px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
-  .card2 .container {
-    padding: 2px 16px; }
-
-.card2 img {
-  width: 100%; }
-
-.card2 p {
-  text-align: left;
-  font-family: "Roboto", sans-serif; }
-
-.card2 .cardFooter {
-  display: flex; }
-
-.card2 .actionItem {
-  font-family: "Roboto", sans-serif;
-  color: blue;
-  cursor: pointer;
-  flex: 70%;
-  padding: 5px; }
-
-.card2 .container .heartLogo {
-  flex: 18%;
-  padding-top: 20px;
-  padding: 8px;
-  height: 20px; }
-
-.card2 .container .shareLogo {
-  flex: 18%;
-  padding-top: 20px;
-  padding: 8px;
-  height: 20px; }
-
-/*# sourceMappingURL=home.css.map */
+Backtrace:
+/Users/SueBuSo/Desktop/code/codehidStuff/Cards_css/sources/sass/home.scss:1
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:44:in `import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: colors.\A        Load path: /Users/SueBuSo/Desktop/code/codehidStuff/Cards_css/sources/sass\A         on line 1 of /Users/SueBuSo/Desktop/code/codehidStuff/Cards_css/sources/sass/home.scss\A \A 1: @import 'colors';\A 2: @import 'fonts';\A 3: @import 'mixins';\A 4: \A 5: //header styling for the website\A 6: "; }

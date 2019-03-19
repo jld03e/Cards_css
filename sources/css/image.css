@@ -1,361 +1,52 @@
-header {
-  text-align: center;
-  padding: 30px;
-  font-family: "Pridi", serif; }
-  header h1 {
-    line-height: 1px;
-    font-size: 100px;
-    font-weight: 900px; }
+/*
+Error: File to import not found or unreadable: colors.
+       Load path: /Users/SueBuSo/Desktop/code/codehidStuff/Cards_css/sources/sass
+        on line 1 of /Users/SueBuSo/Desktop/code/codehidStuff/Cards_css/sources/sass/image.scss
 
-header h3 {
-  font-size: 50px;
-  font-weight: 900px; }
+1: @import 'colors';
+2: @import 'fonts';
+3: @import 'mixins';
+4: 
+5: //header styling for the website
+6: 
 
-.cardBucket {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around; }
-
-.imageCard1 h1 {
-  font-family: "Pridi", serif; }
-
-.imageCard1 h4 {
-  font-family: "Pridi", serif; }
-
-.imageCard1 {
-  padding: 10px;
-  flex: 50%; }
-  .imageCard1 img {
-    border-radius: 10px;
-    width: 100%; }
-
-.imageCard1 .text-insert {
-  border-radius: 4px;
-  width: 250px;
-  transform: translate(-50%, -50%);
-  background-color: #ffffff;
-  opacity: 0.9;
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-  position: absolute;
-  left: 40%;
-  bottom: -27.5%; }
-
-.imageCard1 .text-insert h4 {
-  font-size: 20px;
-  font-weight: 900;
-  font-family: "Roboto", sans-serif; }
-
-.imageCard1 .text-insert p {
-  font-family: "Roboto", sans-serif; }
-
-.imageCard1 .text-insert .actionItems {
-  display: flex; }
-  .imageCard1 .text-insert .actionItems p {
-    font-weight: 700;
-    padding: 10px; }
-
-.imageCard2 h1 {
-  font-family: "Pridi", serif; }
-
-.imageCard2 h4 {
-  font-family: "Pridi", serif; }
-
-.imageCard2 {
-  padding: 10px;
-  flex: 50%; }
-  .imageCard2 .skyline {
-    border-radius: 10px;
-    width: 100%;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1); }
-
-.imageCard2 .text-insert {
-  border-radius: 4px;
-  width: 250px;
-  transform: translate(-50%, -50%);
-  background-color: #ffffff;
-  opacity: 0.9;
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-  position: absolute;
-  right: 22.5%;
-  bottom: -29%; }
-
-.imageCard2 .text-insert .insertHeader {
-  display: flex; }
-  .imageCard2 .text-insert .insertHeader .logo {
-    height: 40px;
-    margin-right: 5px;
-    width: 75px;
-    padding: 5px;
-    padding-left: 50px; }
-
-.imageCard2 .text-insert h4 {
-  font-size: 20px;
-  font-weight: 900;
-  font-family: "Roboto", sans-serif;
-  line-height: 1px; }
-
-.imageCard2 .text-insert .text {
-  font-family: "Roboto", sans-serif;
-  padding-bottom: 15px;
-  border-bottom: 1px solid darkgrey; }
-
-.imageCard2 .text-insert .actionItems {
-  display: flex; }
-  .imageCard2 .text-insert .actionItems p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    padding: 10px; }
-
-.imageCard3 {
-  width: 20%;
-  padding-bottom: 10px; }
-  .imageCard3 .content {
-    border-radius: 4px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
-    .imageCard3 .content img {
-      width: 100%; }
-
-.imageCard3 h1 {
-  text-align: left;
-  font-family: "Pridi", serif;
-  line-height: 2px; }
-
-.imageCard3 h4 {
-  text-align: left;
-  font-family: "Pridi", serif; }
-
-.imageCard3 .container {
-  padding: 2px 16px;
-  text-align: left; }
-  .imageCard3 .container h4 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-size: 19px;
-    line-height: 1px; }
-
-.imageCard3 .container h6 {
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
-  line-height: 1px; }
-
-.imageCard3 .container {
-  padding: 2px 16px;
-  text-align: left; }
-  .imageCard3 .container p {
-    padding-top: -10px;
-    font-family: "Roboto", sans-serif;
-    border-bottom: 1px solid darkgrey;
-    padding-bottom: 20px; }
-
-.actionItems .button {
-  background-color: black;
-  font-family: "Roboto", sans-serif;
-  color: white;
-  padding: 10px 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-  cursor: pointer; }
-
-.imageCard4 {
-  width: 20%; }
-  .imageCard4 .content {
-    border-radius: 4px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
-    .imageCard4 .content img {
-      width: 100%; }
-
-.imageCard4 h1 {
-  text-align: center;
-  font-family: "Pridi", serif;
-  line-height: 2px; }
-
-.imageCard4 h4 {
-  text-align: center;
-  font-family: "Pridi", serif; }
-
-.imageCard4 .container {
-  padding: 2px 16px;
-  text-align: center; }
-  .imageCard4 .container h4 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-size: 19px; }
-
-.imageCard4 .container {
-  padding: 2px 16px;
-  text-align: center; }
-  .imageCard4 .container p {
-    padding-top: -10px;
-    font-family: "Roboto", sans-serif;
-    border-bottom: 1px solid darkgrey;
-    padding-bottom: 20px; }
-
-.button {
-  background-color: black;
-  font-family: "Roboto", sans-serif;
-  color: white;
-  padding: 10px 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-  cursor: pointer; }
-
-.imageCard5 {
-  width: 20%; }
-  .imageCard5 .content {
-    border-radius: 4px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
-    .imageCard5 .content img {
-      border-radius: 10px;
-      width: 100%;
-      height: 415px; }
-
-.imageCard5 h1 {
-  text-align: right;
-  font-family: "Pridi", serif;
-  line-height: 2px; }
-
-.imageCard5 h4 {
-  text-align: right;
-  font-family: "Pridi", serif; }
-
-.imageCard5 .container {
-  padding: 2px 16px;
-  text-align: right; }
-  .imageCard5 .container h4 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-size: 19px; }
-
-.imageCard5 .container {
-  padding: 2px 16px;
-  text-align: right; }
-  .imageCard5 .container p {
-    padding-top: -10px;
-    font-family: "Roboto", sans-serif;
-    border-bottom: 1px solid darkgrey;
-    padding-bottom: 20px; }
-
-.button {
-  background-color: black;
-  font-family: "Roboto", sans-serif;
-  color: white;
-  padding: 10px 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-  cursor: pointer; }
-
-.cardBucketF {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around; }
-
-.imageCard6 {
-  padding: 10px; }
-  .imageCard6 h1 {
-    font-family: "Pridi", serif; }
-
-.imageCard6 h4 {
-  font-family: "Pridi", serif; }
-
-.imageCard6 .content {
-  border-radius: 4px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
-
-.imageCard6 .content img {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  width: 100%; }
-
-.imageCard6 .container h4 {
-  padding: 10px;
-  font-size: 20px;
-  font-weight: 900;
-  font-family: "Roboto", sans-serif; }
-
-.imageCard6 .collapsible-content {
-  padding: 10px; }
-  .imageCard6 .collapsible-content p {
-    font-family: "Roboto", sans-serif; }
-    .imageCard6 .collapsible-content p .button {
-      font-family: "Roboto", sans-serif; }
-
-.imageCard6 .lbl-toggle {
-  padding: 10px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  line-height: 40px; }
-
-input[type='checkbox'] {
-  display: none; }
-
-.collapsible-content {
-  display: none; }
-
-.toggle:checked ~ .collapsible-content {
-  display: block; }
-
-.lbl-toggle::before {
-  content: ' ';
-  display: inline-block;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid currentColor;
-  vertical-align: middle;
-  margin-right: .7rem;
-  transform: translateY(-2px);
-  transition: transform .2s ease-out; }
-
-.toggle:checked + .lbl-toggle::before {
-  transform: rotate(90deg) translateX(-3px); }
-
-.toggle:checked + .lbl-toggle {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0; }
-
-.imageCard7 h1 {
-  font-family: "Pridi", serif; }
-
-.imageCard7 h4 {
-  font-family: "Pridi", serif; }
-
-.imageCard7 .content {
-  border-radius: 4px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
-
-.imageCard7 {
-  padding: 10px; }
-  .imageCard7 img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    width: 100%; }
-
-.imageCard7 .container {
-  padding: 2px 16px;
-  text-align: left; }
-  .imageCard7 .container h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 1px; }
-
-.imageCard7 .container h3 {
-  font-size: 25px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif; }
-
-/*# sourceMappingURL=image.css.map */
+Backtrace:
+/Users/SueBuSo/Desktop/code/codehidStuff/Cards_css/sources/sass/image.scss:1
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:44:in `import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: colors.\A        Load path: /Users/SueBuSo/Desktop/code/codehidStuff/Cards_css/sources/sass\A         on line 1 of /Users/SueBuSo/Desktop/code/codehidStuff/Cards_css/sources/sass/image.scss\A \A 1: @import 'colors';\A 2: @import 'fonts';\A 3: @import 'mixins';\A 4: \A 5: //header styling for the website\A 6: "; }
