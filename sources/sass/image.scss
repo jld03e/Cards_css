@@ -464,11 +464,11 @@ input[type='checkbox'] {
     border-bottom-left-radius: 0;
   }
 
-  //**END OF IMAGECARD6 STYLING
+//**END OF IMAGECARD6 STYLING
 
-  //**START OF IMAGECARD7 STYLING
+//**START OF IMAGECARD7 STYLING
 
-  .imageCard7 {
+.imageCard7 {
     h1 {
         font-family: $headerFam;
     }
@@ -492,8 +492,6 @@ input[type='checkbox'] {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         width: 100%;
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
     }
 }
 

@@ -342,9 +342,7 @@ input[type='checkbox'] {
   .imageCard7 img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 100%;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1); }
+    width: 100%; }
 
 .imageCard7 .container {
   padding: 2px 16px;
