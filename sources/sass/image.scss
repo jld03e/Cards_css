@@ -20,6 +20,9 @@ header {
 header {
     h3 {
         @include headerJumSubFont;
+        @include tablet {
+            font-size: 40px;
+        }
     }
 }
 
