@@ -1,13 +1,19 @@
-@import 'colors_media';
 @import 'fonts';
 @import 'mixins';
+@import 'colors_media';
 
 //header styling for the website
 
 header {
     @include headerPreset;
+    @include tablet {
+        padding: 15px;
+    }
     h1 {
         @include headerJumFont;
+        @include tablet {
+            font-size: 50px;
+        }
     }
 }
 

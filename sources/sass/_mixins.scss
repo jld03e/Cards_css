@@ -1,6 +1,5 @@
 //mixins for use throughout the sites.
 
-
 //header mixins for spacing, font style and font sizes etc.
 @mixin headerPreset {
     text-align: center;
@@ -95,7 +94,13 @@
 //view port mixins for responsiveness:
 
 @mixin tablet {
-    @media (min-width: #{$tablet}) and (max-width: 900px) {
+    @media (min-width: #{$tablet}) and (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin phone {
+    @media (min-width: #{$minPhone-width}) and (max-width: #{$tablet}) {
         @content;
     }
 }
