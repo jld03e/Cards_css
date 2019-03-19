@@ -76,3 +76,18 @@
     border-bottom: 1px solid darkgrey;
     padding-bottom: 20px; 
 }
+
+//button styles for cards 3 4 & 5
+
+@mixin buttons {
+    background-color: black;
+    font-family: $bodyFam;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

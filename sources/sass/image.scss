@@ -238,16 +238,7 @@ header {
 
 .actionItems {
     .button {
-        background-color: black;
-        font-family: $bodyFam;
-        color: white;
-        padding: 10px 12px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 12px;
-        margin: 4px 2px;
-        cursor: pointer;
+        @include buttons;
     }
 }
 
@@ -302,17 +293,7 @@ header {
 }
 
 .button {
-    background-color: black;
-    font-family: $bodyFam;
-    border: none;
-    color: white;
-    padding: 10px 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 4px 2px;
-    cursor: pointer;
+    @include buttons;
 }
 
 //**END OF IMAGECARD4 STYLING
@@ -367,17 +348,7 @@ header {
 }
 
 .button {
-    background-color: black;
-    font-family: $bodyFam;
-    border: none;
-    color: white;
-    padding: 10px 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 4px 2px;
-    cursor: pointer;
+    @include buttons;
 }
 
 //**END OF IMAGECARD5 STYLING
@@ -468,10 +439,6 @@ input[type='checkbox'] {
 .toggle:checked ~ .collapsible-content{
             display: block;
         }
-
-// .lbl-toggle {
-//     right: 10.5%;
-// }
 
   .lbl-toggle::before {
     content: ' ';

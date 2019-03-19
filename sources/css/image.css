@@ -202,7 +202,6 @@ header h3 {
 .button {
   background-color: black;
   font-family: "Roboto", sans-serif;
-  border: none;
   color: white;
   padding: 10px 12px;
   text-align: center;
@@ -251,7 +250,6 @@ header h3 {
 .button {
   background-color: black;
   font-family: "Roboto", sans-serif;
-  border: none;
   color: white;
   padding: 10px 12px;
   text-align: center;
