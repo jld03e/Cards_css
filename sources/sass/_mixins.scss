@@ -100,7 +100,7 @@
 }
 
 @mixin phone {
-    @media (min-width: #{$minPhone-width}) and (max-width: #{$tablet}) {
+    @media (min-width: 350) and (max-width: #{$tablet}) {
         @content;
     }
 }

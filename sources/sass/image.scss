@@ -9,10 +9,16 @@ header {
     @include tablet {
         padding: 15px;
     }
+    @include phone {
+        padding: 5px;
+    }
     h1 {
         @include headerJumFont;
         @include tablet {
             font-size: 50px;
+        }
+        @include phone {
+            font-size: 25px;
         }
     }
 }
@@ -22,6 +28,9 @@ header {
         @include headerJumSubFont;
         @include tablet {
             font-size: 40px;
+        }
+        @include phone {
+            font-size: 25px;
         }
     }
 }
