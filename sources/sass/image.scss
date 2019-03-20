@@ -149,7 +149,11 @@ header {
         right: 22.5%;
         bottom: -29%;
         @include tablet {
-            right: 10.5%;
+            right: 20%;
+            bottom: 8%;
+            width: 180px;
+            padding-left: 5px;
+            padding-right: 5px;
         }
     }
 }
