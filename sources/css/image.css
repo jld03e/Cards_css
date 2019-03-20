@@ -5,7 +5,7 @@ header {
   @media (min-width: 600px) and (max-width: 1024px) {
     header {
       padding: 15px; } }
-  @media (min-width: 350) and (max-width: 600px) {
+  @media (min-width: 200px) and (max-width: 600px) {
     header {
       padding: 5px; } }
   header h1 {
@@ -15,9 +15,9 @@ header {
     @media (min-width: 600px) and (max-width: 1024px) {
       header h1 {
         font-size: 50px; } }
-    @media (min-width: 350) and (max-width: 600px) {
+    @media (min-width: 200px) and (max-width: 600px) {
       header h1 {
-        font-size: 25px; } }
+        font-size: 2px; } }
 
 header h3 {
   font-size: 50px;
@@ -25,9 +25,9 @@ header h3 {
   @media (min-width: 600px) and (max-width: 1024px) {
     header h3 {
       font-size: 40px; } }
-  @media (min-width: 350) and (max-width: 600px) {
+  @media (min-width: 200px) and (max-width: 600px) {
     header h3 {
-      font-size: 25px; } }
+      font-size: 10px; } }
 
 .cardBucket {
   display: flex;

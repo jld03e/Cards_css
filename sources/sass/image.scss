@@ -9,7 +9,7 @@ header {
     @include tablet {
         padding: 15px;
     }
-    @include phone {
+    @include phone1 {
         padding: 5px;
     }
     h1 {
@@ -17,8 +17,8 @@ header {
         @include tablet {
             font-size: 50px;
         }
-        @include phone {
-            font-size: 25px;
+        @include phone1 {
+            font-size: 2px;
         }
     }
 }
@@ -29,8 +29,8 @@ header {
         @include tablet {
             font-size: 40px;
         }
-        @include phone {
-            font-size: 25px;
+        @include phone1 {
+            font-size: 10px;
         }
     }
 }
