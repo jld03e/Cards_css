@@ -64,8 +64,11 @@ header {
         left: 40%;
         bottom: -27.5%;
         @include tablet {
-            left: 33.5%;
-            bottom: 10.5%;
+            left: 40.5%;
+            bottom: 15.5%;
+            width: 150px;
+            padding-left: 5px;
+            padding-right: 5px;
         }
     }
 }
@@ -76,6 +79,11 @@ header {
             font-size: 20px;
             font-weight: 900;
             font-family: $bodyFam;
+            @include tablet {
+                font-size: 15px;
+                line-height: 1px;
+            }
+
         }
     }
 }
@@ -83,7 +91,10 @@ header {
 .imageCard1 {
     .text-insert {
         p {
-            font-family: $bodyFam;   
+            font-family: $bodyFam;
+            @include tablet {
+                font-size: 11.5px;
+            }   
         }
     }
 }
@@ -95,6 +106,10 @@ header {
             p {
                 font-weight: 700;
                 padding: 10px;
+                @include tablet {
+                    line-height: 1px;
+                    padding: 5px;
+                }
                 }
             }
         }
@@ -133,6 +148,9 @@ header {
         position: absolute;
         right: 22.5%;
         bottom: -29%;
+        @include tablet {
+            right: 10.5%;
+        }
     }
 }
 

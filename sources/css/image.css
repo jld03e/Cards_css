@@ -52,22 +52,36 @@ header h3 {
   bottom: -27.5%; }
   @media (min-width: 600px) and (max-width: 1024px) {
     .imageCard1 .text-insert {
-      left: 33.5%;
-      bottom: 10.5%; } }
+      left: 40.5%;
+      bottom: 15.5%;
+      width: 150px;
+      padding-left: 5px;
+      padding-right: 5px; } }
 
 .imageCard1 .text-insert h4 {
   font-size: 20px;
   font-weight: 900;
   font-family: "Roboto", sans-serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .imageCard1 .text-insert h4 {
+      font-size: 15px;
+      line-height: 1px; } }
 
 .imageCard1 .text-insert p {
   font-family: "Roboto", sans-serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .imageCard1 .text-insert p {
+      font-size: 11.5px; } }
 
 .imageCard1 .text-insert .actionItems {
   display: flex; }
   .imageCard1 .text-insert .actionItems p {
     font-weight: 700;
     padding: 10px; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      .imageCard1 .text-insert .actionItems p {
+        line-height: 1px;
+        padding: 5px; } }
 
 .imageCard2 h1 {
   font-family: "Pridi", serif; }
@@ -96,6 +110,9 @@ header h3 {
   position: absolute;
   right: 22.5%;
   bottom: -29%; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .imageCard2 .text-insert {
+      right: 10.5%; } }
 
 .imageCard2 .text-insert .insertHeader {
   display: flex; }
