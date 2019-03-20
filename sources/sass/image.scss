@@ -100,6 +100,13 @@ header {
             padding-left: 5px;
             padding-right: 5px;
         }
+        @include phone1 {
+            left: 15.5%;
+            bottom: 21.5%;
+            width: 130px;
+            padding-left: 1px;
+            padding-right: 1px;
+        }
     }
 }
 
@@ -112,8 +119,10 @@ header {
             @include tablet {
                 font-size: 15px;
                 line-height: 1px;
+                @include phone1 {
+                    font-size: 12.5px;
+                }
             }
-
         }
     }
 }
@@ -124,6 +133,9 @@ header {
             font-family: $bodyFam;
             @include tablet {
                 font-size: 11.5px;
+                @include phone1 {
+                    font-size: 9.5px;
+                }
             }   
         }
     }
