@@ -690,6 +690,9 @@ input[type='checkbox'] {
             font-size: 25px;
             font-weight: 400;
             font-family: $bodyFam;
+            @include tablet {
+                font-size: 18px;
+            }
         }
     }
 }
