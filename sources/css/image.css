@@ -17,7 +17,7 @@ header {
         font-size: 50px; } }
     @media (min-width: 200px) and (max-width: 600px) {
       header h1 {
-        font-size: 2px; } }
+        font-size: 30px; } }
 
 header h3 {
   font-size: 50px;
@@ -27,18 +27,28 @@ header h3 {
       font-size: 40px; } }
   @media (min-width: 200px) and (max-width: 600px) {
     header h3 {
-      font-size: 10px; } }
+      font-size: 25px; } }
 
 .cardBucket {
   display: flex;
   align-items: flex-end;
   justify-content: space-around; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .cardBucket {
+      flex-direction: column;
+      justify-content: center, space-evenly;
+      align-items: center; } }
 
 .cardBucket2 {
   display: flex;
   align-items: flex-end;
   justify-content: space-around; }
   @media (min-width: 600px) and (max-width: 1024px) {
+    .cardBucket2 {
+      flex-direction: column;
+      justify-content: center, space-evenly;
+      align-items: center; } }
+  @media (min-width: 200px) and (max-width: 600px) {
     .cardBucket2 {
       flex-direction: column;
       justify-content: center, space-evenly;
