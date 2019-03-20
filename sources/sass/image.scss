@@ -161,7 +161,7 @@ header {
         bottom: -29%;
         @include tablet {
             right: 20%;
-            bottom: 13.5%;
+            bottom: 13.8%;
             width: 180px;
             padding-left: 5px;
             padding-right: 5px;
@@ -239,8 +239,6 @@ header {
         }
     }
 
-
-
 //**END OF IMAGECARD2 STYLING
 
 //**START OF IMAGECARD3 STYLING
@@ -261,6 +259,9 @@ header {
         text-align: left;
         font-family: $headerFam;
         line-height: 2px;
+        @include tablet {
+            font-size: 22.5px;
+        }
     }
 }
 
@@ -268,6 +269,9 @@ header {
     h4 {
         text-align: left;
         font-family: $headerFam;
+        @include tablet {
+            font-size: 12.5px;
+        }
     }
 }
 
@@ -278,6 +282,9 @@ header {
         h4 {
             @include cardHeader;
             line-height: 1px;
+            @include tablet {
+                font-size: 15px;
+            }
         }
     }  
 }
@@ -289,6 +296,10 @@ header {
             font-weight: 400;
             font-family: $bodyFam;
             line-height: 1px;
+            @include tablet {
+                font-size: 11px;
+                line-height: 0.5px;
+            }
         }
     }
 }
@@ -298,14 +309,25 @@ header {
         @include cardSpacing;
         text-align: left;
         p {
-            @include cardText; 
+            @include cardText;
+            @include tablet {
+                font-size: 13.5px;
+            }
           }
     }  
 }
 
 .actionItems {
+    @include tablet {
+        line-height: 0.5px;
+    }
     .button {
         @include buttons;
+        @include tablet {
+            padding: 5px 6px;
+            font-size: 9.5px;
+            margin: 2px 1px;
+        }
     }
 }
 

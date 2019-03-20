@@ -123,7 +123,7 @@ header h3 {
   @media (min-width: 600px) and (max-width: 1024px) {
     .imageCard2 .text-insert {
       right: 20%;
-      bottom: 13.5%;
+      bottom: 13.8%;
       width: 180px;
       padding-left: 5px;
       padding-right: 5px; } }
@@ -189,10 +189,16 @@ header h3 {
   text-align: left;
   font-family: "Pridi", serif;
   line-height: 2px; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .imageCard3 h1 {
+      font-size: 22.5px; } }
 
 .imageCard3 h4 {
   text-align: left;
   font-family: "Pridi", serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .imageCard3 h4 {
+      font-size: 12.5px; } }
 
 .imageCard3 .container {
   padding: 2px 16px;
@@ -202,12 +208,19 @@ header h3 {
     font-weight: 900;
     font-size: 19px;
     line-height: 1px; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      .imageCard3 .container h4 {
+        font-size: 15px; } }
 
 .imageCard3 .container h6 {
   font-size: 14px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   line-height: 1px; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .imageCard3 .container h6 {
+      font-size: 11px;
+      line-height: 0.5px; } }
 
 .imageCard3 .container {
   padding: 2px 16px;
@@ -217,7 +230,13 @@ header h3 {
     font-family: "Roboto", sans-serif;
     border-bottom: 1px solid darkgrey;
     padding-bottom: 20px; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      .imageCard3 .container p {
+        font-size: 13.5px; } }
 
+@media (min-width: 600px) and (max-width: 1024px) {
+  .actionItems {
+    line-height: 0.5px; } }
 .actionItems .button {
   background-color: black;
   font-family: "Roboto", sans-serif;
@@ -229,6 +248,11 @@ header h3 {
   font-size: 12px;
   margin: 4px 2px;
   cursor: pointer; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .actionItems .button {
+      padding: 5px 6px;
+      font-size: 9.5px;
+      margin: 2px 1px; } }
 
 .imageCard4 {
   width: 20%; }
