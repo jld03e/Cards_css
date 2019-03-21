@@ -283,6 +283,7 @@ header {
     padding-bottom: 10px;
     @include phone1 {
         width: 50%;
+        padding-bottom: 5px;
     }
     .content {
         @include cardShadow;            
@@ -376,6 +377,9 @@ header {
 
 .imageCard4 {
     width: 20%;
+    @include phone1 {
+        width: 50%;
+    }
     .content {
         @include cardShadow;           
         img {
@@ -451,6 +455,9 @@ header {
 
 .imageCard5 {
     width: 20%;
+    @include phone1 {
+        width: 50%;
+    }
     .content {
         @include cardShadow;            
         img {
@@ -460,6 +467,9 @@ header {
             height: 415px;
             @include tablet {
                 height: 300px;
+                @include phone1 {
+                    height: 300px;
+                }
             }
         }
     }
@@ -534,6 +544,11 @@ header {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
+    @include phone1 {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
 }
 
