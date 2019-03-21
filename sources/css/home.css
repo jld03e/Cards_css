@@ -8,12 +8,18 @@ header {
     @media (min-width: 600px) and (max-width: 1024px) {
       header h1 {
         font-size: 70px; } }
+    @media (min-width: 200px) and (max-width: 600px) {
+      header h1 {
+        font-size: 50px; } }
 
 header h2 {
   font-size: 60px; }
   @media (min-width: 600px) and (max-width: 1024px) {
     header h2 {
       font-size: 30px; } }
+  @media (min-width: 200px) and (max-width: 600px) {
+    header h2 {
+      font-size: 20px; } }
 
 .cardBucket {
   display: flex;
@@ -21,8 +27,11 @@ header h2 {
   justify-content: space-around; }
 
 .card1 {
-  width: 20%;
+  width: 40%;
   padding-bottom: 10px; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .card1 {
+      width: 40%; } }
   .card1 .content {
     border-radius: 4px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
@@ -59,60 +68,5 @@ header h2 {
   font-size: 12px;
   margin: 4px 2px;
   cursor: pointer; }
-
-.card2 .cardHeader {
-  padding: 2px; }
-
-.card2 .cardHeader h1 {
-  font-family: "Pridi", serif;
-  font-size: 25px;
-  line-height: 4px; }
-
-.card2 .cardHeader h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px; }
-
-.card2 .cardHeader .logo {
-  float: left;
-  margin-right: 25px;
-  padding-top: 8px;
-  border-radius: 200%;
-  width: 20%; }
-
-.card2 {
-  width: 20%;
-  border-radius: 4px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
-  .card2 .container {
-    padding: 2px 16px; }
-
-.card2 img {
-  width: 100%; }
-
-.card2 p {
-  text-align: left;
-  font-family: "Roboto", sans-serif; }
-
-.card2 .cardFooter {
-  display: flex; }
-
-.card2 .actionItem {
-  font-family: "Roboto", sans-serif;
-  color: blue;
-  cursor: pointer;
-  flex: 70%;
-  padding: 5px; }
-
-.card2 .container .heartLogo {
-  flex: 18%;
-  padding-top: 20px;
-  padding: 8px;
-  height: 20px; }
-
-.card2 .container .shareLogo {
-  flex: 18%;
-  padding-top: 20px;
-  padding: 8px;
-  height: 20px; }
 
 /*# sourceMappingURL=home.css.map */

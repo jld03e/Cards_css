@@ -14,6 +14,9 @@ header {
         @include tablet {
             font-size: 70px;
         }
+        @include phone1 {
+            font-size: 50px;
+        }
     }
 }
 
@@ -22,6 +25,9 @@ header {
         font-size: 60px;
         @include tablet {
             font-size: 30px;
+        }
+        @include phone1 {
+            font-size: 20px;
         }
     }
 }
@@ -36,16 +42,15 @@ header {
 //**START OF CARD1 STYLING
 
     .card1 {
-        width: 20%;
+        width: 40%;
         padding-bottom: 10px;
+        @include phone1 {
+            width: 40%;
+        }
         .content {
             border-radius: 4px;
             box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);            
             img {
-                // display: block;
-                // margin-left: auto;
-                // margin-right: auto;
-                // height: 40%;
                 width: 100%;
             }
         }
@@ -95,108 +100,3 @@ header {
   }
 
 //**END OF CARD1 STYLING
-
-
-//**START OF CARD2 STYLING
-
-.card2 {
-    .cardHeader {
-        padding: 2px;
-    }
-}
-
-.card2 {
-    .cardHeader {
-            h1 {
-                font-family: $headerFam;
-                font-size: 25px;
-                line-height: 4px;
-            }      
-    }
-}
-
-.card2 {
-    .cardHeader {
-        h3 {
-            font-family: $bodyFam;
-            font-size: 14px;
-        }
-    }
-}
-
-.card2 {
-    .cardHeader {
-        .logo {
-            float: left;
-            margin-right: 25px;
-            padding-top: 8px;
-            border-radius: 200%;
-            width: 20%;
-        }
-    }
-}
-
-.card2 {
-    width: 20%;
-    border-radius: 4px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-    .container {
-        @include cardSpacing;
-    }  
-}
-
-.card2 {
-    img {
-        width: 100%;
-    }
-}
-
-.card2 {
-        p {
-            text-align: left;
-            font-family: $bodyFam;
-        }
-}
-
-.card2 {
-    .cardFooter {
-        display: flex;
-    }
-}
-
-.card2 {
-    .actionItem {
-        font-family: $bodyFam;
-        color: blue;
-        cursor: pointer;
-        flex: 70%;
-        padding: 5px;
-    }
-}
-
-.card2 {
-    .container {
-        .heartLogo {
-            // width: 8%;
-            flex: 18%;
-            padding-top: 20px;
-            padding: 8px;
-            height: 20px;
-        }
-    }
-}
-
-.card2 {
-    .container {
-        .shareLogo {
-            // width: 8%;
-            // line-height: 0px;
-            flex: 18%;
-            padding-top: 20px;
-            padding: 8px;
-            height: 20px;
-        }
-    }
-}
-
-//**END OF CARD2 STYLING
