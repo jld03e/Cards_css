@@ -281,6 +281,9 @@ header {
 .imageCard3 {
     width: 20%;
     padding-bottom: 10px;
+    @include phone1 {
+        width: 50%;
+    }
     .content {
         @include cardShadow;            
         img {
