@@ -579,6 +579,9 @@ input[type='checkbox'] {
       .imageCard7 .container h1 {
         font-size: 25px;
         line-height: 0.5px; } }
+    @media (min-width: 200px) and (max-width: 600px) {
+      .imageCard7 .container h1 {
+        font-size: 20px; } }
 
 .imageCard7 .container h3 {
   font-size: 25px;
@@ -587,5 +590,8 @@ input[type='checkbox'] {
   @media (min-width: 600px) and (max-width: 1024px) {
     .imageCard7 .container h3 {
       font-size: 18px; } }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .imageCard7 .container h3 {
+      font-size: 15px; } }
 
 /*# sourceMappingURL=image.css.map */

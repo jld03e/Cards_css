@@ -733,6 +733,9 @@ input[type='checkbox'] {
                 font-size: 25px;
                 line-height: 0.5px;
             }
+            @include phone1 {
+                font-size: 20px;
+            }
         }
     }  
 }
@@ -745,6 +748,9 @@ input[type='checkbox'] {
             font-family: $bodyFam;
             @include tablet {
                 font-size: 18px;
+            }
+            @include phone1 {
+                font-size: 15px;
             }
         }
     }
