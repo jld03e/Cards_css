@@ -215,6 +215,9 @@ header h3 {
 .imageCard3 {
   width: 20%;
   padding-bottom: 10px; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .imageCard3 {
+      width: 35%; } }
   @media (min-width: 200px) and (max-width: 600px) {
     .imageCard3 {
       width: 50%;
@@ -296,6 +299,9 @@ header h3 {
 
 .imageCard4 {
   width: 20%; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .imageCard4 {
+      width: 35%; } }
   @media (min-width: 200px) and (max-width: 600px) {
     .imageCard4 {
       width: 50%; } }
@@ -363,6 +369,9 @@ header h3 {
 
 .imageCard5 {
   width: 20%; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .imageCard5 {
+      width: 30%; } }
   @media (min-width: 200px) and (max-width: 600px) {
     .imageCard5 {
       width: 50%; } }
@@ -441,6 +450,11 @@ header h3 {
   display: flex;
   align-items: flex-start;
   justify-content: space-around; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .cardBucketF {
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; } }
   @media (min-width: 200px) and (max-width: 600px) {
     .cardBucketF {
       align-items: center;
