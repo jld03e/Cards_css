@@ -38,16 +38,6 @@ header {
 //Flex-box display property implementation for
 //1st and 2nd row of cards
 
-.cardBucket {
-    @include cardBuckets;
-    justify-content: space-around;
-    @include phone1 {
-        flex-direction: column;
-        justify-content: center, space-evenly;
-        align-items: center;
-    }
-}
-
 .cardBucket2 {
     @include cardBuckets;
     justify-content: space-around;
@@ -63,222 +53,9 @@ header {
     }
 }
 
-
-//**START OF IMAGECARD1 STYLING
-
-.imageCard1 {
-    h1 {
-        font-family: $headerFam;
-    }
-}
-
-.imageCard1 {
-    h4 {
-        font-family: $headerFam;
-    }
-}
-
-.imageCard1 {
-    padding: 10px;
-    flex: 50%;
-    img {
-        border-radius: 10px;
-        width: 100%;
-    }
-}
-
-.imageCard1 {
-    .text-insert {
-        @include textInsert;
-        position: absolute;
-        left: 40%;
-        bottom: -27.5%;
-        @include tablet {
-            left: 40.5%;
-            bottom: 15.5%;
-            width: 150px;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-        @include phone1 {
-            left: 15.5%;
-            bottom: 21.5%;
-            width: 130px;
-            padding-left: 1.5px;
-            padding-right: 1.5px;
-        }
-    }
-}
-
-.imageCard1 {
-    .text-insert {
-        h4 {
-            font-size: 20px;
-            font-weight: 900;
-            font-family: $bodyFam;
-            @include tablet {
-                font-size: 15px;
-                line-height: 1px;
-                @include phone1 {
-                    font-size: 12.5px;
-                }
-            }
-        }
-    }
-}
-
-.imageCard1 {
-    .text-insert {
-        p {
-            font-family: $bodyFam;
-            @include tablet {
-                font-size: 11.5px;
-                @include phone1 {
-                    font-size: 9.5px;
-                }
-            }   
-        }
-    }
-}
-
-.imageCard1 {
-    .text-insert {
-        .actionItems {
-            display: flex;
-            p {
-                font-weight: 700;
-                padding: 10px;
-                @include tablet {
-                    line-height: 1px;
-                    padding: 5px;
-                }
-                }
-            }
-        }
-    }
-
-
-//**END OF IMAGECARD1 STYLING
-
-//**START OF IMAGECARD2 STYLING
-
-.imageCard2 {
-    h1 {
-        font-family: $headerFam;
-    }
-}
-
-.imageCard2 {
-    h4 {
-        font-family: $headerFam;
-    }
-}
-
-.imageCard2 {
-    padding: 10px;
-    flex: 50%;
-    .skyline {
-        border-radius: 10px;
-        width: 100%;
-        @include imageFlip;
-    }
-}
-
-.imageCard2 {
-    .text-insert {
-        @include textInsert;
-        position: absolute;
-        right: 22.5%;
-        bottom: -29%;
-        @include tablet {
-            right: 20%;
-            bottom: 13.8%;
-            width: 180px;
-            padding-left: 5px;
-            padding-right: 5px;
-            @include phone1 {
-                right: -11.5%;
-                bottom: -43%;
-            }
-        }
-    }
-}
-
-.imageCard2 {
-    .text-insert {
-        .insertHeader {
-            display: flex;
-            @include tablet {
-            justify-content: left, space-evenly;
-        }
-            .logo {
-                height: 40px;
-                margin-right: 5px;
-                width: 75px;
-                padding: 5px;
-                padding-left: 50px;
-                @include tablet {
-                    width: 55px;
-                    padding: 1px;
-                    padding-left: 25px;
-                }
-            }            
-        }
-    }
-}
-
-.imageCard2 {
-    .text-insert {
-        h4 {
-            font-size: 20px;
-            font-weight: 900;
-            font-family: $bodyFam;
-            line-height: 1px;
-            @include tablet {
-                font-size: 15px;
-                line-height: 0.5px;
-            }
-        }
-    }
-}
-
-.imageCard2 {
-    .text-insert {
-        .text {
-            font-family: $bodyFam;
-            padding-bottom: 15px;
-            border-bottom: 1px solid darkgrey;
-            @include tablet {
-                font-size: 11.5px;
-                line-height: 13px;
-            }   
-        }
-    }
-}
-
-.imageCard2 {
-    .text-insert {
-        .actionItems {
-            display: flex;
-            p {
-                font-family: $bodyFam;
-                font-weight: 700;
-                padding: 10px;
-                @include tablet {
-                    padding: 5px;
-                    font-size: 11.5px;
-                    line-height: 1px;
-                }
-                }
-            }
-        }
-    }
-
-//**END OF IMAGECARD2 STYLING
-
 //**START OF IMAGECARD3 STYLING
 
-.imageCard3 {
+.profileCard1 {
     width: 20%;
     padding-bottom: 10px;
     @include tablet {
@@ -296,7 +73,7 @@ header {
     }
 }
 
-.imageCard3 {
+.profileCard1 {
     h1 {
         text-align: left;
         font-family: $headerFam;
@@ -307,7 +84,7 @@ header {
     }
 }
 
-.imageCard3 {
+.profileCard1 {
     h4 {
         text-align: left;
         font-family: $headerFam;
@@ -317,7 +94,7 @@ header {
     }
 }
 
-.imageCard3  {
+.profileCard1  {
     .container {
         @include cardSpacing;
         text-align: left;
@@ -331,7 +108,7 @@ header {
     }  
 }
 
-.imageCard3 {
+.profileCard1 {
     .container {
         h6 {
             font-size: 14px;
@@ -346,7 +123,7 @@ header {
     }
 }
 
-.imageCard3  {
+.profileCard1  {
     .container {
         @include cardSpacing;
         text-align: left;
@@ -378,7 +155,7 @@ header {
 
 //**START OF IMAGECARD4 STYLING
 
-.imageCard4 {
+.profileCard2 {
     width: 20%;
     @include tablet {
         width: 35%;
@@ -394,7 +171,7 @@ header {
     }
 }
 
-.imageCard4 {
+.profileCard2 {
     h1 {
         text-align: center;
         font-family: $headerFam;
@@ -405,7 +182,7 @@ header {
     }
 }
 
-.imageCard4 {
+.profileCard2 {
     h4 {
         text-align: center;
         font-family: $headerFam;
@@ -415,7 +192,7 @@ header {
     }
 }
 
-.imageCard4  {
+.profileCard2  {
     .container {
     @include cardSpacing;
     text-align: center;
@@ -429,7 +206,7 @@ header {
     }  
 }
 
-.imageCard4  {
+.profileCard2  {
     .container {
         @include cardSpacing;
         text-align: center;
@@ -442,7 +219,7 @@ header {
     }  
 }
 
-.imageCard4 {
+.profileCard2 {
     .container{
         .button {
         @include buttons;
@@ -459,7 +236,7 @@ header {
 
 //**START OF IMAGECARD5 STYLING
 
-.imageCard5 {
+.profileCard3 {
     width: 20%;
     @include tablet {
         width: 30%;
@@ -484,7 +261,7 @@ header {
     }
 }
 
-.imageCard5 {
+.profileCard3 {
     h1 {
         text-align: right;
         font-family: $headerFam;
@@ -495,7 +272,7 @@ header {
     }
 }
 
-.imageCard5 {
+.profileCard3 {
     h4 {
         text-align: right;
         font-family: $headerFam;
@@ -505,7 +282,7 @@ header {
     }
 }
 
-.imageCard5  {
+.profileCard3  {
     .container {
     @include cardSpacing;
     text-align: right;
@@ -519,7 +296,7 @@ header {
     }  
 }
 
-.imageCard5  {
+.profileCard3  {
     .container {
         @include cardSpacing;
         text-align: right;
@@ -532,7 +309,7 @@ header {
     }  
 }
 
-.imageCard5 {
+.profileCard3 {
     .container{
         .button {
         @include buttons;
@@ -571,7 +348,7 @@ header {
 
 //**START OF IMAGECARD6 STYLING
 
-.imageCard6 {
+.dropDownCard {
     padding: 10px;
     h1 {
         font-family: $headerFam;
@@ -581,7 +358,7 @@ header {
     }
 }
 
-.imageCard6 {
+.dropDownCard {
     h4 {
         font-family: $headerFam;
         @include tablet {
@@ -590,13 +367,13 @@ header {
     }
 }
 
-.imageCard6 {
+.dropDownCard {
     .content {
         @include cardShadow;            
     }
 }
 
-.imageCard6 {
+.dropDownCard {
     .content {
         img {
             border-top-left-radius: 4px;
@@ -606,7 +383,7 @@ header {
     }
 }
 
-.imageCard6 {
+.dropDownCard {
     .container {
         h4 {
             padding: 10px;
@@ -621,7 +398,7 @@ header {
     }
 }
 
-.imageCard6 {
+.dropDownCard {
     .collapsible-content {
         padding: 10px;
         @include tablet {
@@ -636,7 +413,7 @@ header {
     }
 }
 
-.imageCard6 {
+.dropDownCard {
     .collapsible-content {
         .button {
             @include buttons;
@@ -649,7 +426,7 @@ header {
     }
 }
 
-.imageCard6 {
+.dropDownCard {
         .lbl-toggle {
             padding: 10px;
             font-family: $bodyFam;
@@ -698,7 +475,7 @@ input[type='checkbox'] {
 
 //**START OF IMAGECARD7 STYLING
 
-.imageCard7 {
+.imageCard1 {
     h1 {
         font-family: $headerFam;
         @include tablet {
@@ -707,7 +484,7 @@ input[type='checkbox'] {
     }
 }
 
-.imageCard7 {
+.imageCard1 {
     h4 {
         font-family: $headerFam;
         @include tablet {
@@ -716,13 +493,13 @@ input[type='checkbox'] {
     }
 }
 
-.imageCard7 {
+.imageCard1 {
     .content {
         @include cardShadow;            
     }
 }
 
-.imageCard7 {
+.imageCard1 {
     padding: 10px;
     @include tablet {
         padding: 5px;
@@ -734,7 +511,7 @@ input[type='checkbox'] {
     }
 }
 
-.imageCard7  {
+.imageCard1  {
     .container {
         @include cardSpacing;
         text-align: left;
@@ -754,7 +531,7 @@ input[type='checkbox'] {
     }  
 }
 
-.imageCard7 {
+.imageCard1 {
     .container {
         h3 {
             font-size: 25px;
@@ -771,74 +548,3 @@ input[type='checkbox'] {
 }
 
 //**END OF IMAGECARD7 STYLING
-  
-  //demo dropdown.
-  
-  //First we set the checkbox element to display: none. The checkbox will 
-  //be invisible and its label will be used instead to check or uncheck it. 
-  //Later, you’ll see that we’ll use the CSS :checked pseudo-selector to 
-  //style things differently when the hidden checkbox is checked:
-
-
-//   input[type='checkbox'] {
-//     display: none;
-//   }
-
-//Next, we style our default label. Here nothing really special 
-//is going on, except for the fact that we make our label display as 
-//a block element with display: block:
-
-//   .lbl-toggle {
-//     display: block;
-//     font-weight: bold;
-//     font-family: monospace;
-//     font-size: 1.2rem;
-//     text-transform: uppercase;
-//     text-align: center;
-  
-//     padding: 1rem;
-  
-//     color: #A77B0E;
-//     background: #FAE042;
-  
-//     cursor: pointer;
-  
-//     border-radius: 7px;
-//     transition: all 0.25s ease-out;
-//   }
-  
-//   .lbl-toggle:hover {
-//     color: #7C5A0B;
-//   }
-
-//For the small arrow, some clever use of borders makes it easy to 
-//create the triangle shape:
-
-//   .lbl-toggle::before {
-//     content: ' ';
-//     display: inline-block;
-  
-//     border-top: 5px solid transparent;
-//     border-bottom: 5px solid transparent;
-//     border-left: 5px solid currentColor;
-  
-//     vertical-align: middle;
-//     margin-right: .7rem;
-//     transform: translateY(-2px);
-  
-//     transition: transform .2s ease-out;
-//   }
-
-//And now we do something really similar using the adjacent sibling 
-//selector to rotate our little triangle shape when the collapsible 
-//is expanded and to adjust the bottom right and border left radius 
-//of our label:
-
-//   .toggle:checked + .lbl-toggle::before {
-//     transform: rotate(90deg) translateX(-3px);
-//   }
-  
-//   .toggle:checked + .lbl-toggle {
-//     border-bottom-right-radius: 0;
-//     border-bottom-left-radius: 0;
-//   }
