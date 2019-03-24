@@ -306,7 +306,7 @@ h4 {
 
 //**END OF IMAGECARD5 STYLING
 
-//**START OF IMAGECARD6 STYLING
+//**START OF dropDown Card STYLING
 
     h4 {
         font-family: $headerFam;
@@ -415,40 +415,23 @@ input[type='checkbox'] {
     border-bottom-left-radius: 0;
   }
 
-//**END OF IMAGECARD6 STYLING
+//**END OF DropDownCard STYLING
 
-//**START OF IMAGECARD7 STYLING
+//**START OF IMAGECARD1 STYLING
 
-.imageCard1 {
-    h1 {
-        font-family: $headerFam;
-        @include tablet {
-            font-size: 22.5px;
-        }
-    }
-}
-
-.imageCard1 {
     h4 {
         font-family: $headerFam;
         @include tablet {
             font-size: 12.5px;
         }
     }
-}
 
 .imageCard1 {
-    .content {
         width: 60%;
         @include cardShadow;            
-    }
 }
 
 .imageCard1 {
-    padding: 10px;
-    @include tablet {
-        padding: 5px;
-    }
     img {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -457,7 +440,7 @@ input[type='checkbox'] {
 }
 
 .imageCard1  {
-    .container {
+    .textcontainer {
         @include cardSpacing;
         text-align: left;
         h1 {
@@ -477,7 +460,7 @@ input[type='checkbox'] {
 }
 
 .imageCard1 {
-    .container {
+    .textcontainer {
         h3 {
             font-size: 25px;
             font-weight: 400;
@@ -492,4 +475,4 @@ input[type='checkbox'] {
     }
 }
 
-//**END OF IMAGECARD7 STYLING
+//**END OF IMAGECARD1 STYLING

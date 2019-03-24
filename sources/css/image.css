@@ -350,58 +350,47 @@ input[type='checkbox'] {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
-.imageCard1 h1 {
+h4 {
   font-family: "Pridi", serif; }
   @media (min-width: 600px) and (max-width: 1024px) {
-    .imageCard1 h1 {
-      font-size: 22.5px; } }
-
-.imageCard1 h4 {
-  font-family: "Pridi", serif; }
-  @media (min-width: 600px) and (max-width: 1024px) {
-    .imageCard1 h4 {
+    h4 {
       font-size: 12.5px; } }
 
-.imageCard1 .content {
+.imageCard1 {
   width: 60%;
   border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
 
-.imageCard1 {
-  padding: 10px; }
-  @media (min-width: 600px) and (max-width: 1024px) {
-    .imageCard1 {
-      padding: 5px; } }
-  .imageCard1 img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    width: 100%; }
+.imageCard1 img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%; }
 
-.imageCard1 .container {
+.imageCard1 .textcontainer {
   padding: 2px 16px;
   text-align: left; }
-  .imageCard1 .container h1 {
+  .imageCard1 .textcontainer h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 45px;
     line-height: 1px; }
     @media (min-width: 600px) and (max-width: 1024px) {
-      .imageCard1 .container h1 {
+      .imageCard1 .textcontainer h1 {
         font-size: 25px;
         line-height: 0.5px; } }
     @media (min-width: 200px) and (max-width: 600px) {
-      .imageCard1 .container h1 {
+      .imageCard1 .textcontainer h1 {
         font-size: 20px; } }
 
-.imageCard1 .container h3 {
+.imageCard1 .textcontainer h3 {
   font-size: 25px;
   font-weight: 400;
   font-family: "Roboto", sans-serif; }
   @media (min-width: 600px) and (max-width: 1024px) {
-    .imageCard1 .container h3 {
+    .imageCard1 .textcontainer h3 {
       font-size: 18px; } }
   @media (min-width: 200px) and (max-width: 600px) {
-    .imageCard1 .container h3 {
+    .imageCard1 .textcontainer h3 {
       font-size: 15px; } }
 
 /*# sourceMappingURL=image.css.map */
