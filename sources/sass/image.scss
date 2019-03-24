@@ -41,7 +41,7 @@ h4 {
     font-family: $headerFam;
 }
 
-//**START OF IMAGECARD3 STYLING
+//**START OF profilecard1 STYLING
 
 .profileCard1 {
     @include cardShadow;
@@ -136,10 +136,10 @@ h4 {
     }
 }
 
-//**END OF IMAGECARD3 STYLING
+//**END OF profilecard1 STYLING
 
 
-//**START OF IMAGECARD4 STYLING
+//**START OF profilecard2 STYLING
 
 .profileCard2 {
     @include cardShadow;           
@@ -216,9 +216,9 @@ h4 {
     }
 }
 
-//**END OF IMAGECARD4 STYLING
+//**END OF profilecard2 STYLING
 
-//**START OF IMAGECARD5 STYLING
+//**START OF profilecard3 STYLING
 
 .profileCard3 {
     @include cardShadow;            
@@ -304,7 +304,7 @@ h4 {
     }
 }
 
-//**END OF IMAGECARD5 STYLING
+//**END OF profilecard3 STYLING
 
 //**START OF dropDown Card STYLING
 
