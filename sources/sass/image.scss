@@ -35,24 +35,6 @@ header {
     }
 }
 
-//Flex-box display property implementation for
-//1st and 2nd row of cards
-
-// .cardBucket2 {
-//     @include cardBuckets;
-//     justify-content: space-around;
-//     @include tablet {
-//         flex-direction: column;
-//         justify-content: center, space-evenly;
-//         align-items: center;
-//     }
-//     @include phone1 {
-//         flex-direction: column;
-//         justify-content: center, space-evenly;
-//         align-items: center;
-//     }
-// }
-
 //heading update for each individual card
 
 h4 {
@@ -324,68 +306,30 @@ h4 {
 
 //**END OF IMAGECARD5 STYLING
 
-//Card Bucket styling
-
-// .cardBucketF {
-//     display: flex;
-//     align-items: flex-start;
-//     justify-content: space-around;
-//     @include tablet {
-//         align-items: center;
-//         justify-content: center;
-//         flex-direction: column;
-//     }
-//     @include phone1 {
-//         align-items: center;
-//         justify-content: center;
-//         flex-direction: column;
-//     }
-
-// }
-
-//End Card Bucket styling
-
-
 //**START OF IMAGECARD6 STYLING
 
-.dropDownCard {
-    padding: 10px;
-    h1 {
-        font-family: $headerFam;
-        @include tablet {
-            font-size: 22.5px;
-        }
-    }
-}
-
-.dropDownCard {
     h4 {
         font-family: $headerFam;
         @include tablet {
             font-size: 12.5px;
         }
     }
-}
+
 
 .dropDownCard {
-    .content {
         @include cardShadow;
-        width: 20%;           
-    }
+        width: 20%;          
 }
 
 .dropDownCard {
-    .content {
         img {
             border-top-left-radius: 4px;
             border-top-right-radius: 4px;
             width: 100%;
         }
     }
-}
 
 .dropDownCard {
-    .container {
         h4 {
             padding: 10px;
             font-size: 20px;
@@ -397,7 +341,6 @@ h4 {
                 }    
         }
     }
-}
 
 .dropDownCard {
     .collapsible-content {

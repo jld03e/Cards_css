@@ -263,37 +263,29 @@ h4 {
       font-size: 9.5px;
       margin: 2px 1px; } }
 
-.dropDownCard {
-  padding: 10px; }
-  .dropDownCard h1 {
-    font-family: "Pridi", serif; }
-    @media (min-width: 600px) and (max-width: 1024px) {
-      .dropDownCard h1 {
-        font-size: 22.5px; } }
-
-.dropDownCard h4 {
+h4 {
   font-family: "Pridi", serif; }
   @media (min-width: 600px) and (max-width: 1024px) {
-    .dropDownCard h4 {
+    h4 {
       font-size: 12.5px; } }
 
-.dropDownCard .content {
+.dropDownCard {
   border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   width: 20%; }
 
-.dropDownCard .content img {
+.dropDownCard img {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   width: 100%; }
 
-.dropDownCard .container h4 {
+.dropDownCard h4 {
   padding: 10px;
   font-size: 20px;
   font-weight: 900;
   font-family: "Roboto", sans-serif; }
   @media (min-width: 600px) and (max-width: 1024px) {
-    .dropDownCard .container h4 {
+    .dropDownCard h4 {
       font-size: 15px;
       line-height: 1px; } }
 
