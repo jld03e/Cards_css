@@ -43,6 +43,15 @@ h4 {
 
 //**START OF profilecard1 STYLING
 
+.profileCard1Box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.example1 {
+    width: 100%;
+}
+
 .profileCard1 {
     @include cardShadow;
     width: 20%;
@@ -144,6 +153,15 @@ h4 {
 
 
 //**START OF profilecard2 STYLING
+
+.profileCard2Box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.example2 {
+    width: 100%;
+}
 
 .profileCard2 {
     @include cardShadow;
