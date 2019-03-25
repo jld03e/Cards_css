@@ -348,6 +348,22 @@ h4 {
 
 //**START OF dropDown Card STYLING
 
+.dropDownCardBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.exampleCode {
+    h4 {
+        font-family: $headerFam;
+    }
+}
+
+.example4 {
+    width: 90%;
+}
+
+
     h4 {
         font-family: $headerFam;
         @include tablet {
