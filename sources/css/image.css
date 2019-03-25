@@ -293,12 +293,12 @@ h4 {
       font-size: 9.5px;
       margin: 2px 1px; } }
 
+.dropDownCardBox .dropDownCard h4 {
+  font-family: "Pridi", serif; }
+
 .dropDownCardBox {
   display: flex;
   justify-content: space-evenly; }
-
-.exampleCode h4 {
-  font-family: "Pridi", serif; }
 
 .example4 {
   width: 90%; }
@@ -389,6 +389,16 @@ input[type='checkbox'] {
 .toggle:checked + .lbl-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
+
+.imageCard1Box .dropDownCard h4 {
+  font-family: "Pridi", serif; }
+
+.imageCard1Box {
+  display: flex;
+  justify-content: space-evenly; }
+
+.example5 {
+  width: 90%; }
 
 h4 {
   font-family: "Pridi", serif; }

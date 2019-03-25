@@ -349,20 +349,21 @@ h4 {
 //**START OF dropDown Card STYLING
 
 .dropDownCardBox {
-    display: flex;
-    justify-content: space-evenly;
+    .dropDownCard {
+        h4 {
+            font-family: $headerFam;
+        }
+    }
 }
 
-.exampleCode {
-    h4 {
-        font-family: $headerFam;
-    }
+.dropDownCardBox {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .example4 {
     width: 90%;
 }
-
 
     h4 {
         font-family: $headerFam;
@@ -474,6 +475,23 @@ input[type='checkbox'] {
 //**END OF DropDownCard STYLING
 
 //**START OF IMAGECARD1 STYLING
+
+.imageCard1Box {
+    .dropDownCard {
+        h4 {
+            font-family: $headerFam;
+        }
+    }
+}
+
+.imageCard1Box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.example5 {
+    width: 90%;
+}
 
     h4 {
         font-family: $headerFam;
