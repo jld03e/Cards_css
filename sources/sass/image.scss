@@ -246,6 +246,16 @@ h4 {
 
 //**START OF profilecard3 STYLING
 
+.profileCard3Box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.example3 {
+    width: 100%;
+}
+
+
 .profileCard3 {
     @include cardShadow;
     width: 20%;
