@@ -1,0 +1,79 @@
+<div>Icons made by 
+
+<a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> 
+from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> 
+is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+
+</div>  
+  
+  
+  //demo dropdown.
+  
+  //First we set the checkbox element to display: none. The checkbox will 
+  //be invisible and its label will be used instead to check or uncheck it. 
+  //Later, you’ll see that we’ll use the CSS :checked pseudo-selector to 
+  //style things differently when the hidden checkbox is checked:
+
+
+//   input[type='checkbox'] {
+//     display: none;
+//   }
+
+//Next, we style our default label. Here nothing really special 
+//is going on, except for the fact that we make our label display as 
+//a block element with display: block:
+
+//   .lbl-toggle {
+//     display: block;
+//     font-weight: bold;
+//     font-family: monospace;
+//     font-size: 1.2rem;
+//     text-transform: uppercase;
+//     text-align: center;
+  
+//     padding: 1rem;
+  
+//     color: #A77B0E;
+//     background: #FAE042;
+  
+//     cursor: pointer;
+  
+//     border-radius: 7px;
+//     transition: all 0.25s ease-out;
+//   }
+  
+//   .lbl-toggle:hover {
+//     color: #7C5A0B;
+//   }
+
+//For the small arrow, some clever use of borders makes it easy to 
+//create the triangle shape:
+
+//   .lbl-toggle::before {
+//     content: ' ';
+//     display: inline-block;
+  
+//     border-top: 5px solid transparent;
+//     border-bottom: 5px solid transparent;
+//     border-left: 5px solid currentColor;
+  
+//     vertical-align: middle;
+//     margin-right: .7rem;
+//     transform: translateY(-2px);
+  
+//     transition: transform .2s ease-out;
+//   }
+
+//And now we do something really similar using the adjacent sibling 
+//selector to rotate our little triangle shape when the collapsible 
+//is expanded and to adjust the bottom right and border left radius 
+//of our label:
+
+//   .toggle:checked + .lbl-toggle::before {
+//     transform: rotate(90deg) translateX(-3px);
+//   }
+  
+//   .toggle:checked + .lbl-toggle {
+//     border-bottom-right-radius: 0;
+//     border-bottom-left-radius: 0;
+//   }
