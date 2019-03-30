@@ -557,6 +557,23 @@ input[type='checkbox'] {
 
 //start of styling for iconcard1
 
+.iconCard1Box {
+    .iconCard {
+        h4 {
+            font-family: $headerFam;
+        }
+    }
+}
+
+.iconCard1Box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.example6 {
+    width: 90%;
+}
+
 .iconCard {
     border-radius: 4px;
     width: 12%;

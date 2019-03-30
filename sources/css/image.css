@@ -446,6 +446,16 @@ h4 {
     .imageCard1 .textcontainer h3 {
       font-size: 15px; } }
 
+.iconCard1Box .iconCard h4 {
+  font-family: "Pridi", serif; }
+
+.iconCard1Box {
+  display: flex;
+  justify-content: space-evenly; }
+
+.example6 {
+  width: 90%; }
+
 .iconCard {
   border-radius: 4px;
   width: 12%;
