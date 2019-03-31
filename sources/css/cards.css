@@ -40,6 +40,27 @@ header h3 {
 .pleaseNote p {
   font-family: "Roboto", sans-serif; }
 
+footer .button {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    footer .button {
+      padding: 10px 20px; } }
+
+footer {
+  padding: 100px;
+  align-items: center;
+  align-content: center; }
+
 h4 {
   font-family: "Pridi", serif; }
 
