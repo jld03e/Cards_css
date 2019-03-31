@@ -58,7 +58,7 @@ header {
 //footer section styling
 
 
-footer {
+.footer {
     .button {
     background-color: black;
     font-family: $bodyFam;
@@ -77,10 +77,13 @@ footer {
     }
 }
 
-footer {
-    padding: 100px;
-    align-items: center;
-    align-content: center;
+.footer {
+    width: 100%;
+    padding: 50px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 18px;
 }
 
 //end of footer section editing
