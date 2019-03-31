@@ -35,6 +35,26 @@ header {
     }
 }
 
+//pleaseNote secction styling
+
+.pleaseNote {
+    text-align: center;
+    padding-bottom: 45px;
+    h3 {
+        line-height:1px;
+        font-family: $headerFam;
+        font-size: 55px;
+    }
+}
+
+.pleaseNote {
+        p {
+            font-family: $bodyFam;
+        }
+}
+
+//end of pleaseNote section editiing
+
 //heading update for each individual card
 
 h4 {

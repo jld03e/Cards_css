@@ -29,6 +29,17 @@ header h3 {
     header h3 {
       font-size: 25px; } }
 
+.pleaseNote {
+  text-align: center;
+  padding-bottom: 45px; }
+  .pleaseNote h3 {
+    line-height: 1px;
+    font-family: "Pridi", serif;
+    font-size: 55px; }
+
+.pleaseNote p {
+  font-family: "Roboto", sans-serif; }
+
 h4 {
   font-family: "Pridi", serif; }
 
