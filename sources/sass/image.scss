@@ -55,6 +55,39 @@ header {
 
 //end of pleaseNote section editiing
 
+//footer section styling
+
+
+.footer {
+    .button {
+    background-color: black;
+    font-family: $bodyFam;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+        @include phone1 {
+            padding: 10px 20px;
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    padding: 50px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+//end of footer section editing
+
 //heading update for each individual card
 
 h4 {
