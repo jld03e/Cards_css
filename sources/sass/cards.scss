@@ -1,0 +1,563 @@
+@import 'fonts';
+@import 'mixins';
+@import 'colors_media';
+
+//header styling for the website
+
+header {
+    @include headerPreset;
+    @include tablet {
+        padding: 15px;
+    }
+    @include phone1 {
+        padding: 5px;
+    }
+    h1 {
+        @include headerJumFont;
+        @include tablet {
+            font-size: 50px;
+        }
+        @include phone1 {
+            font-size: 30px;
+        }
+    }
+}
+
+header {
+    h3 {
+        @include headerJumSubFont;
+        @include tablet {
+            font-size: 40px;
+        }
+        @include phone1 {
+            font-size: 25px;
+        }
+    }
+}
+
+//pleaseNote secction styling
+
+.pleaseNote {
+    text-align: center;
+    padding-bottom: 45px;
+    h3 {
+        line-height:1px;
+        font-family: $headerFam;
+        font-size: 55px;
+    }
+}
+
+.pleaseNote {
+        p {
+            font-family: $bodyFam;
+        }
+}
+
+//end of pleaseNote section editiing
+
+//heading update for each individual card
+
+h4 {
+    font-family: $headerFam;
+}
+
+//**START OF profilecard1 STYLING
+
+.profileCard1 {
+    @include cardShadow;
+    width: 20%;
+    padding-bottom: 10px;
+    @include tablet {
+        width: 35%;
+    }
+    @include phone1 {
+        width: 50%;
+        padding-bottom: 5px;
+    }          
+        img {
+            width: 100%;
+        }
+    }
+
+.profileCard1:hover {
+    @include shadeHover;
+}
+
+.profileCard1 {
+    h1 {
+        text-align: left;
+        font-family: $headerFam;
+        line-height: 2px;
+        @include tablet {
+            font-size: 22.5px;
+        }
+    }
+}
+
+.profileCard1 {
+    h4 {
+        text-align: left;
+        font-family: $headerFam;
+        @include tablet {
+            font-size: 12.5px;
+        }
+    }
+}
+
+.profileCard1  {
+    .textcontainer {
+        @include cardSpacing;
+        text-align: left;
+        h4 {
+            @include cardHeader;
+            line-height: 1px;
+            @include tablet {
+                font-size: 15px;
+            }
+        }
+    }  
+}
+
+.profileCard1 {
+    .textcontainer {
+        h6 {
+            font-size: 14px;
+            font-weight: 400;
+            font-family: $bodyFam;
+            line-height: 1px;
+            @include tablet {
+                font-size: 11px;
+                line-height: 0.5px;
+            }
+        }
+    }
+}
+
+.profileCard1  {
+    .textcontainer {
+        @include cardSpacing;
+        text-align: left;
+        p {
+            @include cardText;
+            @include tablet {
+                font-size: 13.5px;
+            }
+          }
+    }  
+}
+
+.actionItems {
+    @include tablet {
+        line-height: 0.5px;
+    }
+    .button {
+        @include buttons;
+        @include tablet {
+            padding: 5px 6px;
+            font-size: 9.5px;
+            margin: 2px 1px;
+        }
+    }
+}
+
+//**END OF profilecard1 STYLING
+
+
+//**START OF profilecard2 STYLING
+
+.profileCard2 {
+    @include cardShadow;
+    width: 20%;
+    @include tablet {
+        width: 35%;
+    }
+    @include phone1 {
+        width: 50%;
+    }
+        img {
+            width: 100%;
+        }
+    }
+
+.profileCard2:hover {
+    @include shadeHover;
+}
+
+.profileCard2 {
+    h1 {
+        text-align: center;
+        font-family: $headerFam;
+        line-height: 2px;
+        @include tablet {
+            font-size: 22.5px;
+        }
+    }
+}
+
+.profileCard2 {
+    h4 {
+        text-align: center;
+        font-family: $headerFam;
+        @include tablet {
+            font-size: 12.5px;
+        }
+    }
+}
+
+.profileCard2  {
+    .textcontainer {
+    @include cardSpacing;
+    text-align: center;
+        h4 {
+        @include cardHeader;
+        @include tablet {
+            font-size: 15px;
+            line-height: 1px;
+        }
+        }
+    }  
+}
+
+.profileCard2  {
+    .textcontainer {
+        @include cardSpacing;
+        text-align: center;
+        p {
+            @include cardText;
+            @include tablet {
+                font-size: 13.5px;
+            } 
+          }
+    }  
+}
+
+.profileCard2 {
+    .textcontainer{
+        .button {
+        @include buttons;
+        @include tablet {
+            padding: 5px 6px;
+            font-size: 9.5px;
+            margin: 2px 1px;
+        }
+        }
+    }
+}
+
+//**END OF profilecard2 STYLING
+
+//**START OF profilecard3 STYLING
+
+.profileCard3 {
+    @include cardShadow;
+    width: 20%;
+    @include tablet {
+        width: 30%;
+    }
+    @include phone1 {
+        width: 50%;
+    }
+        img {
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
+            width: 100%;
+    }
+}
+
+.profileCard3:hover {
+    @include shadeHover;
+}
+
+.profileCard3 {
+    h1 {
+        text-align: right;
+        font-family: $headerFam;
+        line-height: 2px;
+        @include tablet {
+            font-size: 22.5px;
+        }
+    }
+}
+
+.profileCard3 {
+    h4 {
+        text-align: right;
+        font-family: $headerFam;
+        @include tablet {
+            font-size: 12.5px;
+        }
+    }
+}
+
+.profileCard3  {
+    .textcontainer {
+    @include cardSpacing;
+    text-align: right;
+        h4 {
+        @include cardHeader;
+        @include tablet {
+            font-size: 15px;
+            line-height: 1px;
+            }
+        }
+    }  
+}
+
+.profileCard3  {
+    .textcontainer {
+        @include cardSpacing;
+        text-align: right;
+        p {
+            @include cardText;
+            @include tablet {
+                font-size: 13.5px;
+            }  
+          }
+    }  
+}
+
+.profileCard3 {
+    .textcontainer{
+        .button {
+        @include buttons;
+        @include tablet {
+            padding: 5px 6px;
+            font-size: 9.5px;
+            margin: 2px 1px;
+            }
+        }
+    }
+}
+
+//**END OF profilecard3 STYLING
+
+//**START OF dropDown Card STYLING
+
+    h4 {
+        font-family: $headerFam;
+        @include tablet {
+            font-size: 12.5px;
+        }
+    }
+
+
+.dropDownCard {
+        @include cardShadow;
+        width: 20%;          
+}
+
+.dropDownCard {
+        img {
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            width: 100%;
+        }
+    }
+
+.dropDownCard {
+        h4 {
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 900;
+            font-family: $bodyFam;
+            @include tablet {
+                font-size: 15px;
+                line-height: 1px;
+                }    
+        }
+    }
+
+.dropDownCard {
+    .collapsible-content {
+        padding: 10px;
+        @include tablet {
+            padding: 5px;
+        }
+        p {
+            font-family: $bodyFam;
+            @include tablet {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.dropDownCard {
+    .collapsible-content {
+        .button {
+            @include buttons;
+            @include tablet {
+                padding: 5px 6px;
+                font-size: 9.5px;
+                margin: 2px 1px;    
+            }
+        }
+    }
+}
+
+.dropDownCard {
+        .lbl-toggle {
+            padding: 10px;
+            font-family: $bodyFam;
+            font-weight: 900;
+            line-height: 40px;
+            }
+        }
+
+input[type='checkbox'] {
+            display: none;
+        }
+
+.collapsible-content {
+    display: none;
+}
+
+.toggle:checked ~ .collapsible-content{
+            display: block;
+        }
+
+  .lbl-toggle::before {
+    content: ' ';
+    display: inline-block;
+  
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+  
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+  
+    transition: transform .2s ease-out;
+  }
+
+  .toggle:checked + .lbl-toggle::before {
+    transform: rotate(90deg) translateX(-3px);
+  }
+  
+  .toggle:checked + .lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+//**END OF DropDownCard STYLING
+
+//**START OF IMAGECARD1 STYLING
+
+    .dropDownCard {
+        h4 {
+            font-family: $headerFam;
+        }
+    }
+
+.example5 {
+    width: 90%;
+}
+
+    h4 {
+        font-family: $headerFam;
+        @include tablet {
+            font-size: 12.5px;
+        }
+    }
+
+.imageCard1 {
+        width: 60%;
+        @include cardShadow;
+}
+
+.imageCard1:hover {
+    @include shadeHover;
+}
+
+.imageCard1 {
+    img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 100%;
+    }
+}
+
+.imageCard1  {
+    .textcontainer {
+        @include cardSpacing;
+        text-align: left;
+        h1 {
+            font-family: $bodyFam;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 1px;
+            @include tablet {
+                font-size: 25px;
+                line-height: 0.5px;
+            }
+            @include phone1 {
+                font-size: 20px;
+            }
+        }
+    }  
+}
+
+.imageCard1 {
+    .textcontainer {
+        h3 {
+            font-size: 25px;
+            font-weight: 400;
+            font-family: $bodyFam;
+            @include tablet {
+                font-size: 18px;
+            }
+            @include phone1 {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+//**END OF IMAGECARD1 STYLING
+
+//start of styling for iconcard1
+
+.iconCard {
+    border-radius: 4px;
+    width: 12%;
+    padding: 20px;
+    background-color: #ffffff R255 G255 B255;
+    @include cardShadow;
+    img {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        border-radius: 50%;
+        border: solid 2px black;            
+        width: 100%;
+        height: 150px;
+        @include tablet {
+            height: 200px;
+            @include phone1 {
+                height: 180px;
+            }
+        }
+    }
+}
+
+.iconCard:hover {
+    @include shadeHover;
+}
+
+.iconCard {
+    .text {
+        h4 {
+            font-family: $bodyFam;
+            text-align: center;
+        }
+    }
+}
+
+.iconCard {
+    .text {
+        p {
+            text-align: center;
+            font-family: $bodyFam;
+        }
+    }
+}
