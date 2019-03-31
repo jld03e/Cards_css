@@ -74,4 +74,18 @@ header h2 {
     .button {
       padding: 10px 20px; } }
 
+.features h4 {
+  font-family: "Pridi", serif;
+  font-size: 28px; }
+
+.features p {
+  font-family: "Roboto", sans-serif; }
+
+.howToUse h4 {
+  font-family: "Pridi", serif;
+  font-size: 28px; }
+
+.howToUse p {
+  font-family: "Roboto", sans-serif; }
+
 /*# sourceMappingURL=home.css.map */
