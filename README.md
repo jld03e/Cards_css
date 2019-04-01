@@ -1,2 +1,6 @@
 # Cards.css
-A CSS library of cards with varying effects and styles.
+A CSS library of Material Design Cards
+
+## About
+
+
