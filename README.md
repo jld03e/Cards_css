@@ -13,5 +13,5 @@ Included in the collection are cards with dropdown extensions, varying text just
 
 ![alt text](sources/images/cardImage/iconCard.png "Icon Card Screenshot")
 
-![](sources/images/cardImage/imageCard1.png |width=100)
+![](sources/images/cardImage/imageCard1.png =100x100)
 
