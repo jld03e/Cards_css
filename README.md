@@ -13,5 +13,6 @@ Included in the collection are cards with dropdown extensions, varying text just
 
 ![alt text](sources/images/cardImage/iconCard.png "Icon Card Screenshot")
 
-![](sources/images/cardImage/imageCard1.png =100x100)
+<!-- ![](sources/images/cardImage/imageCard1.png =100x100) -->
 
+<img src="sources/images/cardImage/imageCard1.png" alt="alt text" width="100" height="100">
