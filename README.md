@@ -12,3 +12,6 @@ Included in the collection are cards with dropdown extensions, varying text just
 ![alt text](sources/images/cardImage/profileCard1Ex.png "Profile Card Screenshot")
 
 ![alt text](sources/images/cardImage/iconCard.png "Icon Card Screenshot")
+
+![alt text](sources/images/cardImage/imageCard1.png "Image Card Screenshot")
+
