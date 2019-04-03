@@ -9,10 +9,8 @@ Included in the collection are cards with dropdown extensions, varying text just
 
 ## Card Demo Screenshots
 
-![alt text](sources/images/cardImage/profileCard1Ex.png "Profile Card Screenshot")
+<img src="sources/images/cardImage/profileCard1Ex.png" alt="alt text" width="500" height="500">
 
-![alt text](sources/images/cardImage/iconCard.png "Icon Card Screenshot")
+<img src="sources/images/cardImage/iconCard.png" alt="alt text" width="500" height="500">
 
-<!-- ![](sources/images/cardImage/imageCard1.png =100x100) -->
-
-<img src="sources/images/cardImage/imageCard1.png" alt="alt text" width="300" height="300">
+<img src="sources/images/cardImage/imageCard1.png" alt="alt text" width="500" height="500">
