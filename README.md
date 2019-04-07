@@ -50,6 +50,6 @@ and add the class name to the div you create:
 
 In the listed above example, the card will take on the stylings listed for Profile Card 1. Once you have these steps down, you are ready to implement the style sheet.
 
-###Visit the Home Page
+### Visit the Home Page
 
 ['Landing Page for cards.css'](https://jld03e.github.io/Cards_css/sources/home.html)
