@@ -9,8 +9,12 @@ Included in the collection are cards with dropdown extensions, varying text just
 
 ## Card Demo Screenshots
 
-<img src="sources/images/cardImage/profileCard1Ex.png" alt="alt text" width="500" height="500">
+<img src="sources/images/cardImage/profileCard1Ex.png" alt="alt text" width="350" height="350">
 
-<img src="sources/images/cardImage/iconCard.png" alt="alt text" width="500" height="500">
+<img src="sources/images/cardImage/iconCard.png" alt="alt text" width="350" height="350">
 
 <img src="sources/images/cardImage/imageCard1.png" alt="alt text" width="500" height="500">
+
+## Instructions:
+
+### To Use These Cards on Any Page

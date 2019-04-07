@@ -1,0 +1,475 @@
+header {
+  text-align: center;
+  padding: 30px;
+  font-family: "Pridi", serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    header {
+      padding: 15px; } }
+  @media (min-width: 200px) and (max-width: 600px) {
+    header {
+      padding: 5px; } }
+  header h1 {
+    line-height: 1px;
+    font-size: 100px;
+    font-weight: 900px; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      header h1 {
+        font-size: 50px; } }
+    @media (min-width: 200px) and (max-width: 600px) {
+      header h1 {
+        font-size: 30px; } }
+
+header h3 {
+  font-size: 50px;
+  font-weight: 900px; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    header h3 {
+      font-size: 40px; } }
+  @media (min-width: 200px) and (max-width: 600px) {
+    header h3 {
+      font-size: 25px; } }
+
+.pleaseNote {
+  text-align: center;
+  padding-bottom: 45px; }
+  .pleaseNote h3 {
+    line-height: 1px;
+    font-family: "Pridi", serif;
+    font-size: 55px; }
+
+.pleaseNote p {
+  font-family: "Roboto", sans-serif; }
+
+.footer .button {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .footer .button {
+      padding: 10px 20px; } }
+
+.footer {
+  width: 100%;
+  padding: 50px;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  font-size: 18px; }
+
+h4 {
+  font-family: "Pridi", serif; }
+
+.profileCard1 {
+  transition: all .25s linear;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  width: 20%;
+  padding-bottom: 10px; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard1 {
+      width: 35%; } }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .profileCard1 {
+      width: 50%;
+      padding-bottom: 5px; } }
+  .profileCard1 img {
+    width: 100%; }
+
+.profileCard1:hover {
+  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8); }
+
+.profileCard1 h1 {
+  text-align: left;
+  font-family: "Pridi", serif;
+  line-height: 2px; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard1 h1 {
+      font-size: 22.5px; } }
+
+.profileCard1 h4 {
+  text-align: left;
+  font-family: "Pridi", serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard1 h4 {
+      font-size: 12.5px; } }
+
+.profileCard1 .textcontainer {
+  padding: 2px 16px;
+  text-align: left; }
+  .profileCard1 .textcontainer h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 1px; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      .profileCard1 .textcontainer h4 {
+        font-size: 15px; } }
+
+.profileCard1 .textcontainer h6 {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 1px; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard1 .textcontainer h6 {
+      font-size: 11px;
+      line-height: 0.5px; } }
+
+.profileCard1 .textcontainer {
+  padding: 2px 16px;
+  text-align: left; }
+  .profileCard1 .textcontainer p {
+    padding-top: -10px;
+    font-family: "Roboto", sans-serif;
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 20px; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      .profileCard1 .textcontainer p {
+        font-size: 13.5px; } }
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .actionItems {
+    line-height: 0.5px; } }
+.actionItems .button {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .actionItems .button {
+      padding: 5px 6px;
+      font-size: 9.5px;
+      margin: 2px 1px; } }
+
+.profileCard2 {
+  transition: all .25s linear;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  width: 20%; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard2 {
+      width: 35%; } }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .profileCard2 {
+      width: 50%; } }
+  .profileCard2 img {
+    width: 100%; }
+
+.profileCard2:hover {
+  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8); }
+
+.profileCard2 h1 {
+  text-align: center;
+  font-family: "Pridi", serif;
+  line-height: 2px; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard2 h1 {
+      font-size: 22.5px; } }
+
+.profileCard2 h4 {
+  text-align: center;
+  font-family: "Pridi", serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard2 h4 {
+      font-size: 12.5px; } }
+
+.profileCard2 .textcontainer {
+  padding: 2px 16px;
+  text-align: center; }
+  .profileCard2 .textcontainer h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 19px; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      .profileCard2 .textcontainer h4 {
+        font-size: 15px;
+        line-height: 1px; } }
+
+.profileCard2 .textcontainer {
+  padding: 2px 16px;
+  text-align: center; }
+  .profileCard2 .textcontainer p {
+    padding-top: -10px;
+    font-family: "Roboto", sans-serif;
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 20px; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      .profileCard2 .textcontainer p {
+        font-size: 13.5px; } }
+
+.profileCard2 .textcontainer .button {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard2 .textcontainer .button {
+      padding: 5px 6px;
+      font-size: 9.5px;
+      margin: 2px 1px; } }
+
+.profileCard3 {
+  transition: all .25s linear;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  width: 20%; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard3 {
+      width: 30%; } }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .profileCard3 {
+      width: 50%; } }
+  .profileCard3 img {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 100%; }
+
+.profileCard3:hover {
+  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8); }
+
+.profileCard3 h1 {
+  text-align: right;
+  font-family: "Pridi", serif;
+  line-height: 2px; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard3 h1 {
+      font-size: 22.5px; } }
+
+.profileCard3 h4 {
+  text-align: right;
+  font-family: "Pridi", serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard3 h4 {
+      font-size: 12.5px; } }
+
+.profileCard3 .textcontainer {
+  padding: 2px 16px;
+  text-align: right; }
+  .profileCard3 .textcontainer h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 19px; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      .profileCard3 .textcontainer h4 {
+        font-size: 15px;
+        line-height: 1px; } }
+
+.profileCard3 .textcontainer {
+  padding: 2px 16px;
+  text-align: right; }
+  .profileCard3 .textcontainer p {
+    padding-top: -10px;
+    font-family: "Roboto", sans-serif;
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 20px; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      .profileCard3 .textcontainer p {
+        font-size: 13.5px; } }
+
+.profileCard3 .textcontainer .button {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard3 .textcontainer .button {
+      padding: 5px 6px;
+      font-size: 9.5px;
+      margin: 2px 1px; } }
+
+h4 {
+  font-family: "Pridi", serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    h4 {
+      font-size: 12.5px; } }
+
+.dropDownCard {
+  transition: all .25s linear;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  width: 20%; }
+
+.dropDownCard img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%; }
+
+.dropDownCard h4 {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .dropDownCard h4 {
+      font-size: 15px;
+      line-height: 1px; } }
+
+.dropDownCard .collapsible-content {
+  padding: 10px; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .dropDownCard .collapsible-content {
+      padding: 5px; } }
+  .dropDownCard .collapsible-content p {
+    font-family: "Roboto", sans-serif; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      .dropDownCard .collapsible-content p {
+        font-size: 12px; } }
+
+.dropDownCard .collapsible-content .button {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .dropDownCard .collapsible-content .button {
+      padding: 5px 6px;
+      font-size: 9.5px;
+      margin: 2px 1px; } }
+
+.dropDownCard .lbl-toggle {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  line-height: 40px; }
+
+input[type='checkbox'] {
+  display: none; }
+
+.collapsible-content {
+  display: none; }
+
+.toggle:checked ~ .collapsible-content {
+  display: block; }
+
+.lbl-toggle::before {
+  content: ' ';
+  display: inline-block;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+  transition: transform .2s ease-out; }
+
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px); }
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.dropDownCard h4 {
+  font-family: "Pridi", serif; }
+
+.example5 {
+  width: 90%; }
+
+h4 {
+  font-family: "Pridi", serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    h4 {
+      font-size: 12.5px; } }
+
+.imageCard1 {
+  width: 60%;
+  transition: all .25s linear;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4); }
+
+.imageCard1:hover {
+  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8); }
+
+.imageCard1 img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%; }
+
+.imageCard1 .textcontainer {
+  padding: 2px 16px;
+  text-align: left; }
+  .imageCard1 .textcontainer h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1px; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      .imageCard1 .textcontainer h1 {
+        font-size: 25px;
+        line-height: 0.5px; } }
+    @media (min-width: 200px) and (max-width: 600px) {
+      .imageCard1 .textcontainer h1 {
+        font-size: 20px; } }
+
+.imageCard1 .textcontainer h3 {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .imageCard1 .textcontainer h3 {
+      font-size: 18px; } }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .imageCard1 .textcontainer h3 {
+      font-size: 15px; } }
+
+.iconCard {
+  border-radius: 4px;
+  width: 12%;
+  padding: 20px;
+  background-color: #ffffff R255 G255 B255;
+  transition: all .25s linear;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4); }
+  .iconCard img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    border-radius: 50%;
+    border: solid 2px black;
+    width: 100%;
+    height: 150px; }
+    @media (min-width: 600px) and (max-width: 1024px) {
+      .iconCard img {
+        height: 200px; } }
+  @media (min-width: 600px) and (max-width: 1024px) and (min-width: 200px) and (max-width: 600px) {
+    .iconCard img {
+      height: 180px; } }
+
+.iconCard:hover {
+  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8); }
+
+.iconCard .text h4 {
+  font-family: "Roboto", sans-serif;
+  text-align: center; }
+
+.iconCard .text p {
+  text-align: center;
+  font-family: "Roboto", sans-serif; }
+
+/*# sourceMappingURL=cards.css.map */
