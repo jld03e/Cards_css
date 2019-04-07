@@ -9,7 +9,7 @@ Included in the collection are cards with dropdown extensions, varying text just
 
 ## Card Demo Screenshots
 
-<img src="sources/images/cardImage/profileCard1Ex.png" alt="alt text" width="350" height="350">
+<img src="sources/images/cardImage/profileCard1Ex.png" alt="alt text" width="250" height="350">
 
 <img src="sources/images/cardImage/iconCard.png" alt="alt text" width="350" height="350">
 
@@ -47,3 +47,9 @@ and add the class name to the div you create:
 (In this area, that's where you would add the structures of the html for the card based on the images you'll see in the) ['Demo Image Page.'](https://jld03e.github.io/Cards_css/sources/image.html)
 
 `</div>`
+
+In the listed above example, the card will take on the stylings listed for Profile Card 1. Once you have these steps down, you are ready to implement the style sheet.
+
+###Visit the Home Page
+
+['Landing Page for cards.css'](https://jld03e.github.io/Cards_css/sources/home.html)
