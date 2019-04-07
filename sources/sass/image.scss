@@ -7,7 +7,7 @@
 header {
     @include headerPreset;
     @include tablet {
-        padding: 15px;
+        padding: 5px;
     }
     @include phone1 {
         padding: 5px;
@@ -39,7 +39,11 @@ header {
 
 .pleaseNote {
     text-align: center;
-    padding-bottom: 45px;
+    padding-bottom: 20px;
+    @include tablet {
+        padding: 20px;
+        padding-bottom: 50px;
+    }
     h3 {
         line-height:1px;
         font-family: $headerFam;
@@ -98,7 +102,8 @@ h4 {
 
 .profileCard1Box {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-bottom: 35px;
 }
 
 .example1 {
@@ -108,7 +113,6 @@ h4 {
 .profileCard1 {
     @include cardShadow;
     width: 20%;
-    padding-bottom: 10px;
     @include tablet {
         width: 35%;
     }
@@ -126,78 +130,11 @@ h4 {
 }
 
 .profileCard1 {
-    h1 {
-        text-align: left;
-        font-family: $headerFam;
-        line-height: 2px;
-        @include tablet {
-            font-size: 22.5px;
-        }
-    }
-}
-
-.profileCard1 {
     h4 {
         text-align: left;
         font-family: $headerFam;
         @include tablet {
             font-size: 12.5px;
-        }
-    }
-}
-
-.profileCard1  {
-    .textcontainer {
-        @include cardSpacing;
-        text-align: left;
-        h4 {
-            @include cardHeader;
-            line-height: 1px;
-            @include tablet {
-                font-size: 15px;
-            }
-        }
-    }  
-}
-
-.profileCard1 {
-    .textcontainer {
-        h6 {
-            font-size: 14px;
-            font-weight: 400;
-            font-family: $bodyFam;
-            line-height: 1px;
-            @include tablet {
-                font-size: 11px;
-                line-height: 0.5px;
-            }
-        }
-    }
-}
-
-.profileCard1  {
-    .textcontainer {
-        @include cardSpacing;
-        text-align: left;
-        p {
-            @include cardText;
-            @include tablet {
-                font-size: 13.5px;
-            }
-          }
-    }  
-}
-
-.actionItems {
-    @include tablet {
-        line-height: 0.5px;
-    }
-    .button {
-        @include buttons;
-        @include tablet {
-            padding: 5px 6px;
-            font-size: 9.5px;
-            margin: 2px 1px;
         }
     }
 }
@@ -210,6 +147,7 @@ h4 {
 .profileCard2Box {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 35px;
 }
 
 .example2 {
@@ -233,68 +171,6 @@ h4 {
 .profileCard2:hover {
     @include shadeHover;
 }
-
-.profileCard2 {
-    h1 {
-        text-align: center;
-        font-family: $headerFam;
-        line-height: 2px;
-        @include tablet {
-            font-size: 22.5px;
-        }
-    }
-}
-
-.profileCard2 {
-    h4 {
-        text-align: center;
-        font-family: $headerFam;
-        @include tablet {
-            font-size: 12.5px;
-        }
-    }
-}
-
-.profileCard2  {
-    .textcontainer {
-    @include cardSpacing;
-    text-align: center;
-        h4 {
-        @include cardHeader;
-        @include tablet {
-            font-size: 15px;
-            line-height: 1px;
-        }
-        }
-    }  
-}
-
-.profileCard2  {
-    .textcontainer {
-        @include cardSpacing;
-        text-align: center;
-        p {
-            @include cardText;
-            @include tablet {
-                font-size: 13.5px;
-            } 
-          }
-    }  
-}
-
-.profileCard2 {
-    .textcontainer{
-        .button {
-        @include buttons;
-        @include tablet {
-            padding: 5px 6px;
-            font-size: 9.5px;
-            margin: 2px 1px;
-        }
-        }
-    }
-}
-
 //**END OF profilecard2 STYLING
 
 //**START OF profilecard3 STYLING
