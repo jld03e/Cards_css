@@ -17,9 +17,7 @@ Included in the collection are cards with dropdown extensions, varying text just
 
 ## Instructions:
 
-### To Use These Cards on Any Page
-
-Visit the Demo Page and review the HTML code? Why?:
+1. Visit the Demo Page and review the HTML code? Why?:
 
 To make sure the cards render correctly, you'll need to know the HTML tags being used 
 (such as h4, p, & div names), the structure of each card example.
