@@ -30,3 +30,20 @@ Included in the collection are cards with dropdown extensions, varying text just
 
 3. To choose a specific card, find the class of card you want to use:
 
+        Type of Card | Class Name
+        ------------ | -------------
+        Profile Card | profileCard1
+        2nd Profile Card | profileCard2
+        3rd Profile Card | profileCard3
+        Drop Down Card | dropDownCard
+        Image Card | imageCard1
+        Icon Card | iconCard
+
+4. Once you've identified the Class Name for the card style you wish to use, create the div class for the card,
+and add the class name to the div you create: 
+
+`<div class="profileCard1">` 
+
+(In this area, that's where you would add the structures of the html for the card based on the images you'll see in the ['Demo Image Page.'](file:///Users/SueBuSo/Desktop/code/codehidStuff/Cards_css/sources/image.html))
+
+`</div>`
