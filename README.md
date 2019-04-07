@@ -52,4 +52,4 @@ In the listed above example, the card will take on the stylings listed for Profi
 
 ### Visit the Home Page
 
-['Landing Page for cards.css'](https://jld03e.github.io/Cards_css/sources/home.html)
+['Home Page for cards.css'](https://jld03e.github.io/Cards_css/sources/home.html)
