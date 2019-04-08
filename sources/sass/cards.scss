@@ -577,6 +577,9 @@ input[type='checkbox'] {
     padding: 20px;
     background-color: #ffffff R255 G255 B255;
     @include cardShadow;
+        @include phone1 {
+            width: 40%;
+        }
     img {
         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
         filter: grayscale(100%);
@@ -590,6 +593,12 @@ input[type='checkbox'] {
                 height: 180px;
             }
         }
+    }
+}
+
+.iconCard {
+    @include tablet {
+        width: 20%;
     }
 }
 
