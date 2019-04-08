@@ -370,13 +370,25 @@ h4 {
         font-family: $headerFam;
         @include tablet {
             font-size: 12.5px;
+            @include phone1 {
+                font-size: 8.5px;
+            }
         }
     }
 
 
 .dropDownCard {
         @include cardShadow;
-        width: 20%;          
+        width: 20%;
+        @include tablet {
+            width: 40%;
+        }         
+}
+
+.dropDownCard {
+    @include phone1 {
+        width: 50%;
+    }
 }
 
 .dropDownCard {
@@ -496,7 +508,15 @@ input[type='checkbox'] {
 
 .imageCard1 {
         width: 60%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
         @include cardShadow;
+}
+
+.imageCard1 {
+    @include phone1 {
+        width: 80%;
+    }
 }
 
 .imageCard1:hover {
@@ -525,7 +545,7 @@ input[type='checkbox'] {
                 line-height: 0.5px;
             }
             @include phone1 {
-                font-size: 20px;
+                font-size: 16px;
             }
         }
     }  
@@ -541,7 +561,7 @@ input[type='checkbox'] {
                 font-size: 18px;
             }
             @include phone1 {
-                font-size: 15px;
+                font-size: 13px;
             }
         }
     }
