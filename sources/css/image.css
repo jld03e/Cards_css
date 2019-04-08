@@ -73,28 +73,24 @@ h4 {
 
 .profileCard1Box {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-bottom: 35px; }
-
-.example1 {
-  width: 100%; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .profileCard1Box {
+      flex-direction: column; } }
 
 .profileCard1 {
-  transition: all .25s linear;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  padding: 10px;
   width: 20%; }
   @media (min-width: 600px) and (max-width: 1024px) {
     .profileCard1 {
       width: 35%; } }
   @media (min-width: 200px) and (max-width: 600px) {
     .profileCard1 {
-      width: 50%;
+      width: 80%;
       padding-bottom: 5px; } }
   .profileCard1 img {
     width: 100%; }
-
-.profileCard1:hover {
-  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8); }
 
 .profileCard1 h4 {
   text-align: left;
@@ -103,304 +99,206 @@ h4 {
     .profileCard1 h4 {
       font-size: 12.5px; } }
 
+.exampleCode1 {
+  padding: 10px;
+  width: 100%; }
+  .exampleCode1 .example1 {
+    width: 79%; }
+    @media (min-width: 200px) and (max-width: 600px) {
+      .exampleCode1 .example1 {
+        padding: 5px;
+        width: 90%; } }
+
 .profileCard2Box {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-bottom: 35px; }
-
-.example2 {
-  width: 100%; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .profileCard2Box {
+      flex-direction: column; } }
 
 .profileCard2 {
-  transition: all .25s linear;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  padding: 10px;
   width: 20%; }
   @media (min-width: 600px) and (max-width: 1024px) {
     .profileCard2 {
       width: 35%; } }
   @media (min-width: 200px) and (max-width: 600px) {
     .profileCard2 {
-      width: 50%; } }
+      width: 80%;
+      padding-bottom: 5px; } }
   .profileCard2 img {
     width: 100%; }
 
-.profileCard2:hover {
-  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8); }
+.profileCard2 h4 {
+  text-align: left;
+  font-family: "Pridi", serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .profileCard2 h4 {
+      font-size: 12.5px; } }
+
+.exampleCode2 {
+  padding: 10px;
+  width: 100%; }
+  .exampleCode2 .example2 {
+    width: 79%; }
+    @media (min-width: 200px) and (max-width: 600px) {
+      .exampleCode2 .example2 {
+        padding: 5px;
+        width: 94%; } }
 
 .profileCard3Box {
   display: flex;
-  justify-content: space-evenly; }
-
-.example3 {
-  width: 100%; }
+  justify-content: space-between;
+  padding-bottom: 35px; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .profileCard3Box {
+      flex-direction: column; } }
 
 .profileCard3 {
-  transition: all .25s linear;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  padding: 10px;
   width: 20%; }
   @media (min-width: 600px) and (max-width: 1024px) {
     .profileCard3 {
-      width: 30%; } }
+      width: 35%; } }
   @media (min-width: 200px) and (max-width: 600px) {
     .profileCard3 {
-      width: 50%; } }
+      width: 80%;
+      padding-bottom: 5px; } }
   .profileCard3 img {
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
-    width: 100%;
-    height: 415px; }
-    @media (min-width: 600px) and (max-width: 1024px) {
-      .profileCard3 img {
-        height: 300px; } }
-  @media (min-width: 600px) and (max-width: 1024px) and (min-width: 200px) and (max-width: 600px) {
-    .profileCard3 img {
-      height: 300px; } }
-
-.profileCard3:hover {
-  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8); }
-
-.profileCard3 h1 {
-  text-align: right;
-  font-family: "Pridi", serif;
-  line-height: 2px; }
-  @media (min-width: 600px) and (max-width: 1024px) {
-    .profileCard3 h1 {
-      font-size: 22.5px; } }
+    width: 100%; }
 
 .profileCard3 h4 {
-  text-align: right;
+  text-align: left;
   font-family: "Pridi", serif; }
   @media (min-width: 600px) and (max-width: 1024px) {
     .profileCard3 h4 {
       font-size: 12.5px; } }
 
-.profileCard3 .textcontainer {
-  padding: 2px 16px;
-  text-align: right; }
-  .profileCard3 .textcontainer h4 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-size: 19px; }
-    @media (min-width: 600px) and (max-width: 1024px) {
-      .profileCard3 .textcontainer h4 {
-        font-size: 15px;
-        line-height: 1px; } }
-
-.profileCard3 .textcontainer {
-  padding: 2px 16px;
-  text-align: right; }
-  .profileCard3 .textcontainer p {
-    padding-top: -10px;
-    font-family: "Roboto", sans-serif;
-    border-bottom: 1px solid darkgrey;
-    padding-bottom: 20px; }
-    @media (min-width: 600px) and (max-width: 1024px) {
-      .profileCard3 .textcontainer p {
-        font-size: 13.5px; } }
-
-.profileCard3 .textcontainer .button {
-  background-color: black;
-  font-family: "Roboto", sans-serif;
-  color: white;
-  padding: 10px 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-  cursor: pointer; }
-  @media (min-width: 600px) and (max-width: 1024px) {
-    .profileCard3 .textcontainer .button {
-      padding: 5px 6px;
-      font-size: 9.5px;
-      margin: 2px 1px; } }
-
-.dropDownCardBox .dropDownCard h4 {
-  font-family: "Pridi", serif; }
+.exampleCode3 {
+  padding: 10px;
+  width: 100%; }
+  .exampleCode3 .example3 {
+    width: 79%; }
+    @media (min-width: 200px) and (max-width: 600px) {
+      .exampleCode3 .example3 {
+        padding: 5px;
+        width: 94%; } }
 
 .dropDownCardBox {
   display: flex;
-  justify-content: space-evenly; }
-
-.example4 {
-  width: 90%; }
-
-h4 {
-  font-family: "Pridi", serif; }
-  @media (min-width: 600px) and (max-width: 1024px) {
-    h4 {
-      font-size: 12.5px; } }
+  justify-content: space-between;
+  padding-bottom: 35px; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .dropDownCardBox {
+      flex-direction: column; } }
 
 .dropDownCard {
-  transition: all .25s linear;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  padding: 10px;
   width: 20%; }
-
-.dropDownCard img {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  width: 100%; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .dropDownCard {
+      width: 35%; } }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .dropDownCard {
+      width: 80%;
+      padding-bottom: 5px; } }
+  .dropDownCard img {
+    width: 100%; }
 
 .dropDownCard h4 {
-  padding: 10px;
-  font-size: 20px;
-  font-weight: 900;
-  font-family: "Roboto", sans-serif; }
+  text-align: left;
+  font-family: "Pridi", serif; }
   @media (min-width: 600px) and (max-width: 1024px) {
     .dropDownCard h4 {
-      font-size: 15px;
-      line-height: 1px; } }
+      font-size: 12.5px; } }
 
-.dropDownCard .collapsible-content {
-  padding: 10px; }
-  @media (min-width: 600px) and (max-width: 1024px) {
-    .dropDownCard .collapsible-content {
-      padding: 5px; } }
-  .dropDownCard .collapsible-content p {
-    font-family: "Roboto", sans-serif; }
-    @media (min-width: 600px) and (max-width: 1024px) {
-      .dropDownCard .collapsible-content p {
-        font-size: 12px; } }
-
-.dropDownCard .collapsible-content .button {
-  background-color: black;
-  font-family: "Roboto", sans-serif;
-  color: white;
-  padding: 10px 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-  cursor: pointer; }
-  @media (min-width: 600px) and (max-width: 1024px) {
-    .dropDownCard .collapsible-content .button {
-      padding: 5px 6px;
-      font-size: 9.5px;
-      margin: 2px 1px; } }
-
-.dropDownCard .lbl-toggle {
+.exampleCode4 {
   padding: 10px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  line-height: 40px; }
-
-input[type='checkbox'] {
-  display: none; }
-
-.collapsible-content {
-  display: none; }
-
-.toggle:checked ~ .collapsible-content {
-  display: block; }
-
-.lbl-toggle::before {
-  content: ' ';
-  display: inline-block;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid currentColor;
-  vertical-align: middle;
-  margin-right: .7rem;
-  transform: translateY(-2px);
-  transition: transform .2s ease-out; }
-
-.toggle:checked + .lbl-toggle::before {
-  transform: rotate(90deg) translateX(-3px); }
-
-.toggle:checked + .lbl-toggle {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0; }
-
-.imageCard1Box .dropDownCard h4 {
-  font-family: "Pridi", serif; }
+  width: 100%; }
+  .exampleCode4 .example4 {
+    width: 79%; }
+    @media (min-width: 200px) and (max-width: 600px) {
+      .exampleCode4 .example4 {
+        padding: 5px;
+        width: 94%; } }
 
 .imageCard1Box {
   display: flex;
-  justify-content: space-evenly; }
-
-.example5 {
-  width: 90%; }
-
-h4 {
-  font-family: "Pridi", serif; }
-  @media (min-width: 600px) and (max-width: 1024px) {
-    h4 {
-      font-size: 12.5px; } }
+  justify-content: space-between;
+  padding-bottom: 35px; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .imageCard1Box {
+      flex-direction: column; } }
 
 .imageCard1 {
-  width: 60%;
-  transition: all .25s linear;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4); }
-
-.imageCard1:hover {
-  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8); }
-
-.imageCard1 img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  width: 100%; }
-
-.imageCard1 .textcontainer {
-  padding: 2px 16px;
-  text-align: left; }
-  .imageCard1 .textcontainer h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1px; }
-    @media (min-width: 600px) and (max-width: 1024px) {
-      .imageCard1 .textcontainer h1 {
-        font-size: 25px;
-        line-height: 0.5px; } }
-    @media (min-width: 200px) and (max-width: 600px) {
-      .imageCard1 .textcontainer h1 {
-        font-size: 20px; } }
-
-.imageCard1 .textcontainer h3 {
-  font-size: 25px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif; }
+  padding: 10px;
+  width: 20%; }
   @media (min-width: 600px) and (max-width: 1024px) {
-    .imageCard1 .textcontainer h3 {
-      font-size: 18px; } }
+    .imageCard1 {
+      width: 35%; } }
   @media (min-width: 200px) and (max-width: 600px) {
-    .imageCard1 .textcontainer h3 {
-      font-size: 15px; } }
+    .imageCard1 {
+      width: 80%;
+      padding-bottom: 5px; } }
+  .imageCard1 img {
+    width: 100%; }
 
-.iconCard1Box .iconCard h4 {
+.imageCard1 h4 {
+  text-align: left;
   font-family: "Pridi", serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .imageCard1 h4 {
+      font-size: 12.5px; } }
+
+.exampleCode5 {
+  padding: 10px;
+  width: 100%; }
+  .exampleCode5 .example5 {
+    width: 79%; }
+    @media (min-width: 200px) and (max-width: 600px) {
+      .exampleCode5 .example5 {
+        padding: 5px;
+        width: 94%;
+        height: 100%; } }
 
 .iconCard1Box {
   display: flex;
-  justify-content: space-evenly; }
-
-.example6 {
-  width: 90%; }
+  justify-content: space-between;
+  padding-bottom: 35px; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .iconCard1Box {
+      flex-direction: column; } }
 
 .iconCard {
-  border-radius: 4px;
-  width: 12%;
-  padding: 20px;
-  background-color: #ffffff R255 G255 B255;
-  transition: all .25s linear;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4); }
+  padding: 10px;
+  width: 20%; }
   @media (min-width: 600px) and (max-width: 1024px) {
-    .iconCard img {
-      height: 200px; } }
-  @media (min-width: 600px) and (max-width: 1024px) and (min-width: 200px) and (max-width: 600px) {
-    .iconCard img {
-      height: 180px; } }
+    .iconCard {
+      width: 35%; } }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .iconCard {
+      width: 80%;
+      padding-bottom: 5px; } }
+  .iconCard img {
+    width: 100%; }
 
-.iconCard:hover {
-  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8); }
+.iconCard h4 {
+  text-align: left;
+  font-family: "Pridi", serif; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .iconCard h4 {
+      font-size: 12.5px; } }
 
-.iconCard .text h4 {
-  font-family: "Roboto", sans-serif;
-  text-align: center; }
-
-.iconCard .text p {
-  text-align: center;
-  font-family: "Roboto", sans-serif; }
+.exampleCode6 {
+  padding: 10px;
+  width: 100%; }
+  .exampleCode6 .example6 {
+    width: 79%; }
+    @media (min-width: 200px) and (max-width: 600px) {
+      .exampleCode6 .example6 {
+        padding: 5px;
+        width: 100%;
+        height: 100%; } }
 
 /*# sourceMappingURL=image.css.map */
