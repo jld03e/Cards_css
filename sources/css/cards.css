@@ -548,4 +548,10 @@ input[type='checkbox'] {
   text-align: center;
   font-family: "Roboto", sans-serif; }
 
+.profileCard1xmp {
+  display: none; }
+
+.pc1SourceButt:hover .profileCard1xmp {
+  display: block; }
+
 /*# sourceMappingURL=cards.css.map */
