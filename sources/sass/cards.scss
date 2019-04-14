@@ -726,6 +726,22 @@ input[type='checkbox'] {
     display: block;
   }
 
+  .code4 {
+    .profileCard4xmp {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+    }
+}
+
+  .code4 input[type="checkbox"]:checked + .profileCard4xmp {
+    height: 400px;
+    display: block;
+  }
+
   .code5 {
     .profileCard5xmp {
         width: 100%;
