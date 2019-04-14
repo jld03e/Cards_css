@@ -677,21 +677,35 @@ input[type='checkbox'] {
 
 //end of styling for iconcard1
 
-/* example 3 */
+//css styling for html source code imaging appearing
+//and reappearing.
+
+label {
+    display: block;
+    margin: 20px 0 0;
+    text-align: center;
+  }
+  label:hover {
+    text-decoration: underline;
+  }
+
 .code1 {
     .profileCard1xmp {
-        width: 100%;
+        width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
         height: 0;
         overflow: hidden;
         transition: all 0.5s ease;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
     }
 }
 
   .code1 input[type="checkbox"]:checked + .profileCard1xmp {
-    height: 400px;
+    width: 1250px;
+    height: 390px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .code2 {
@@ -774,3 +788,6 @@ input[type='checkbox'] {
     height: 400px;
     display: block;
   }
+
+//end of css styling for html source code imaging appearing
+//and reappearing.
