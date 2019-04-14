@@ -548,10 +548,29 @@ input[type='checkbox'] {
   text-align: center;
   font-family: "Roboto", sans-serif; }
 
-.profileCard1xmp {
-  display: none; }
+/* example 3 */
+.code1 .profileCard1xmp {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000; }
 
-.pc1SourceButt:hover .profileCard1xmp {
+.code1 input[type="checkbox"]:checked + .profileCard1xmp {
+  height: 400px;
+  display: block; }
+
+.code2 .profileCard2xmp {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000; }
+
+.code2 input[type="checkbox"]:checked + .profileCard2xmp {
+  height: 400px;
   display: block; }
 
 /*# sourceMappingURL=cards.css.map */

@@ -677,12 +677,35 @@ input[type='checkbox'] {
 
 //end of styling for iconcard1
 
-.profileCard1xmp {
-    display: none;
-}
-
-.pc1SourceButt:hover {
+/* example 3 */
+.code1 {
     .profileCard1xmp {
-        display: block;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
     }
 }
+
+  .code1 input[type="checkbox"]:checked + .profileCard1xmp {
+    height: 400px;
+    display: block;
+  }
+
+  .code2 {
+    .profileCard2xmp {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+    }
+}
+
+  .code2 input[type="checkbox"]:checked + .profileCard2xmp {
+    height: 400px;
+    display: block;
+  }
