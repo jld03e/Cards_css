@@ -585,4 +585,16 @@ input[type='checkbox'] {
   height: 400px;
   display: block; }
 
+.code5 .profileCard5xmp {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000; }
+
+.code5 input[type="checkbox"]:checked + .profileCard5xmp {
+  height: 400px;
+  display: block; }
+
 /*# sourceMappingURL=cards.css.map */
