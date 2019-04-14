@@ -710,83 +710,98 @@ label {
 
   .code2 {
     .profileCard2xmp {
-        width: 100%;
+        width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
         height: 0;
         overflow: hidden;
         transition: all 0.5s ease;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
     }
 }
 
   .code2 input[type="checkbox"]:checked + .profileCard2xmp {
-    height: 400px;
+    width: 1250px;
+    height: 390px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .code3 {
     .profileCard3xmp {
-        width: 100%;
+        width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
         height: 0;
         overflow: hidden;
         transition: all 0.5s ease;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
     }
 }
 
   .code3 input[type="checkbox"]:checked + .profileCard3xmp {
-    height: 400px;
+    width: 1250px;
+    height: 390px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .code4 {
     .profileCard4xmp {
-        width: 100%;
+        width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
         height: 0;
         overflow: hidden;
         transition: all 0.5s ease;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
     }
 }
 
   .code4 input[type="checkbox"]:checked + .profileCard4xmp {
-    height: 400px;
+    width: 1250px;
+    height: 390px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .code5 {
     .profileCard5xmp {
-        width: 100%;
+        width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
         height: 0;
         overflow: hidden;
         transition: all 0.5s ease;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
     }
 }
 
   .code5 input[type="checkbox"]:checked + .profileCard5xmp {
-    height: 400px;
+    width: 1250px;
+    height: 390px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
   .code6 {
     .profileCard6xmp {
-        width: 100%;
+        width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
         height: 0;
         overflow: hidden;
         transition: all 0.5s ease;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
     }
 }
 
   .code6 input[type="checkbox"]:checked + .profileCard6xmp {
-    height: 400px;
+    width: 1250px;
+    height: 390px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 //end of css styling for html source code imaging appearing
