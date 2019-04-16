@@ -556,20 +556,26 @@ label {
 label:hover {
   text-decoration: underline; }
 
-.code1 .profileCard1xmp {
-  width: 1250px;
+.code1 .profileCard1xmp img {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   height: 0;
   overflow: hidden;
   transition: all 0.5s ease; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .code1 .profileCard1xmp img {
+      width: 60%; } }
 
-.code1 input[type="checkbox"]:checked + .profileCard1xmp {
-  width: 1250px;
-  height: 390px;
+.code1 input[type="checkbox"]:checked + .profileCard1xmp img {
+  width: 100%;
+  height: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .code1 input[type="checkbox"]:checked + .profileCard1xmp img {
+      width: 60%; } }
 
 .code2 .profileCard2xmp {
   width: 1250px;
