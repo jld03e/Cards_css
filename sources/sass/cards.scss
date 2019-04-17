@@ -805,18 +805,27 @@ label {
 
   .code5 {
     .profileCard5xmp {
-        width: 1250px;
+        img {
+        width: 1000px;
+        @include phone1 {
+            width: 450px;
+        }
         margin-left: auto;
         margin-right: auto;
         height: 0;
         overflow: hidden;
         transition: all 0.5s ease;
+        }
     }
 }
 
-  .code5 input[type="checkbox"]:checked + .profileCard5xmp {
-    width: 1250px;
-    height: 390px;
+  .code5 input[type="checkbox"]:checked + .profileCard5xmp img{
+    width: 1000px;
+    height: 200px;
+    @include phone1 {
+        width: 450px;
+        height: 150px;
+    }
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -825,18 +834,27 @@ label {
 
   .code6 {
     .profileCard6xmp {
-        width: 1250px;
+        img {
+        width: 1000px;
+        @include phone1 {
+            width: 450px;
+        }
         margin-left: auto;
         margin-right: auto;
         height: 0;
         overflow: hidden;
         transition: all 0.5s ease;
+        }
     }
 }
 
-  .code6 input[type="checkbox"]:checked + .profileCard6xmp {
-    width: 1250px;
-    height: 390px;
+  .code6 input[type="checkbox"]:checked + .profileCard6xmp img{
+    width: 1000px;
+    height: 200px;
+    @include phone1 {
+        width: 450px;
+        height: 150px;
+    }
     display: block;
     margin-left: auto;
     margin-right: auto;
