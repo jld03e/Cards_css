@@ -737,7 +737,7 @@ label {
 
   .code2 input[type="checkbox"]:checked + .profileCard2xmp img {
     width: 1000px;
-    height: 300px;
+    height: 250px;
     @include phone1 {
         width: 450px;
         height: 150px;
@@ -749,18 +749,27 @@ label {
 
   .code3 {
     .profileCard3xmp {
-        width: 1250px;
+        img {
+        width: 1000px;
+        @include phone1 {
+            width: 450px;
+        }
         margin-left: auto;
         margin-right: auto;
         height: 0;
         overflow: hidden;
         transition: all 0.5s ease;
+        }
     }
 }
 
-  .code3 input[type="checkbox"]:checked + .profileCard3xmp {
-    width: 1250px;
-    height: 390px;
+  .code3 input[type="checkbox"]:checked + .profileCard3xmp img{
+    width: 1000px;
+    height: 250px;
+    @include phone1 {
+        width: 450px;
+        height: 150px;
+    }
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -768,18 +777,27 @@ label {
 
   .code4 {
     .profileCard4xmp {
-        width: 1250px;
+        img {
+        width: 1000px;
+        @include phone1 {
+            width: 450px;
+        }
         margin-left: auto;
         margin-right: auto;
         height: 0;
         overflow: hidden;
         transition: all 0.5s ease;
+        }
     }
 }
 
-  .code4 input[type="checkbox"]:checked + .profileCard4xmp {
-    width: 1250px;
-    height: 390px;
+  .code4 input[type="checkbox"]:checked + .profileCard4xmp img{
+    width: 1000px;
+    height: 300px;
+    @include phone1 {
+        width: 450px;
+        height: 150px;
+    }
     display: block;
     margin-left: auto;
     margin-right: auto;
