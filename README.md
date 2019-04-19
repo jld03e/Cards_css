@@ -17,10 +17,14 @@ Included in the collection are cards with dropdown extensions, varying text just
 
 ## Instructions:
 
-1. Visit the HTML SourceCode Page and review the HTML code? Why?:
+1. Visit the Card Page and review the HTML code by clicking on the link that says 'Show HTML'. Why?:
 
-   To make sure the cards render correctly, you'll need to know the HTML tags being used 
+- To make sure the cards render correctly, you'll need to know the HTML tags being used 
 (such as h4, p, & div names), the structure of each card example.
+
+- Gif providing example of how to access the source code for the HTML of each card:
+
+    - ![](ShowHTML.gif)
 
    After you make sure you've created the correct div's and patterned the content you want to add to the source code structure listed in the demo page, you are ready to include my stylesheet!
 
