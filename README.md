@@ -44,7 +44,7 @@ and add the class name to the div you create:
 
 `<div class="profileCard1">` 
 
-(In this area, that's where you would add the structures of the html for the card based on the images you'll see in the) ['Demo Image Page.'](https://jld03e.github.io/Cards_css/sources/image.html)
+(In this area, that's where you would add the structures of the html for the card based on the images you'll see in the) ['Cards Page.'](https://jld03e.github.io/Cards_css/sources/cards.html)
 
 `</div>`
 
