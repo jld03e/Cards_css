@@ -676,26 +676,28 @@ label:hover {
       width: 400px;
       height: 215px; } }
 
-.code6 .profileCard6xmp img {
+.code6 .profileCard6xmp {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
   height: 0;
+  transition: all 0.5s ease;
+  display: none; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .code6 .profileCard6xmp {
+      width: 450px; } }
+
+.code6 input[type="checkbox"]:checked + .profileCard6xmp {
+  width: 400px;
+  height: 215px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
   transition: all 0.5s ease; }
   @media (min-width: 200px) and (max-width: 600px) {
-    .code6 .profileCard6xmp img {
-      width: 450px; } }
-
-.code6 input[type="checkbox"]:checked + .profileCard6xmp img {
-  width: 1000px;
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-  @media (min-width: 200px) and (max-width: 600px) {
-    .code6 input[type="checkbox"]:checked + .profileCard6xmp img {
-      width: 450px;
-      height: 150px; } }
+    .code6 input[type="checkbox"]:checked + .profileCard6xmp {
+      width: 400px;
+      height: 215px; } }
 
 /*# sourceMappingURL=cards.css.map */
