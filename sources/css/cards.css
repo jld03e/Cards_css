@@ -604,27 +604,29 @@ label:hover {
       width: 400px;
       height: 215px; } }
 
-.code3 .profileCard3xmp img {
+.code3 .profileCard3xmp {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
   height: 0;
+  transition: all 0.5s ease;
+  display: none; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .code3 .profileCard3xmp {
+      width: 450px; } }
+
+.code3 input[type="checkbox"]:checked + .profileCard3xmp {
+  width: 400px;
+  height: 215px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
   transition: all 0.5s ease; }
   @media (min-width: 200px) and (max-width: 600px) {
-    .code3 .profileCard3xmp img {
-      width: 450px; } }
-
-.code3 input[type="checkbox"]:checked + .profileCard3xmp img {
-  width: 1000px;
-  height: 250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-  @media (min-width: 200px) and (max-width: 600px) {
-    .code3 input[type="checkbox"]:checked + .profileCard3xmp img {
-      width: 450px;
-      height: 150px; } }
+    .code3 input[type="checkbox"]:checked + .profileCard3xmp {
+      width: 400px;
+      height: 215px; } }
 
 .code4 .profileCard4xmp img {
   width: 1000px;
