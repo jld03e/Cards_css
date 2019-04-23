@@ -778,30 +778,31 @@ label {
 
   .code4 {
     .profileCard4xmp {
-        img {
-        width: 1000px;
-        @include phone1 {
-            width: 450px;
-        }
-        margin-left: auto;
-        margin-right: auto;
-        height: 0;
-        overflow: hidden;
-        transition: all 0.5s ease;
-        }
+            width: 1000px;
+            @include phone1 {
+                width: 450px;
+            }
+            margin-left: auto;
+            margin-right: auto;
+            height: 0;
+            // overflow: hidden;
+            transition: all 0.5s ease;
+            display: none;
     }
 }
 
-  .code4 input[type="checkbox"]:checked + .profileCard4xmp img{
-    width: 1000px;
-    height: 300px;
+  .code4 input[type="checkbox"]:checked + .profileCard4xmp {
+    width: 400px;
+    height: 275px;
     @include phone1 {
-        width: 450px;
-        height: 150px;
+        width: 400px;
+        height: 215px;
     }
     display: block;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
+    transition: all 0.5s ease;
   }
 
   .code5 {
