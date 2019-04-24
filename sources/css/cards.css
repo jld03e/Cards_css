@@ -29,6 +29,13 @@ header h3 {
     header h3 {
       font-size: 25px; } }
 
+.howToUse h4 {
+  font-family: "Pridi", serif;
+  font-size: 35px; }
+
+.howToUse p {
+  font-family: "Roboto", sans-serif; }
+
 .pleaseNote {
   text-align: center;
   padding-bottom: 45px; }

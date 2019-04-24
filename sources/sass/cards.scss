@@ -35,6 +35,23 @@ header {
     }
 }
 
+//howToUse section
+
+.howToUse {
+    h4 {
+        font-family: $headerFam;
+        font-size: 35px;
+    }
+}
+
+.howToUse {
+        p {
+            font-family: $bodyFam;
+        }
+}
+
+//end of howToUse section
+
 //pleaseNote secction styling
 
 .pleaseNote {
