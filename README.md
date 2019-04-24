@@ -22,11 +22,7 @@ Included in the collection are cards with dropdown extensions, varying text just
 - To make sure the cards render correctly, you'll need to know the HTML tags being used 
 (such as h4, p, & div names), the structure of each card example.
 
-- Gif providing example of how to access the source code for the HTML of each card:
-
-    - ![](ShowHTML.gif)
-
-   After you make sure you've created the correct div's and patterned the content you want to add to the source code structure listed in the demo page, you are ready to include my stylesheet!
+- After you make sure you've created the correct div's and patterned the content you want to add to the source code structure listed in the demo page, you are ready to include my stylesheet!
 
 2. Make sure to include this external stylesheet between the header tags in your html file:
 
@@ -37,11 +33,11 @@ Included in the collection are cards with dropdown extensions, varying text just
         Type of Card | Class Name
         ------------ | -------------
         Profile Card | profileCard1
-        2nd Profile Card | profileCard2
-        3rd Profile Card | profileCard3
-        Drop Down Card | dropDownCard
-        Image Card | imageCard1
-        Icon Card | iconCard
+    2nd Profile Card | profileCard2
+    3rd Profile Card | profileCard3
+      Drop Down Card | dropDownCard
+          Image Card | imageCard1
+           Icon Card | iconCard
 
 4. Once you've identified the Class Name for the card style you wish to use, create the div class for the card,
 and add the class name to the div you create: 
@@ -54,6 +50,6 @@ and add the class name to the div you create:
 
 In the listed above example, the card will take on the stylings listed for Profile Card 1. Once you have these steps down, you are ready to implement the style sheet.
 
-### Visit the Home Page
+### Visit the Cards Page
 
-['Home Page for cards.css'](https://jld03e.github.io/Cards_css/sources/home.html)
+['Home Page for cards.css'](https://jld03e.github.io/Cards_css/sources/cards.html)
