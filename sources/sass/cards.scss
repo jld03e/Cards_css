@@ -706,34 +706,15 @@ label {
     text-decoration: underline;
   }
 
-.code1 {
-    .profileCard1xmp {
-            width: 1000px;
-            @include phone1 {
-                width: 450px;
-            }
-            margin-left: auto;
-            margin-right: auto;
-            height: 0;
-            // overflow: hidden;
-            transition: all 0.5s ease;
-            display: none;
+  .code1 {
+      #editor1 { 
+        position: absolute;
+        bottom:500px;
+        top: 500px;
+        right: 500px;
+        left: 500px;
     }
 }
-
-  .code1 input[type="checkbox"]:checked + .profileCard1xmp {
-    width: 400px;
-    height: 215px;
-    @include phone1 {
-        width: 400px;
-        height: 215px;
-    }
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    transition: all 0.5s ease;
-  }
 
   .code2 {
     .profileCard2xmp {

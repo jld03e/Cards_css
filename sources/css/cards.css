@@ -563,29 +563,12 @@ label {
 label:hover {
   text-decoration: underline; }
 
-.code1 .profileCard1xmp {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 0;
-  transition: all 0.5s ease;
-  display: none; }
-  @media (min-width: 200px) and (max-width: 600px) {
-    .code1 .profileCard1xmp {
-      width: 450px; } }
-
-.code1 input[type="checkbox"]:checked + .profileCard1xmp {
-  width: 400px;
-  height: 215px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-  transition: all 0.5s ease; }
-  @media (min-width: 200px) and (max-width: 600px) {
-    .code1 input[type="checkbox"]:checked + .profileCard1xmp {
-      width: 400px;
-      height: 215px; } }
+.code1 #editor1 {
+  position: absolute;
+  bottom: 500px;
+  top: 500px;
+  right: 500px;
+  left: 500px; }
 
 .code2 .profileCard2xmp {
   width: 1000px;
