@@ -565,10 +565,13 @@ label:hover {
 
 .code1 #editor1 {
   position: absolute;
-  bottom: 500px;
-  top: 500px;
-  right: 500px;
-  left: 500px; }
+  top: 250px;
+  bottom: 250px;
+  left: 250px;
+  right: 250px; }
+
+.cotainer1 .profileCard1 {
+  position: absolute; }
 
 .code2 .profileCard2xmp {
   width: 1000px;
@@ -689,5 +692,8 @@ label:hover {
     .code6 input[type="checkbox"]:checked + .profileCard6xmp {
       width: 400px;
       height: 215px; } }
+
+.container1 {
+  display: flex, column; }
 
 /*# sourceMappingURL=cards.css.map */

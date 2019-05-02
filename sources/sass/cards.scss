@@ -709,10 +709,16 @@ label {
   .code1 {
       #editor1 { 
         position: absolute;
-        bottom:500px;
-        top: 500px;
-        right: 500px;
-        left: 500px;
+        top: 250px;
+        bottom: 250px;
+        left: 250px;
+        right: 250px;
+    }
+}
+
+.cotainer1 {
+    .profileCard1 {
+        position: absolute;
     }
 }
 
@@ -864,3 +870,8 @@ label {
 
 //end of css styling for html source code imaging appearing
 //and reappearing.
+
+//container 1 flexing
+.container1 {
+    display: flex, column;
+}
