@@ -706,14 +706,12 @@ label {
     text-decoration: underline;
   }
 
-  .code1 {
-      #editor1 { 
-        position: absolute;
-        top: 250px;
-        bottom: 250px;
-        left: 250px;
-        right: 250px;
-    }
+  #editor1 {
+        display: space-around;
+        position: relative;
+        height: 400px;
+        width: 500px;
+        right: -550px;
 }
 
 .cotainer1 {
