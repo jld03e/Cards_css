@@ -84,7 +84,8 @@
 </div>
 
 <div class="container2">
-<h5>Traditional image cards with action items at the footer.</h5>
+        <h5>Profile Card2</h5>
+        <h5>Traditional image cards with action items at the footer.</h5>
         <div class="profileCard2"> 
             <img src="../sources/images/lowery.jpg" alt="bman2">
                 <div class="textcontainer">
@@ -96,26 +97,35 @@
         </div>
 
 <div class="code2">
-    <label for="item-2">Show HTML</label>
-    <input type="checkbox" name="one" id="item-2">
-    <div class="profileCard2xmp">
-    &lt;div class="profileCard2"&gt;
-    <br>
-    &lt;img src="../sources/images/lowery.jpg" alt="bman2"&gt;
-    <br>
-    &lt;div class="textcontainer"&gt;
-    <br>
-    &lt;h4&gt; &lt;b&gt; Image Cards &lt;/b&gt;&lt;/h4&gt;
-    <br>
-    &lt;p&gt; Text area for card to be updated by user. &lt;/p&gt;
-    <br>
-    &lt;button class="button"&gt; Button 1 &lt;/button&gt;
-    <br>
-    &lt;button class="button"&gt;Button 2 &lt;/button&gt;
-    <br>
-    &lt;/div&gt;
-    <br>
-    &lt;/div&gt;
+    <h5>Ace Editor Code Editor:</h5>
+    <h5>Profile Card 2 HTML Source Code</h5>
+    <div id="editor2">
+        &lt;div class="profileCard2"&gt;
+        <br>
+        &lt;img src="../sources/images/lowery.jpg" alt="bman2"&gt;
+        <br>
+        &lt;div class="textcontainer"&gt;
+        <br>
+        &lt;h4&gt; &lt;b&gt; Image Cards &lt;/b&gt;&lt;/h4&gt;
+        <br>
+        &lt;p&gt; Text area for card to be updated by user. &lt;/p&gt;
+        <br>
+        &lt;button class="button"&gt; Button 1 &lt;/button&gt;
+        <br>
+        &lt;button class="button"&gt;Button 2 &lt;/button&gt;
+        <br>
+        &lt;/div&gt;
+        <br>
+        &lt;/div&gt;
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.4/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor2");
+    editor.setTheme("ace/theme/tomorrow");
+    editor.session.setMode("ace/mode/html");
+</script>
+</div>
 </div>
 </div>
 
