@@ -568,7 +568,7 @@ label:hover {
   position: relative;
   height: 400px;
   width: 500px;
-  right: -550px; }
+  right: -150px; }
 
 .cotainer1 .profileCard1 {
   position: absolute; }
@@ -695,5 +695,8 @@ label:hover {
 
 .container1 {
   display: flex, column; }
+
+.pair1 {
+  display: flex; }
 
 /*# sourceMappingURL=cards.css.map */

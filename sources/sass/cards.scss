@@ -711,7 +711,7 @@ label {
         position: relative;
         height: 400px;
         width: 500px;
-        right: -550px;
+        right: -150px;
 }
 
 .cotainer1 {
@@ -872,4 +872,7 @@ label {
 //container 1 flexing
 .container1 {
     display: flex, column;
+}
+.pair1 {
+    display: flex;
 }
