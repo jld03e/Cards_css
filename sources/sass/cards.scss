@@ -110,7 +110,7 @@ header {
 h5 {
     font-family: $headerFam;
     position: relative;
-    left: 35%;
+    left: 20%;
     font-size: 20px;
     @include tablet {
         left: 28%;
@@ -342,7 +342,7 @@ h5:nth-of-type(5) {
 
 .profileCard3 {
     position: relative;
-    left: 40%;
+    left: 15%;
     @include tablet {
         left: 35%;
     }
@@ -350,7 +350,7 @@ h5:nth-of-type(5) {
         left: 32.5%;
     }
     @include cardShadow;
-    width: 20%;
+    width: 50%;
     @include tablet {
         width: 35%;
     }
@@ -719,13 +719,30 @@ label {
     position: relative;
     height: 310px;
     width: 500px;
-    right: -200px;
+    right: -150px;
 }
 
-.cotainer1 {
-    .profileCard1 {
-        position: absolute;
-    }
+#editor3 {
+    display: space-around;
+    position: relative;
+    height: 310px;
+    width: 500px;
+    right: -150px;
+}
+
+.container1 {
+    display: flex, column;
+    border: solid black;
+}
+
+.container2 {
+    display: flex, column;
+    border: solid black;
+}
+
+.pair1 {
+    display: flex;
+    border: solid black;
 }
 
   .code2 {
@@ -876,11 +893,3 @@ label {
 
 //end of css styling for html source code imaging appearing
 //and reappearing.
-
-//container 1 flexing
-.container1 {
-    display: flex, column;
-}
-.pair1 {
-    display: flex;
-}
