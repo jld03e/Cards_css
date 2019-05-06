@@ -760,80 +760,18 @@ label {
     flex-basis: 2;
 }
 
-// .pair3 {
-//     display: flex;
-//     border: solid black;
-// }
-
-// .container5 {
-//     display: flex, column;
-//     border: solid black;
-// }
-
-// .container6 {
-//     display: flex, column;
-//     border: solid black;
-//     flex-basis: 2;
-// }
-
-  .code5 {
-    .profileCard5xmp {
-            width: 1000px;
-            @include phone1 {
-                width: 450px;
-            }
-            margin-left: auto;
-            margin-right: auto;
-            height: 0;
-            // overflow: hidden;
-            transition: all 0.5s ease;
-            display: none;
-    }
+.pair3 {
+    display: flex;
+    border: solid black;
 }
 
-  .code5 input[type="checkbox"]:checked + .profileCard5xmp {
-    width: 400px;
-    height: 215px;
-    @include phone1 {
-        width: 400px;
-        height: 215px;
-    }
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    transition: all 0.5s ease;
-  }
-
-
-  .code6 {
-    .profileCard6xmp {
-            width: 1000px;
-            @include phone1 {
-                width: 450px;
-            }
-            margin-left: auto;
-            margin-right: auto;
-            height: 0;
-            // overflow: hidden;
-            transition: all 0.5s ease;
-            display: none;
-    }
+.container5 {
+    display: flex, column;
+    border: solid black;
 }
 
-  .code6 input[type="checkbox"]:checked + .profileCard6xmp {
-    width: 400px;
-    height: 215px;
-    @include phone1 {
-        width: 400px;
-        height: 215px;
-    }
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    transition: all 0.5s ease;
-  }
-
-//end of css styling for html source code imaging appearing
-//and reappearing.
+.container6 {
+    display: flex, column;
+    border: solid black;
+    flex-basis: 2;
+}

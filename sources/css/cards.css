@@ -609,52 +609,17 @@ label:hover {
   border: solid black;
   flex-basis: 2; }
 
-.code5 .profileCard5xmp {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 0;
-  transition: all 0.5s ease;
-  display: none; }
-  @media (min-width: 200px) and (max-width: 600px) {
-    .code5 .profileCard5xmp {
-      width: 450px; } }
+.pair3 {
+  display: flex;
+  border: solid black; }
 
-.code5 input[type="checkbox"]:checked + .profileCard5xmp {
-  width: 400px;
-  height: 215px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-  transition: all 0.5s ease; }
-  @media (min-width: 200px) and (max-width: 600px) {
-    .code5 input[type="checkbox"]:checked + .profileCard5xmp {
-      width: 400px;
-      height: 215px; } }
+.container5 {
+  display: flex, column;
+  border: solid black; }
 
-.code6 .profileCard6xmp {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 0;
-  transition: all 0.5s ease;
-  display: none; }
-  @media (min-width: 200px) and (max-width: 600px) {
-    .code6 .profileCard6xmp {
-      width: 450px; } }
-
-.code6 input[type="checkbox"]:checked + .profileCard6xmp {
-  width: 400px;
-  height: 215px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-  transition: all 0.5s ease; }
-  @media (min-width: 200px) and (max-width: 600px) {
-    .code6 input[type="checkbox"]:checked + .profileCard6xmp {
-      width: 400px;
-      height: 215px; } }
+.container6 {
+  display: flex, column;
+  border: solid black;
+  flex-basis: 2; }
 
 /*# sourceMappingURL=cards.css.map */
