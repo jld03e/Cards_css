@@ -342,9 +342,8 @@ h5:nth-of-type(5) {
 //**START OF profilecard3 STYLING
 
 .profileCard3 {
-    margin: auto;
-    left: 0;
-    right: 0;
+    position: relative;
+    left: 25%;
     @include tablet {
         left: 35%;
     }
@@ -353,16 +352,18 @@ h5:nth-of-type(5) {
     }
     @include cardShadow;
     width: 50%;
+    padding-bottom: 10px;
     @include tablet {
         width: 35%;
     }
     @include phone1 {
         width: 50%;
-    }
+        padding-bottom: 5px;
+    }          
         img {
             width: 100%;
         }
-    }
+    }               
 
 .profileCard3:hover {
     @include shadeHover;
@@ -434,10 +435,8 @@ h5:nth-of-type(5) {
 //**START OF dropDown Card STYLING
 
     .dropDownCard {
-        margin: auto;
-        left: 0;
-        right: 0;
-        // left: 10%;
+        position: relative;
+        left: 25%;
         @include tablet {
             left: 35%;
         }
@@ -446,12 +445,14 @@ h5:nth-of-type(5) {
         }
         @include cardShadow;
         width: 50%;
+        padding-bottom: 10px;
         @include tablet {
             width: 35%;
         }
         @include phone1 {
             width: 50%;
-        }
+            padding-bottom: 5px;
+        }          
             img {
                 width: 100%;
             }
@@ -561,7 +562,7 @@ input[type='checkbox'] {
         @include phone1 {
             left: 15%;
         }
-        width: 60%;
+        width: 50%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         @include cardShadow;
