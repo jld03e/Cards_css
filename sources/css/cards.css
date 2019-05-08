@@ -484,15 +484,15 @@ input[type='checkbox'] {
   .imageCard1 .textcontainer h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 18.5px;
     line-height: 1px; }
     @media (min-width: 600px) and (max-width: 1024px) {
       .imageCard1 .textcontainer h1 {
-        font-size: 25px;
+        font-size: 15px;
         line-height: 0.5px; } }
     @media (min-width: 200px) and (max-width: 600px) {
       .imageCard1 .textcontainer h1 {
-        font-size: 16px; } }
+        font-size: 10px; } }
 
 .imageCard1 .textcontainer h3 {
   font-size: 25px;
@@ -535,9 +535,11 @@ input[type='checkbox'] {
     .iconCard img {
       height: 180px; } }
 
-@media (min-width: 600px) and (max-width: 1024px) {
-  .iconCard {
-    width: 20%; } }
+.iconCard {
+  width: 30%; }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .iconCard {
+      width: 20%; } }
 
 .iconCard:hover {
   box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8); }
@@ -586,6 +588,20 @@ label:hover {
   width: 595px;
   right: -50px; }
 
+#editor5 {
+  display: space-around;
+  position: relative;
+  height: 225px;
+  width: 595px;
+  right: -50px; }
+
+#editor6 {
+  display: space-around;
+  position: relative;
+  height: 225px;
+  width: 595px;
+  right: -50px; }
+
 .pair1 {
   display: flex;
   border: solid black; }
@@ -608,8 +624,7 @@ label:hover {
 
 .container4 {
   display: flex, column;
-  border: solid black;
-  flex-basis: 2; }
+  border: solid black; }
 
 .pair3 {
   display: flex;
@@ -621,7 +636,6 @@ label:hover {
 
 .container6 {
   display: flex, column;
-  border: solid black;
-  flex-basis: 2; }
+  border: solid black; }
 
 /*# sourceMappingURL=cards.css.map */

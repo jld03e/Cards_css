@@ -593,14 +593,14 @@ input[type='checkbox'] {
         h1 {
             font-family: $bodyFam;
             font-weight: 700;
-            font-size: 30px;
+            font-size: 18.5px;
             line-height: 1px;
             @include tablet {
-                font-size: 25px;
+                font-size: 15px;
                 line-height: 0.5px;
             }
             @include phone1 {
-                font-size: 16px;
+                font-size: 10px;
             }
         }
     }  
@@ -657,6 +657,7 @@ input[type='checkbox'] {
 }
 
 .iconCard {
+    width: 30%;
     @include tablet {
         width: 20%;
     }
@@ -730,6 +731,22 @@ label {
     right: -50px;
 }
 
+#editor5 {
+    display: space-around;
+    position: relative;
+    height: 225px;
+    width: 595px;
+    right: -50px;
+}
+
+#editor6 {
+    display: space-around;
+    position: relative;
+    height: 225px;
+    width: 595px;
+    right: -50px;
+}
+
 .pair1 {
     display: flex;
     border: solid black;
@@ -758,7 +775,6 @@ label {
 .container4 {
     display: flex, column;
     border: solid black;
-    flex-basis: 2;
 }
 
 .pair3 {
@@ -774,5 +790,4 @@ label {
 .container6 {
     display: flex, column;
     border: solid black;
-    flex-basis: 2;
 }
