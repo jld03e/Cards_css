@@ -114,7 +114,7 @@ h5 {
     font-size: 20px;
     text-align: center;
     @include tablet {
-        left: 28%;
+        left: 1.5%;
     }
     @include phone1 {
         left: 1%;
@@ -563,6 +563,9 @@ input[type='checkbox'] {
         @include phone1 {
             left: 15%;
         }
+        @include tablet {
+            left: 26%;
+        }
         width: 50%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -635,6 +638,9 @@ input[type='checkbox'] {
     @include phone1 {
         left: 30%;
     }
+    @include tablet {
+        left: 39.5%;
+    }
     padding: 20px;
     background-color: #ffffff R255 G255 B255;
     @include cardShadow;
@@ -703,6 +709,11 @@ input[type='checkbox'] {
             right: -25px;
         }
 }
+    #editor1 {
+        @include tablet {
+            right: -255px;
+        }
+    }
 
 #editor2 {
     display: space-around;
@@ -714,6 +725,12 @@ input[type='checkbox'] {
         height: 300px;
         width: 400px;
         right: -25px;
+    }
+}
+
+#editor2 {
+    @include tablet {
+        right: -255px;
     }
 }
 
@@ -730,6 +747,12 @@ input[type='checkbox'] {
     }
 }
 
+#editor3 {
+    @include tablet {
+        right: -255px;
+    }
+}
+
 #editor4 {
     display: space-around;
     position: relative;
@@ -740,6 +763,12 @@ input[type='checkbox'] {
         height: 300px;
         width: 400px;
         right: -25px;
+    }
+}
+
+#editor4 {
+    @include tablet {
+        right: -205px;
     }
 }
 
@@ -756,6 +785,13 @@ input[type='checkbox'] {
     }
 }
 
+#editor5 {
+    @include tablet {
+        right: -185px;
+        height: 245px;
+    }
+}
+
 #editor6 {
     display: space-around;
     position: relative;
@@ -766,6 +802,13 @@ input[type='checkbox'] {
         height: 300px;
         width: 400px;
         right: -25px;
+    }
+}
+
+#editor6 {
+    @include tablet {
+        right: -200px;
+        height: 250px;
     }
 }
 
