@@ -349,7 +349,7 @@ h5:nth-of-type(5) {
         left: 35%;
     }
     @include phone1 {
-        left: 32.5%;
+        left: 25.5%;
     }
     @include cardShadow;
     width: 50%;
@@ -442,7 +442,7 @@ h5:nth-of-type(5) {
             left: 35%;
         }
         @include phone1 {
-            left: 32.5%;
+            left: 25.5%;
         }
         @include cardShadow;
         width: 50%;
@@ -601,7 +601,7 @@ input[type='checkbox'] {
                 line-height: 0.5px;
             }
             @include phone1 {
-                font-size: 10px;
+                font-size: 15px;
             }
         }
     }  
@@ -630,17 +630,14 @@ input[type='checkbox'] {
 .iconCard {
     position: relative;
     left: 35%;
+    border-radius: 4px;
+    width: 12%;
     @include phone1 {
         left: 30%;
     }
-    border-radius: 4px;
-    width: 12%;
     padding: 20px;
     background-color: #ffffff R255 G255 B255;
     @include cardShadow;
-        @include phone1 {
-            width: 40%;
-        }
     img {
         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
         filter: grayscale(100%);
@@ -661,6 +658,9 @@ input[type='checkbox'] {
     width: 30%;
     @include tablet {
         width: 20%;
+        @include phone1 {
+            width: 50%;
+        }
     }
 }
 
@@ -694,9 +694,14 @@ input[type='checkbox'] {
   #editor1 {
         display: space-around;
         position: relative;
-        height: 300px;
-        width: 400px;
-        right: -25px;
+        height: 400px;
+        width: 500px;
+        right: -150px;
+        @include phone1 {
+            height: 300px;
+            width: 400px;
+            right: -25px;
+        }
 }
 
 #editor2 {
@@ -705,6 +710,11 @@ input[type='checkbox'] {
     height: 310px;
     width: 500px;
     right: -150px;
+    @include phone1 {
+        height: 300px;
+        width: 400px;
+        right: -25px;
+    }
 }
 
 #editor3 {
@@ -713,6 +723,11 @@ input[type='checkbox'] {
     height: 325px;
     width: 525px;
     right: -150px;
+    @include phone1 {
+        height: 300px;
+        width: 400px;
+        right: -25px;
+    }
 }
 
 #editor4 {
@@ -721,6 +736,11 @@ input[type='checkbox'] {
     height: 455px;
     width: 600px;
     right: -80px;
+    @include phone1 {
+        height: 300px;
+        width: 400px;
+        right: -25px;
+    }
 }
 
 #editor5 {
@@ -729,6 +749,11 @@ input[type='checkbox'] {
     height: 225px;
     width: 595px;
     right: -70px;
+    @include phone1 {
+        height: 300px;
+        width: 400px;
+        right: -25px;
+    }
 }
 
 #editor6 {
@@ -737,12 +762,23 @@ input[type='checkbox'] {
     height: 225px;
     width: 595px;
     right: -100px;
+    @include phone1 {
+        height: 300px;
+        width: 400px;
+        right: -25px;
+    }
 }
 
 .pair1 {
     display: flex;
     border: solid black;
     @include phone1 {
+        flex-direction: column;
+    }
+}
+
+.pair1 {
+    @include tablet {
         flex-direction: column;
     }
 }
@@ -765,6 +801,12 @@ input[type='checkbox'] {
     }
 }
 
+.pair2 {
+    @include tablet {
+        flex-direction: column;
+    }
+}
+
 .container3 {
     display: flex, column;
     border: solid black;
@@ -779,6 +821,12 @@ input[type='checkbox'] {
     display: flex;
     border: solid black;
     @include phone1 {
+        flex-direction: column;
+    }
+}
+
+.pair3 {
+    @include tablet {
         flex-direction: column;
     }
 }
