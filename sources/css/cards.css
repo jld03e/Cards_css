@@ -74,14 +74,15 @@ header h3 {
 h5 {
   font-family: "Pridi", serif;
   position: relative;
-  left: 20%;
-  font-size: 20px; }
+  left: 2.5%;
+  font-size: 20px;
+  text-align: center; }
   @media (min-width: 600px) and (max-width: 1024px) {
     h5 {
       left: 28%; } }
   @media (min-width: 200px) and (max-width: 600px) {
     h5 {
-      left: 13%;
+      left: 1%;
       font-size: 15px; } }
 
 h5:nth-of-type(6) {
@@ -495,19 +496,19 @@ input[type='checkbox'] {
         font-size: 10px; } }
 
 .imageCard1 .textcontainer h3 {
-  font-size: 25px;
+  font-size: 17px;
   font-weight: 400;
   font-family: "Roboto", sans-serif; }
   @media (min-width: 600px) and (max-width: 1024px) {
     .imageCard1 .textcontainer h3 {
-      font-size: 18px; } }
+      font-size: 15px; } }
   @media (min-width: 200px) and (max-width: 600px) {
     .imageCard1 .textcontainer h3 {
       font-size: 13px; } }
 
 .iconCard {
   position: relative;
-  left: 40%;
+  left: 35%;
   border-radius: 4px;
   width: 12%;
   padding: 20px;
@@ -552,20 +553,12 @@ input[type='checkbox'] {
   text-align: center;
   font-family: "Roboto", sans-serif; }
 
-label {
-  display: block;
-  margin: 20px 0 0;
-  text-align: center; }
-
-label:hover {
-  text-decoration: underline; }
-
 #editor1 {
   display: space-around;
   position: relative;
-  height: 400px;
-  width: 500px;
-  right: -150px; }
+  height: 300px;
+  width: 400px;
+  right: -25px; }
 
 #editor2 {
   display: space-around;
@@ -585,26 +578,29 @@ label:hover {
   display: space-around;
   position: relative;
   height: 455px;
-  width: 595px;
-  right: -50px; }
+  width: 600px;
+  right: -80px; }
 
 #editor5 {
   display: space-around;
   position: relative;
   height: 225px;
   width: 595px;
-  right: -50px; }
+  right: -70px; }
 
 #editor6 {
   display: space-around;
   position: relative;
   height: 225px;
   width: 595px;
-  right: -50px; }
+  right: -100px; }
 
 .pair1 {
   display: flex;
   border: solid black; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .pair1 {
+      flex-direction: column; } }
 
 .container1 {
   display: flex, column;
@@ -617,6 +613,9 @@ label:hover {
 .pair2 {
   display: flex;
   border: solid black; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .pair2 {
+      flex-direction: column; } }
 
 .container3 {
   display: flex, column;
@@ -629,6 +628,9 @@ label:hover {
 .pair3 {
   display: flex;
   border: solid black; }
+  @media (min-width: 200px) and (max-width: 600px) {
+    .pair3 {
+      flex-direction: column; } }
 
 .container5 {
   display: flex, column;

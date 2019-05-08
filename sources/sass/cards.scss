@@ -110,13 +110,14 @@ header {
 h5 {
     font-family: $headerFam;
     position: relative;
-    left: 20%;
+    left: 2.5%;
     font-size: 20px;
+    text-align: center;
     @include tablet {
         left: 28%;
     }
     @include phone1 {
-        left: 13%;
+        left: 1%;
         font-size: 15px;
     }
 }
@@ -609,11 +610,11 @@ input[type='checkbox'] {
 .imageCard1 {
     .textcontainer {
         h3 {
-            font-size: 25px;
+            font-size: 17px;
             font-weight: 400;
             font-family: $bodyFam;
             @include tablet {
-                font-size: 18px;
+                font-size: 15px;
             }
             @include phone1 {
                 font-size: 13px;
@@ -628,7 +629,7 @@ input[type='checkbox'] {
 
 .iconCard {
     position: relative;
-    left: 40%;
+    left: 35%;
     @include phone1 {
         left: 30%;
     }
@@ -690,21 +691,12 @@ input[type='checkbox'] {
 //css styling for html source code imaging appearing
 //and reappearing.
 
-label {
-    display: block;
-    margin: 20px 0 0;
-    text-align: center;
-  }
-  label:hover {
-    text-decoration: underline;
-  }
-
   #editor1 {
         display: space-around;
         position: relative;
-        height: 400px;
-        width: 500px;
-        right: -150px;
+        height: 300px;
+        width: 400px;
+        right: -25px;
 }
 
 #editor2 {
@@ -727,8 +719,8 @@ label {
     display: space-around;
     position: relative;
     height: 455px;
-    width: 595px;
-    right: -50px;
+    width: 600px;
+    right: -80px;
 }
 
 #editor5 {
@@ -736,7 +728,7 @@ label {
     position: relative;
     height: 225px;
     width: 595px;
-    right: -50px;
+    right: -70px;
 }
 
 #editor6 {
@@ -744,12 +736,15 @@ label {
     position: relative;
     height: 225px;
     width: 595px;
-    right: -50px;
+    right: -100px;
 }
 
 .pair1 {
     display: flex;
     border: solid black;
+    @include phone1 {
+        flex-direction: column;
+    }
 }
 
 .container1 {
@@ -765,6 +760,9 @@ label {
 .pair2 {
     display: flex;
     border: solid black;
+    @include phone1 {
+        flex-direction: column;
+    }
 }
 
 .container3 {
@@ -780,6 +778,9 @@ label {
 .pair3 {
     display: flex;
     border: solid black;
+    @include phone1 {
+        flex-direction: column;
+    }
 }
 
 .container5 {
