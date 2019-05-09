@@ -147,7 +147,7 @@ h5:nth-of-type(5) {
         left: 35%;
     }
     @include phone1 {
-        left: 32.5%;
+        left: 25.5%;
     }
     @include cardShadow;
     width: 50%;
@@ -257,7 +257,7 @@ h5:nth-of-type(5) {
         left: 35%;
     }
     @include phone1 {
-        left: 32.5%;
+        left: 26.5%;
     }
     @include cardShadow;
     width: 50%;
@@ -705,8 +705,8 @@ input[type='checkbox'] {
         right: -150px;
         @include phone1 {
             height: 300px;
-            width: 400px;
-            right: -25px;
+            width: 420px;
+            right: -5px;
         }
 }
     #editor1 {
@@ -722,9 +722,9 @@ input[type='checkbox'] {
     width: 500px;
     right: -150px;
     @include phone1 {
-        height: 300px;
-        width: 400px;
-        right: -25px;
+        height: 310px;
+        width: 420px;
+        right: -5px;
     }
 }
 
@@ -741,9 +741,9 @@ input[type='checkbox'] {
     width: 525px;
     right: -150px;
     @include phone1 {
-        height: 300px;
-        width: 400px;
-        right: -25px;
+        height: 320px;
+        width: 420px;
+        right: -5px;
     }
 }
 
@@ -781,7 +781,7 @@ input[type='checkbox'] {
     @include phone1 {
         height: 300px;
         width: 400px;
-        right: -25px;
+        right: -15px;
     }
 }
 
@@ -814,7 +814,7 @@ input[type='checkbox'] {
 
 .pair1 {
     display: flex;
-    border: solid black;
+    padding: 25px;
     @include phone1 {
         flex-direction: column;
     }
@@ -838,7 +838,7 @@ input[type='checkbox'] {
 
 .pair2 {
     display: flex;
-    border: solid black;
+    padding: 25px;
     @include phone1 {
         flex-direction: column;
     }
@@ -862,7 +862,7 @@ input[type='checkbox'] {
 
 .pair3 {
     display: flex;
-    border: solid black;
+    padding: 25px;
     @include phone1 {
         flex-direction: column;
     }
