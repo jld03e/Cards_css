@@ -513,7 +513,7 @@ input[type='checkbox'] {
   position: relative;
   left: 35%;
   border-radius: 4px;
-  width: 12%;
+  width: 30%;
   padding: 20px;
   background-color: #ffffff R255 G255 B255;
   transition: all .25s linear;
@@ -525,9 +525,6 @@ input[type='checkbox'] {
     .iconCard {
       left: 39.5%; } }
   .iconCard img {
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
     border-radius: 50%;
     border: solid 2px black;
     width: 100%;
@@ -539,11 +536,9 @@ input[type='checkbox'] {
     .iconCard img {
       height: 180px; } }
 
-.iconCard {
-  width: 30%; }
-  @media (min-width: 600px) and (max-width: 1024px) {
-    .iconCard {
-      width: 20%; } }
+@media (min-width: 600px) and (max-width: 1024px) {
+  .iconCard {
+    width: 20%; } }
   @media (min-width: 600px) and (max-width: 1024px) and (min-width: 200px) and (max-width: 600px) {
     .iconCard {
       width: 50%; } }

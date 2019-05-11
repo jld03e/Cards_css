@@ -634,7 +634,7 @@ input[type='checkbox'] {
     position: relative;
     left: 35%;
     border-radius: 4px;
-    width: 12%;
+    width: 30%;
     @include phone1 {
         left: 30%;
     }
@@ -645,8 +645,6 @@ input[type='checkbox'] {
     background-color: #ffffff R255 G255 B255;
     @include cardShadow;
     img {
-        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(100%);
         border-radius: 50%;
         border: solid 2px black;            
         width: 100%;
@@ -661,7 +659,6 @@ input[type='checkbox'] {
 }
 
 .iconCard {
-    width: 30%;
     @include tablet {
         width: 20%;
         @include phone1 {
