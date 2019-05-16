@@ -97,13 +97,52 @@ header {
 .footer {
     width: 100%;
     padding: 50px;
-    position: absolute;
+    position: relative;
     left: -5%;
     text-align: center;
     font-size: 18px;
 }
 
 //end of footer section editing
+
+//hire me styling
+
+.proPic {
+    width: 18%;
+}
+
+.hireMe {
+    h1 {
+        font-size: 65px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-family: $bodyFam;
+        text-align: center;
+    }
+}
+
+//end of hire me styling
+
+//logo resizing
+
+.linkedin {
+    width: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .github {
+        width: 2%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+//end of logo resizing
 
 //heading update for each individual card
 

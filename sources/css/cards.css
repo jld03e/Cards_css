@@ -66,10 +66,33 @@ header h3 {
 .footer {
   width: 100%;
   padding: 50px;
-  position: absolute;
+  position: relative;
   left: -5%;
   text-align: center;
   font-size: 18px; }
+
+.proPic {
+  width: 18%; }
+
+.hireMe h1 {
+  font-size: 65px; }
+.hireMe h2 {
+  font-size: 35px; }
+.hireMe p {
+  font-family: "Roboto", sans-serif;
+  text-align: center; }
+
+.linkedin {
+  width: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.github {
+  width: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 h5 {
   font-family: "Pridi", serif;
